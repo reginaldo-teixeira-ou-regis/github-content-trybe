@@ -1,16 +1,11 @@
-function AprovadoOuNao(nota) {
+const pessoaCandidata = 88;
 
-    const pessoaCandidata = "";
-    let resultado;
-
-    if(nota >= 0 && nota < 60) {
-        resultado = "Você foi reprovada(o)";
-    } else if(nota >= 60 && nota < 80) {
-        resultado = "Você está na nossa lista de espera";
-    } else if(nota >= 80 && nota <= 100) {
-        resultado = "Parabéns, você foi aprovada(o)!";
-    } else {
-        resultado = "ERROR, por favor informe sua nota corretamente";
-    }
+if(pessoaCandidata <= 100 && pessoaCandidata >= 80) {
+    console.log("Parabéns, você foi aprovada(o)!");
+} else if(pessoaCandidata < 80 && pessoaCandidata >= 60) {
+    console.log("Você está na nossa lista de espera");
+} else if(pessoaCandidata < 60 && pessoaCandidata >= 0) {
+    console.log("Você foi reprovada(o)");
+} else {
+    console.log("ERROR, por favor informe sua nota corretamente");
 }
-console.log(nota(69));
