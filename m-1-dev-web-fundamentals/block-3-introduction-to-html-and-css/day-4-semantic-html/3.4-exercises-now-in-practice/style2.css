@@ -1,0 +1,89 @@
+.full-name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.description {
+  font-family: fantasy;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  padding: 9%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 3%;
+}
+
+.city {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#my-picture {
+  width: 300px;
+  float: left;
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+}
+
+.container-image {
+  height: 300px;
+}
+
+#about {
+  text-align: center;
+}
+
+header {
+    position: fixed top;
+}
+
+li{
+    list-style: none;
+}
+
+/*h1 {
+    text-align: center;
+  }
+
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    list-style: none;
+  }
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .textBlockInline {
+    background: none;
+    text-align: center;
+    display: inline-block;
+  }*/

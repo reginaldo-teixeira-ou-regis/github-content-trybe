@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: Verdana, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font: bold;
+    font-size: 20px;
+  }
+  
+  #mantis_foto {
+    width: 30px;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    padding: 2%;
+  }
+  
+  main {
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    left: 0;
+    padding: 3%;
+    list-style: none;
+  }
+  
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 730px;
+    display: block;
+    padding: 1% 2%;
+  }
+  
+  table {
+    border: 2px solid black;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: orange;
+  }
+  
+  th {
+    border: 2px solid black;
+    width: 25%;
+    color: gold;
+  }
+  
+  td {
+    border: 2px solid black;
+    width: 25%;
+    color: white;
+  }
+  
+  .lado-esquerdo {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .lado-direito {
+    display: inline-block;
+    position: absolute;
+    width: 89%;
+    left: 430px;
+    list-style: none;
+  }
+  
+  .contacts-link li {
+    display: inline-block;
+    width: 70px;
+  }
+
+  .menu {
+    display: inline-block;
+    position: fixed;
+    width: 300px;
+    top: 100px;
+    padding: 20px 1px;
+    list-style: none;
+  }
+
+  #about {
+    text-align: center;
+    color: orange;
+  }
+
+  .table {
+    height: 200px;
+    width: 500px;
+  }
