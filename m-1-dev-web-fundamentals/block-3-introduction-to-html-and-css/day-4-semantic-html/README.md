@@ -12,4 +12,4 @@ Day 4 content:
 [x]form;
 [x]semantic html;
 [x]block and inline;
-[x]inline-block.
+[x]inline-block;
