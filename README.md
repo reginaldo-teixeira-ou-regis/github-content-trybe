@@ -7,5 +7,5 @@ Web Development Course Content:
 [O]live classes;
 
 Complementary Contents:
-[C]Web Development: Real Life;
+[C]Web Development - Real Life;
 [C]Your Career;
