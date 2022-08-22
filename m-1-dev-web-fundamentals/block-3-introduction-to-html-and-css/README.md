@@ -1,5 +1,5 @@
 Block 3 Contents:
-[]Page structure
-[]First Steps in CSS
-[]Selectors and Positioning
-[]Semantic HTML
+[D1]Page structure
+[D2]First Steps in CSS
+[D3]Selectors and Positioning
+[D4]Semantic HTML
