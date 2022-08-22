@@ -9,4 +9,4 @@ Day 1 content:
 [x]Arithmetic operators;
 [x]Assignment Operators;
 [x]Logical operators;
-[x]Conditional structures as if/else and switch/case.
+[x]Conditional structures as if/else and switch/case;
