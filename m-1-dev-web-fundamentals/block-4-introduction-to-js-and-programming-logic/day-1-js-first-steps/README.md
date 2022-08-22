@@ -1,12 +1,12 @@
 Day 1 content:
-[]What is JavaScript (JS)?
-[]Where did it come from?
-[]What is your use?
-[]Variables.
-[]Constants
-[]Primitive types.
-[]Dynamic typing.
-[]Arithmetic operators.
-[]Assignment Operators.
-[]Logical operators.
-[]Conditional structures as if/else and switch/case.
+[x]What is JavaScript (JS)?
+[x]Where did it come from?
+[x]What is your use?
+[x]Variables.
+[x]Constants
+[x]Primitive types.
+[x]Dynamic typing.
+[x]Arithmetic operators.
+[x]Assignment Operators.
+[x]Logical operators.
+[x]Conditional structures as if/else and switch/case.
