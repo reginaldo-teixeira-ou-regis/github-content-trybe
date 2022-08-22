@@ -1,3 +1,3 @@
 Day 1 content:
-[x]Array.
-[x]For.
+[x]Array;
+[x]For
