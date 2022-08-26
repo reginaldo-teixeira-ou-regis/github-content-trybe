@@ -1,0 +1,27 @@
+main, section {
+    border-color: white;
+    border-style: solid;
+  }
+
+  .title {
+    text-align: center;
+    color: white;
+  }
+
+  .main-content {
+    background-color: yellow;
+  }
+
+  .main-content .center-content {
+    background-color: blue;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .main-content .center-content p {
+    font-style: italic;
+  }
+
+  body {
+    background-color: rgb(196, 99, 99);
+  }
