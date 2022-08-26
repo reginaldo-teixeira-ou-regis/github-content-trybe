@@ -13,7 +13,7 @@ main, section {
   }
 
   .main-content .center-content {
-    background-color: blue;
+    background-color: red;
     width: 50%;
     margin: 0 auto;
   }
