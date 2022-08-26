@@ -1,13 +1,13 @@
 Day 1 content: 
-[]Window;
-[]location;
-[]document;
-[]history;
-[]element;
-[]text;
-[]atribute;
-[]getElementById;
-[]getElementsByClassName;
-[]getElementsByTagName;
-[]querySelector;
-[]querySelectorAll;
+[x]Window;
+[x]location;
+[x]document;
+[x]history;
+[x]element;
+[x]text;
+[x]atribute;
+[x]getElementById;
+[x]getElementsByClassName;
+[x]getElementsByTagName;
+[x]querySelector;
+[x]querySelectorAll;
