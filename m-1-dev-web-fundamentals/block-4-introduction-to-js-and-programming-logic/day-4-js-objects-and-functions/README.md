@@ -1,5 +1,5 @@
 Day 4 content: 
-[]Objects;
-[]For/in;
-[]For/of;
-[]Functions;
+[x]Objects;
+[x]For/in;
+[x]For/of;
+[x]Functions;
