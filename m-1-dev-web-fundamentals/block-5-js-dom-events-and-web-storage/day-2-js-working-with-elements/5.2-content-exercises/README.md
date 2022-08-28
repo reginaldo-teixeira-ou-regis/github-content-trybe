@@ -1,1 +1,1 @@
-lPracticing with the exercises from within the content!
+Practicing with the exercises from within the content!
