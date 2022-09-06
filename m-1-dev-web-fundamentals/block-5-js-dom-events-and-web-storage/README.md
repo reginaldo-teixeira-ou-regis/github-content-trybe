@@ -1,3 +1,4 @@
+Block 5 Contents:
 [D1]JS - DOM and selectors;
 [D2]JS - Working with elements;
 [D3]JS - Events;
