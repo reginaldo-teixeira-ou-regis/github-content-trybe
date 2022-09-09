@@ -13,6 +13,7 @@ function submitDoesNothing(event) {
   }
 }
 buttonSubmit.addEventListener("click", submitDoesNothing);
+window.onload = alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
 
 /* function textInputValidation() { //limitar caracteres pelo js
   const email = document.querySelector("#e-mail").value.length;
