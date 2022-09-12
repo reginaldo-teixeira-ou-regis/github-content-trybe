@@ -1,19 +1,24 @@
-const buttonSubmit = document.querySelector("#submit-btn");
 const toAgree2 = document.getElementById("to-agree-2");
-const fullName = document.getElementById("full-name");
-const date = document.getElementById("date");
+const buttonSubmit = document.getElementById("submit-btn");
 
-function submitDoesNothing(event) {
-  if (toAgree2.checked && fullName === required && date === required) {
-    alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
+function alertMessage() {
+  if (toAgree2 !== checked) {
+    alert("Dados Inválidos");
   } else {
+    alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
+  }
+  buttonSubmit.addEventListener("click", alertMessage);
+
+/* function submitDoesNothing(event) {
+  if (toAgree2 !== checked) {
     event.preventDefault();
     alert("Dados Inválidos");
     buttonSubmit = disabled;
+  } else {
+    buttonSubmit.addEventListener("click", submitDoesNothing);
+    alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
   }
-}
-buttonSubmit.addEventListener("click", submitDoesNothing);
-window.onload = alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
+} */
 
 /* function textInputValidation() { //limitar caracteres pelo js
   const email = document.querySelector("#e-mail").value.length;
