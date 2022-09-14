@@ -14,41 +14,51 @@
         margin: 10px 5px;
         text-align: center;
         width: 30%;
+        border: 3px solid red;
       }
 
       .box-container {
         background-color: #ac6959;
         display: flex;
-        flex-direction: row-reverse;
         border: 3px solid red;
+        /* flex-direction: row; */
+        flex-direction: row-reverse;
         /* ADICIONE AQUI SEUS TESTES */
       }
       .box-container2 {
-        background-color: #0004fa;
+        background-color: #60a6bb;
         display: flex;
-        flex-direction: column-reverse;
         border: 3px solid red;
+        flex-wrap: nowrap;
         /* ADICIONE AQUI SEUS TESTES */
       }
       .box-container3 {
-        background-color: #d9ff00;
+        background-color: #0004fa;
         display: flex;
-        flex-wrap: wrap-reverse;
         border: 3px solid red;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
         /* ADICIONE AQUI SEUS TESTES */
       }
       .box-container4 {
-        background-color: #f194ed;
+        background-color: #d9ff00;
         display: flex;
-        flex-wrap: nowrap;
         border: 3px solid red;
+        flex-wrap: wrap;
         /* ADICIONE AQUI SEUS TESTES */
       }
       .box-container5 {
-        background-color: #60a6bb;
+        background-color: #f194ed;
         display: flex;
-        flex-flow: column-reverse wrap-reverse;
         border: 3px solid red;
+        flex-wrap: wrap-reverse;
+        /* ADICIONE AQUI SEUS TESTES */
+      }
+      .box-container6 {
+        background-color: #a39ba9;
+        display: flex;
+        border: 3px solid red;
+        flex-flow: column-reverse wrap-reverse;
         /* ADICIONE AQUI SEUS TESTES */
       }
       p {
@@ -64,7 +74,7 @@
 <!-- 1 - Teste as possibilidades (row, column, row-reverse e column-reverse) para a propriedade flex-direction.
 2 - Teste as possibilidades (wrap e nowrap) para a propriedade flex-wrap.
 3 - Teste as possibilidades para a propriedade flex-flow. -->
-    <p>flex-direction: row-reverse;</p>
+    <p>flex-direction: row-reverse; / row;</p>
     <div class="box-container">
       <div class="box">1</div>
       <div class="box">2</div>
@@ -92,7 +102,7 @@
       <div class="box">24</div>
       <div class="box">25</div>
     </div>
-    <p>flex-direction: column-reverse;</p>
+    <p>flex-wrap: nowrap;</p>
     <div class="box-container2">
       <div class="box">1</div>
       <div class="box">2</div>
@@ -120,7 +130,7 @@
       <div class="box">24</div>
       <div class="box">25</div>
     </div>
-    <p>flex-wrap: wrap-reverse;</p>
+    <p>flex-direction: column-reverse; / column;</p>
     <div class="box-container3">
       <div class="box">1</div>
       <div class="box">2</div>
@@ -148,7 +158,7 @@
       <div class="box">24</div>
       <div class="box">25</div>
     </div>
-    <p>flex-wrap: nowrap;</p>
+    <p>flex-wrap: wrap</p>
     <div class="box-container4">
       <div class="box">1</div>
       <div class="box">2</div>
@@ -176,8 +186,36 @@
       <div class="box">24</div>
       <div class="box">25</div>
     </div>
-    <p>flex-flow: column-reverse wrap-reverse;</p>
+    <p>flex-wrap: wrap-reverse;</p>
     <div class="box-container5">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+      <div class="box">13</div>
+      <div class="box">14</div>
+      <div class="box">15</div>
+      <div class="box">16</div>
+      <div class="box">17</div>
+      <div class="box">18</div>
+      <div class="box">19</div>
+      <div class="box">20</div>
+      <div class="box">21</div>
+      <div class="box">22</div>
+      <div class="box">23</div>
+      <div class="box">24</div>
+      <div class="box">25</div>
+    </div>
+    <p>flex-flow: column-reverse wrap-reverse;</p>
+    <div class="box-container6">
       <div class="box">1</div>
       <div class="box">2</div>
       <div class="box">3</div>

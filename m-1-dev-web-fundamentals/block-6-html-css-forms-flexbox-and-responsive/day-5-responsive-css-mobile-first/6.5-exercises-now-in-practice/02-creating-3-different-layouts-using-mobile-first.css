@@ -1,0 +1,301 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 1.5%;
+  font-size: small;
+  background-color: rgb(87, 218, 218);
+}
+
+header p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1%;
+  color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  background-color: black;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+nav ul li {
+  background-color: black;
+}
+
+.aside-two {
+  background-color: rgb(233, 233, 165);
+}
+
+.aside-two h2 {
+  background-color: rgb(233, 233, 165);
+}
+
+.aside-two ul li {
+  background-color: rgb(233, 233, 165);
+}
+
+article h1 {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h3 {
+  background-color: black;
+  color: white;
+  font-size: x-small;
+}
+
+footer p {
+  background-color: black;
+  color: white;
+  font-size: x-small;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  * {
+    padding: 1.5%;
+    font-size: medium;
+    background-color: rgb(87, 218, 218);
+  }
+
+  header p {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 1%;
+    color: black;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  nav ul li {
+    background-color: black;
+  }
+
+  .aside-total {
+    display: flex;
+    width: 100%;
+  }
+
+  .aside-one {
+    flex-basis: 100%;
+  }
+
+  .aside-two {
+    background-color: rgb(87, 218, 218);
+    flex-basis: 100%;
+  }
+  
+  .aside-two h2 {
+    background-color: rgb(87, 218, 218);
+  }
+  
+  .aside-two ul li {
+    background-color: rgb(87, 218, 218);
+  }
+
+  article h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+  }
+
+  footer h3 {
+    background-color: black;
+    color: white;
+    font-size: small;
+  }
+
+  footer p {
+    background-color: black;
+    color: white;
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  * {
+    padding: 1.5%;
+    font-size: large;
+    background-color: rgb(87, 218, 218);
+  }
+
+  header p {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 1%;
+    color: black;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  nav ul li {
+    background-color: black;
+  }
+
+  .aside-total {
+    display: flex;
+    width: 100%;
+  }
+
+  .aside-one {
+    flex-basis: 100%;
+  }
+
+  .aside-two {
+    background-color: rgb(87, 218, 218);
+    flex-basis: 100%;
+  }
+  
+  .aside-two h2 {
+    background-color: rgb(87, 218, 218);
+  }
+  
+  .aside-two ul li {
+    background-color: rgb(87, 218, 218);
+  }
+
+  article h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+  }
+
+  footer h3 {
+    background-color: black;
+    color: white;
+    font-size: medium;
+  }
+
+  footer p {
+    background-color: black;
+    color: white;
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  * {
+    padding: 1.5%;
+    font-size: x-large;
+    background-color: rgb(87, 218, 218);
+  }
+
+  header p {
+    font-size: 2.8em;
+    text-align: center;
+    margin-top: 1%;
+    color: black;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  nav ul li {
+    background-color: black;
+  }
+
+  .aside-total {
+    display: flex;
+    width: 100%;
+  }
+
+  .aside-one {
+    flex-basis: 100%;
+  }
+
+  .aside-two {
+    background-color: rgb(87, 218, 218);
+    flex-basis: 100%;
+  }
+  
+  .aside-two h2 {
+    background-color: rgb(87, 218, 218);
+  }
+  
+  .aside-two ul li {
+    background-color: rgb(87, 218, 218);
+  }
+
+  article h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+  }
+
+  footer h3 {
+    background-color: black;
+    color: white;
+    font-size: large;
+  }
+
+  footer p {
+    background-color: black;
+    color: white;
+    font-size: large;
+  }
+}

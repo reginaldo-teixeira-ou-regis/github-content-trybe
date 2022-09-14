@@ -1,7 +1,7 @@
 Day 2 content:
-[]library js and css;
-[]libraries js external (CDN);
-[]jQuery;
-[]Bootstrap;
-[]moment.js;
-[]highcharts;
+[x]library js and css;
+[x]libraries js external (CDN);
+[x]jQuery;
+[x]Bootstrap;
+[x]moment.js;
+[x]highcharts;

@@ -14,8 +14,8 @@
         margin: 10px 5px;
         text-align: center;
         width: 50px;
+        border: 3px solid red;
       }
-
       .box-two {
         color: #9069EF;
         background-color: rgb(243, 243, 243);
@@ -25,8 +25,8 @@
         margin: 10px 5px;
         text-align: center;
         width: 50px;
+        border: 3px solid red;
       }
-
       .box-three {
         color: #9069EF;
         background-color: rgb(243, 243, 243);
@@ -36,19 +36,82 @@
         min-height: 50px;
         text-align: center;
         width: 50px;
+        border: 3px solid red;
       }
 
       .box-container {
         background-color: #0fa36b;
+        border: 3px solid red;
         display: flex;
+        align-items: center;
         /* ADICIONE AQUI SEUS TESTES */
+      }
+      .box-container2 {
+        background-color: #beb840;
+        border: 3px solid red;
+        display: flex;
+        align-items: flex-start;
+        /* ADICIONE AQUI SEUS TESTES */
+      }
+      .box-container3 {
+        background-color: #55baae;
+        border: 3px solid red;
+        display: flex;
+        align-items: flex-end;
+        /* ADICIONE AQUI SEUS TESTES */
+      }
+      .box-container4 {
+        background-color: #e7abea;
+        border: 3px solid red;
+        display: flex;
+        align-items: stretch;
+        /* ADICIONE AQUI SEUS TESTES */
+      }
+      .box-container5 {
+        background-color: #e7abea;
+        border: 3px solid red;
+        display: flex;
+        align-items: baseline;
+        /* ADICIONE AQUI SEUS TESTES */
+      }
+      p {
+        font-size: 30px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
       }
     </style>
 
   </head>
   <body>
-<!-- 2 - Teste as possibilidades (center, flex-start, flex-end, stretch e baseline) para a propriedade align-items. Não se esqueça de copiar o código abaixo! 😉 -->
+<!-- 2 - Teste as possibilidades (center, flex-start, flex-end, stretch e baseline) para a propriedade align-items.😉 -->
+    <p>align-items: center;</p>
     <div class="box-container">
+      <div class="box-one">1</div>
+      <div class="box-two">2</div>
+      <div class="box-three">3</div>
+    </div>
+    <p>align-items: flex-start;</p>
+    <div class="box-container2">
+      <div class="box-one">1</div>
+      <div class="box-two">2</div>
+      <div class="box-three">3</div>
+    </div>
+    <p>align-items: flex-end;</p>
+    <div class="box-container3">
+      <div class="box-one">1</div>
+      <div class="box-two">2</div>
+      <div class="box-three">3</div>
+    </div>
+    <p>align-items: stretch;</p>
+    <div class="box-container4">
+      <div class="box-one">1</div>
+      <div class="box-two">2</div>
+      <div class="box-three">3</div>
+    </div>
+    <p>align-items: baseline;</p>
+    <div class="box-container5">
       <div class="box-one">1</div>
       <div class="box-two">2</div>
       <div class="box-three">3</div>
