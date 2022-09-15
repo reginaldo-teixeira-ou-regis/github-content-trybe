@@ -1,18 +1,16 @@
-const buttonSubmit = document.querySelector("#submit-btn");
 const toAgree2 = document.getElementById("to-agree-2");
-const fullName = document.getElementById("full-name");
-const date = document.getElementById("date");
+const form = document.getElementById("form");
 
-function submitDoesNothing(event) {
-  if (toAgree2.checked && fullName === required && date === required) {
+function disabledSubmit (event) {
+  if (toAgree2.checked) {
     alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
   } else {
-    event.preventDefault();
-    alert("Dados Inválidos");
-    buttonSubmit = disabled;
+    alert("Dados inválidos ou você precisa concordar com os termos de uso!");
+    event.preventDefault()
   }
 }
-buttonSubmit.addEventListener("click", submitDoesNothing);
+
+form.addEventListener("submit", disabledSubmit);
 
 /* function textInputValidation() { //limitar caracteres pelo js
   const email = document.querySelector("#e-mail").value.length;
