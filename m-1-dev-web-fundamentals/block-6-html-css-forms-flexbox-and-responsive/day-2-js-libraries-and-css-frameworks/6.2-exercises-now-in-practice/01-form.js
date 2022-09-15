@@ -1,14 +1,17 @@
 const toAgree2 = document.getElementById("to-agree-2");
-const buttonSubmit = document.getElementById("submit-btn");
+const form = document.getElementById("form");
 
-function alertMessage() {
-  if (toAgree2 !== checked) {
-    alert("Dados Inválidos");
-  } else {
+function disabledSubmit (event) {
+  if (toAgree2.checked) {
     alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.");
+  } else {
+    alert("Dados inválidos ou você precisa concordar com os termos de uso!");
+    event.preventDefault()
   }
-  buttonSubmit.addEventListener("click", alertMessage);
+}
 
+form.addEventListener("submit", disabledSubmit);
+ 
 /* function submitDoesNothing(event) {
   if (toAgree2 !== checked) {
     event.preventDefault();
