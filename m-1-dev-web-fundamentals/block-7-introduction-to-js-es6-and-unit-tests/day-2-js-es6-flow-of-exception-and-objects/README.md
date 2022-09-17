@@ -1,7 +1,7 @@
 Day 2 content:
-[]Throw e Try/Catch;
-[]Object.keys;
-[]Object.values;
-[]Object.entries;
-[]Objetos: keys, values e entries;
-[]Object.assign;
+[x]Throw e Try/Catch;
+[x]Object.keys;
+[x]Object.values;
+[x]Object.entries;
+[x]Objetos: keys, values e entries;
+[x]Object.assign;
