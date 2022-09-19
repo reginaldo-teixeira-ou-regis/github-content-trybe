@@ -1,3 +1,5 @@
+// Obs: pegamos o valor do TF16 de cada elemento por seu proprio numero de charCode, por isso o sort() tem seu proprio jeito de ordenar os elementos.
+
 console.log(``);
 console.log(`============================================================`);
 console.log(``);
