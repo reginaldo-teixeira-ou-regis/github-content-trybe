@@ -17,3 +17,26 @@ Ao final, a HOF deve retornar o total de pontos obtidos através das respostas f
 
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const checked = (answersCorrect, answersStudent) => {
+    if(answersCorrect === answersStudent) {
+        return 1;
+    } else if (answersStudent === 'N.A') {
+        return 0;
+    } else {
+        return -0.5;
+    }
+}
+
+const hof = (answersCorrects, answersStudents, callback) => {
+    let count = 0;
+    for (let index = 0; index < 10; index += 1) {
+        let correction = callback(answersCorrects[index], answersStudents[index]);
+        console.log(answersCorrects[index]);
+        console.log(answersStudents[index]);
+        count += correction;
+    };
+    return count;
+}
+
+console.log(hof(RIGHT_ANSWERS, STUDENT_ANSWERS, checked));
