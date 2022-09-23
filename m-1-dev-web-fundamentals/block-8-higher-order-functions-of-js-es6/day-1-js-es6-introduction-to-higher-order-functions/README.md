@@ -1,3 +1,3 @@
 Day 1 content:
-[]Higher Order Functions;
-[]First-Class Functions (or HOFs);
+[x]Higher Order Functions;
+[x]First-Class Functions (or HOFs);
