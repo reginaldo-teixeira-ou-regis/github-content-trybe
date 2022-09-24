@@ -18,6 +18,9 @@ Ao final, a HOF deve retornar o total de pontos obtidos através das respostas f
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
+const newAnswersCorrects = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C', 'A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const answersNewStudent = ['A', 'N.A', 'B', 'D', 'A', 'D', 'A', 'A', 'D', 'A', 'D', 'C', 'C', 'N.A', 'A', 'D', 'B', 'A', 'C', 'B'];
+
 const checked = (answersCorrect, answersStudent) => {
     if(answersCorrect === answersStudent) {
         return 1;
@@ -30,13 +33,13 @@ const checked = (answersCorrect, answersStudent) => {
 
 const hof = (answersCorrects, answersStudents, callback) => {
     let count = 0;
-    for (let index = 0; index < 10; index += 1) {
+    for (let index = 0; index < answersCorrects.length; index += 1) {
         let correction = callback(answersCorrects[index], answersStudents[index]);
-        console.log(answersCorrects[index]);
-        console.log(answersStudents[index]);
         count += correction;
     };
-    return count;
+    return `O estudante somou um total de ${count} pontos no exame`;
 }
 
 console.log(hof(RIGHT_ANSWERS, STUDENT_ANSWERS, checked));
+console.log(' ');
+console.log(hof(newAnswersCorrects, answersNewStudent, checked));
