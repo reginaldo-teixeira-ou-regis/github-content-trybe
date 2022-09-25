@@ -1,0 +1,15 @@
+{
+  "name": "7.3-exercises-now-in-practice",
+  "version": "1.0.0",
+  "description": "Practicing the exercises we just learned in today's content!",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
