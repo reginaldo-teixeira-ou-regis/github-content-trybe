@@ -138,3 +138,50 @@ console.log(verifyPair(lesson3, 'turno', 'noite'));
 console.log(' ');
 console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
 console.log('=============================================================================');
+
+// Utilizando o objeto (allLesson), crie uma função para contar quantos estudantes assistiram às aulas de Matemática.
+
+const getNumberOfStudentsMath = (obj) => {
+  let total = 0;
+  const array = Object.keys(obj);
+  for (index in array) {
+    if(obj[array[index]].materia === 'Matemática') {
+    total += obj[array[index]].numeroEstudantes;
+    }
+  }
+  return total;
+}
+console.log(`${getNumberOfStudentsMath(allLessons)} estudantes assistiram às aulas de Matemática.`);
+console.log('=============================================================================');
+
+// Utilizando o objeto (allLesson), crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes.
+
+// console.log(createReport(allLessons, 'Maria Clara'));
+/* {
+  professor: 'Maria Clara',
+  aulas: [ 'Matemática', 'Matemática' ],
+  estudantes: 30
+} */
+
+const getInfo = (obj, name) => {
+  const allLessons = [];
+  let allStudent = 0;
+  const array = Object.values(obj);
+  for (index in array) {
+    if (array[index].professor === name) {
+      allLessons.push(array[index].materia)
+      allStudent += array[index].numeroEstudantes;
+    }
+  }
+  return { lessons: allLessons, estudantes: allStudent };
+}
+
+const createReport = (allLessons, name) => {
+  const report = {};
+  report.professor = name;
+  Object.assign(report, getInfo(allLessons, name));
+  return report;
+}
+console.log('O relatório do(a) professor(a) é:')
+console.log(createReport(allLessons, 'Maria Clara'));
+console.log('=============================================================================');
