@@ -35,7 +35,6 @@ const order = {
 };
 
 const customerInfo = (order) => {
-  // Adicione abaixo as informações necessárias.
   const deliveryPerson = order.order.delivery.deliveryPerson;
   const name = order.name;
   const phoneNumber = order.phoneNumber;
@@ -53,7 +52,6 @@ customerInfo(order);
 console.log("");
 
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
   const newName = order.name = 'Luiz Silva';
   const pizzas = Object.keys(order.order.pizza);
   const coke = order.order.drinks.coke.type;
