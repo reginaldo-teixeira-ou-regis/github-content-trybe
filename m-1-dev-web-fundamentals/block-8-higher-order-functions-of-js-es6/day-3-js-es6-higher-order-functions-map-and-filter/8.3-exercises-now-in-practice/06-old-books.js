@@ -69,8 +69,11 @@ const expectedResult6 = [
   'O Chamado de Cthulhu',
 ];
 
-function oldBooks() {
-  // escreva seu código aqui
+function oldBooks(array) {
+  return array.filter((book) => (
+    (2022 - book.releaseYear) > 60
+  )).map((book) => book.name);
 }
+console.log(oldBooks(books));
 
 module.exports = oldBooks;

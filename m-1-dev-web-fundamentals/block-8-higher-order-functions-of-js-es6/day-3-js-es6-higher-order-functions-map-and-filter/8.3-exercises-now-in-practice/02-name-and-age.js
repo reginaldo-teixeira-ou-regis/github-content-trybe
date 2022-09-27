@@ -92,8 +92,14 @@ const expectedResult2 = [
   },
 ];
 
-function nameAndAge() {
-  // escreva seu código aqui
+function nameAndAge(books) {
+  return books.map((object) => 
+    ({
+      age: (object.releaseYear - object.author.birthYear),
+      author: object.author.name,
+    })
+  ).sort((a, b) => b.age - a.age);
 }
+console.log(nameAndAge(books));
 
 module.exports = nameAndAge;
