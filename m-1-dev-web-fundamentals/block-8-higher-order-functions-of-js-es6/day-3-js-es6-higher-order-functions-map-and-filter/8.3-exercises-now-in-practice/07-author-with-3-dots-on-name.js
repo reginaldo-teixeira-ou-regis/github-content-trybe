@@ -67,18 +67,18 @@ De olho na dica 👀: cada inicial termina com um ponto. */
 const expectedResult7 = 'O Senhor dos Anéis';
 
 function authorWith3DotsOnName(array) {
-  return array.filter((book) => book.author.name[1] === '.'
-  && book.author.name[4] === '.'
-  && book.author.name[7] === '.').map((book) => book.name);
-  /* return books.find((book) => (
-    book.author.name.split(' ')
-    .filter((word) => word.endsWith('.')).length === 3
-  )).name; */
+  /* return array.filter((book) => book.author.name[2] === ' '
+  && book.author.name[5] === ' '
+  && book.author.name[8] === ' ').map((book) => book.name); */
   /* return books.find((book) => (
     book.author.name[1] === '.'
     && book.author.name[4] === '.'
     && book.author.name[7] === '.'
   )).name; */
+  return books.find((book) => (
+    book.author.name.split(' ')
+    .filter((word) => word.endsWith('.')).length === 3
+  )).name;
 }
 console.log(authorWith3DotsOnName(books));
 
