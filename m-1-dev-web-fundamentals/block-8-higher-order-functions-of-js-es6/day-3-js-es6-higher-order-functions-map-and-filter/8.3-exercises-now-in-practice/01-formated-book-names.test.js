@@ -1,0 +1,1 @@
+const formatedBookNames = require('./01-formated-book-names');

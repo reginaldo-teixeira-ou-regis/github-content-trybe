@@ -1,0 +1,1 @@
+const nameAndAge = require('./02-name-and-age');
