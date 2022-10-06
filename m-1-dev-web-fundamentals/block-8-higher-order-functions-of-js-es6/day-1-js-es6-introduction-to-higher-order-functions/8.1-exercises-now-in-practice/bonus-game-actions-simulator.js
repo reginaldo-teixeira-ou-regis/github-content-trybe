@@ -64,3 +64,4 @@ while(!endBattle) {
   /* console.log(gameActions.battle()); */
   console.table({warrior, mage, dragon});
 }
+/* console.table({warrior, mage, dragon}); */
