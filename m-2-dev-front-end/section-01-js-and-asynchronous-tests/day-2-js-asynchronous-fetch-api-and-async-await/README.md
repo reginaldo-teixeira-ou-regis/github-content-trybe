@@ -1,4 +1,4 @@
 Day 2 content:
-[]Use then() and catch();
-[]Using async/await together with try/catch;
-[]Make integrations with third-party APIs;
+[x]Use then() and catch();
+[x]Using async/await together with try/catch;
+[x]Make integrations with third-party APIs;
