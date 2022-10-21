@@ -8,7 +8,7 @@ export const listUl = skills.map((skill) => <li>{skill}</li>) */
 const name = "Reginaldo Teixeira";
 const description = "Um grande xeeeenioooo!";
 const skills = ['JS', 'HTML', 'JEST', 'DOM', 'JSX'];
-const listUl = skills.map((skill) => <li>{skill}</li>)
+const listUl = skills.map((skill) => <li className={'baraban'} key={skill}>{skill}</li>)
 
 const Forms = () => {
   return (

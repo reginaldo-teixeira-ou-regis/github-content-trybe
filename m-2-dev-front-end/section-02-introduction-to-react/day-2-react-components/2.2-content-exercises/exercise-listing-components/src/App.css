@@ -6,6 +6,14 @@
 .App {
   display: flex;
   text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  min-width: 240px;
 }
 
 .App-logo {
@@ -45,6 +53,15 @@
 
 .card {
   width: 150px;
+  margin-bottom: 5px;
 }
 
+.card:hover {
+  transform: scale(0.9);
+}
 
+.card img {
+  max-height: 140px;
+  border-radius: 5px;
+  padding: 10px;
+}

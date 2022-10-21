@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Forms from './About';
 /* import { name, description, listUl } from './About'; */
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <>
