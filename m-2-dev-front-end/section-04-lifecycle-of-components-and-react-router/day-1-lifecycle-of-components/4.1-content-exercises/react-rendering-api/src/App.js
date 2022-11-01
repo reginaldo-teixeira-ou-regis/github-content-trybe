@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import PropTypes from 'prop-types';
 
 class App extends Component {
   state = {
@@ -11,7 +10,7 @@ class App extends Component {
     const RandomPerson = await fetch('https://api.randomuser.me/');
     const objPerson = await RandomPerson.json();
     return this.setState({
-      person: objPerson.results,
+      person: objPerson.results[0],
       loading: false,
     });
   };
@@ -20,17 +19,21 @@ class App extends Component {
     this.fetchRandomPerson();
   }
 
+  shouldComponentUpdate(_nextProps, nextState) {
+    return nextState.person.dob.age < 50;
+  }
+
   render() {
-    const { loading, person: { name, email, age, image } } = this.props;
+    const { loading, person: { name, email, dob, picture } } = this.state;
     if (loading) return <div>Carregando...</div>;
     return (
       <>
         <h3>Dados Pessoais</h3>
         <div>
-          <p>{name}</p>
+          <p>{name.first}</p>
           <p>{email}</p>
-          <p>{age}</p>
-          <img src={ image } alt={ name } />
+          <p>{dob.age}</p>
+          <img src={ picture.medium } alt={ name.first } />
         </div>
       </>
     );
@@ -38,12 +41,3 @@ class App extends Component {
 }
 
 export default App;
-
-App.propTypes = {
-  person: PropTypes.shape({
-    name: PropTypes.string,
-    email: PropTypes.string,
-    age: PropTypes.number,
-    image: PropTypes.string,
-  }).isRequired,
-};
