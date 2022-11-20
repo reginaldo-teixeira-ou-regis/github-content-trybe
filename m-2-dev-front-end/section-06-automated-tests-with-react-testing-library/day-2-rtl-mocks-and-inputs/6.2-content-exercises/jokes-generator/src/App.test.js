@@ -13,8 +13,7 @@ it('fetches a joke', async () => {
   };
   
 // Primeira forma de mock do fetch
-/* jest.spyOn(global, 'fetch');
-  global.fetch.mockResolvedValue({
+/* jest.spyOn(global, 'fetch').mockResolvedValue({
     json: jest.fn().mockResolvedValue(joke),
   });
 
@@ -55,9 +54,8 @@ it('fetches a new joke when button is clicked', async () => {
     joke: 'What is red and smells like blue paint? Red paint!',
     status: 200,
   };
-
-  jest.spyOn(global, 'fetch');
-  global.fetch.mockResolvedValueOnce({
+  
+  jest.spyOn(global, 'fetch').mockResolvedValueOnce({
     json: jest.fn().mockResolvedValue(joke1),
   });
   
@@ -68,7 +66,7 @@ it('fetches a new joke when button is clicked', async () => {
   expect(screen.queryByText(joke2.joke)).not.toBeInTheDocument();
   expect(global.fetch).toBeCalledTimes(1);
   
-  global.fetch.mockResolvedValueOnce({
+  jest.spyOn(global, 'fetch').mockResolvedValueOnce({
     json: jest.fn().mockResolvedValue(joke2),
   });
   userEvent.click(newJokeButton);
