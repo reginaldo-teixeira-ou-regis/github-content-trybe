@@ -2,7 +2,7 @@ Day 2 content:
 [x]Configuring Redux with React;
 [x]Creating the Store and the Reducer;
 [x]Provider;
-[x]Reading global state information
+[x]Reading global state information;
 [x]mapStateToProps function;
 [x]Connect;
 [x]Writing in the global state;
