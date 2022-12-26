@@ -1,4 +1,4 @@
-Web Development Course Content:
+Web Development -> Course Content:
 [M1]Web Development Fundamentals;
 [M2]Front end development;
 [M3]Back-end development;
