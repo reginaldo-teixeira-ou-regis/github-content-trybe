@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1663693067853" clover="3.2.0">
+  <project timestamp="1663693067854" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3" elements="35" coveredelements="35" complexity="0" loc="16" ncloc="16" packages="1" files="3" classes="3"/>
+    <file name="myFizzBuzz.js" path="/home/reginaldoteixeira/github-directory/github-content-trybe/m-1-dev-web-fundamentals/block-7-introduction-to-js-es6-and-unit-tests/day-3-first-steps-in-jest/7.3-exercises-now-in-practice/myFizzBuzz.js">
+      <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="remove-item-array.js" path="/home/reginaldoteixeira/github-directory/github-content-trybe/m-1-dev-web-fundamentals/block-7-introduction-to-js-es6-and-unit-tests/day-3-first-steps-in-jest/7.3-exercises-now-in-practice/remove-item-array.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="10" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="/home/reginaldoteixeira/github-directory/github-content-trybe/m-1-dev-web-fundamentals/block-7-introduction-to-js-es6-and-unit-tests/day-3-first-steps-in-jest/7.3-exercises-now-in-practice/sum.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
