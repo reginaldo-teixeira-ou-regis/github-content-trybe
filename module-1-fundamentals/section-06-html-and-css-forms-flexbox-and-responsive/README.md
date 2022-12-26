@@ -1,4 +1,4 @@
-Section 6 Contents: 
+Section 6 - Contents: 
 [D1]HTML & CSS - Forms; 
 [D2]JavaScript Libraries and CSS Frameworks; 
 [D3]CSS Flexbox - Part 1; 
