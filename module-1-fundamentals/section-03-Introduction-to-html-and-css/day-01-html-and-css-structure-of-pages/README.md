@@ -1,0 +1,23 @@
+Day 1 content: 
+[x]The pieces that make up the Internet; 
+[x]Internet; 
+[x]Web; 
+[x]Client; 
+[x]Server; 
+[x]IP address; 
+[x]TCP/IP (Transmission Control Protocol / Internet Protocol); 
+[x]ISP (Internet Service Provider); 
+[x]DNS (Domain Name System); 
+[x]Port Number; 
+[x]Host; 
+[x]HTTP: (Hyper-text Transfer Protocol); 
+[x]URL: (Uniform Resource Locators); 
+[x]How the internet works; 
+[x]The Client-Server model and the structure of a web application; 
+[x]Structure of your page; 
+[x]Appearance of the page; 
+[x]Interactions with the user people; 
+[x]JavaScript; 
+[x]Database; 
+[x]HTML - First tags; 
+[x]HTML - External and internal links; 
