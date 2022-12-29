@@ -1,4 +1,4 @@
-Day 1 content: 
+Day 1 - Contents: 
 [x]Unix; 
 [x]Kernel; 
 [x]Shell; 
