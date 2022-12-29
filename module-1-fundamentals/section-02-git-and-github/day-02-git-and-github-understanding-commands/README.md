@@ -1,4 +1,4 @@
-Day 2 content: 
+Day 2 - Contents: 
 [x]But after all, what is GitHub?; 
 [x]How does GitHub work?; 
 [x]Security Authentication; 
