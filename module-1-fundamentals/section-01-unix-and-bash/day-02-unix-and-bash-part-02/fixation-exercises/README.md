@@ -1,1 +1,1 @@
-Fixation exercises from day 1.2(M1)!
+Fixation exercises from day 2(M1-S01-D2)!
