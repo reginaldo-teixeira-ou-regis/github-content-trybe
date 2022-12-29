@@ -1,4 +1,4 @@
-Day 3 content: 
+Day 3 - Contents: 
 [x]Box Model - Model of boxes at the CSS; 
 [x]What is the Box Model?; 
 [x]width and height; 
