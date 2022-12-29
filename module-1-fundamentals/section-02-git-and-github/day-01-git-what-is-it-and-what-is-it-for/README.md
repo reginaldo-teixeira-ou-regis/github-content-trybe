@@ -1,4 +1,4 @@
-Day 1 content: 
+Day 1 - Contents: 
 [x]How does Git work in practice?; 
 [x]Branching (branch); 
 [x]Change capture (commit); 
