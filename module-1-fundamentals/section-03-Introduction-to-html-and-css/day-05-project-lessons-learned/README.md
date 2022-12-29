@@ -1,4 +1,4 @@
-# Requisitos do projeto Lessons Learned
+# Requisitos do projeto Lessons Learned:
 
 ## 1. Adicione uma cor de fundo específica para a página
 
