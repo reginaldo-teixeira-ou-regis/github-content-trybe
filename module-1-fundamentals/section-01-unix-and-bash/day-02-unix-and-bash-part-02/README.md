@@ -1,4 +1,4 @@
-Day 2 content: 
+Day 2 - Contents: 
 [x]Inputs and Outputs in Terminal; 
 [x]Access Levels on UNIX; 
 [x]Processes on UNIX; 
