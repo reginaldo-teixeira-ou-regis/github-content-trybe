@@ -1,4 +1,4 @@
-Module 1 - Content: 
+Module 1 - Contents: 
 [S1]Unix & Bash; 
 [S2]Git & GitHub; 
 [S3]Introduction to HTML & CSS; 
@@ -6,4 +6,4 @@ Module 1 - Content:
 [S5]JavaScript: DOM, Events and Web Storage; 
 [S6]HTML and CSS: Forms, Flexbox and Responsive; 
 [S7]Introduction to JavaScript ES6 and Unit Tests; 
-[S8]Higher Order Functions of JavaScript ES6;
+[S8]Higher Order Functions of JavaScript ES6; 
