@@ -1,4 +1,4 @@
-Day 4 content: 
+Day 4 - Contents: 
 [x]What is semantic HTML?; 
 [x]Applying HTML elements according to sense; 
 [x]Semantic HTML in practice; 
