@@ -1,4 +1,4 @@
-Day 1 - contents: 
+Day 1 - Contents: 
 [x]What is JavaScript (JS)?; 
 [x]Where did it come from?; 
 [x]What is your use?; 
