@@ -1,4 +1,4 @@
-Module 1 Content: 
+Module 1 - Content: 
 [S1]Unix & Bash; 
 [S2]Git & GitHub; 
 [S3]Introduction to HTML & CSS; 
