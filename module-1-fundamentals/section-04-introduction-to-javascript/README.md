@@ -1,4 +1,4 @@
-Section 4 Contents: 
+Section 4 - Contents: 
 [D1]JS - First steps; 
 [D2]JS - Array and For loop; 
 [D3]JS - Logic Programming and Algorithms; 
