@@ -1,4 +1,4 @@
-Module 2 Content: 
+Module 2 - Contents: 
 [S1]Introduction to FrontEnd and Asynchronous JavaScript; 
 [S2]Introduction to React; 
 [S3]Components with State, Events and Forms with React; 
