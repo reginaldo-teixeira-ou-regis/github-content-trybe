@@ -1,4 +1,4 @@
-Day 1 content: 
+Day 1 - Contents: 
 [x]The pieces that make up the Internet; 
 [x]Internet; 
 [x]Web; 
