@@ -1,4 +1,4 @@
-# Requisitos Obrigatórios
+# Requisitos Obrigatórios do Projeto Playground Functions
 :warning: **Leia todos os requisitos atentamente e siga à risca o que for pedido. Não altere o nome de nenhuma função** :warning:
 
 ## 1 - Crie uma função usando o operador &&
