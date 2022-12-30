@@ -11,7 +11,7 @@
 
 </details>
 
-# Requisitos Obrigatórios do Projeto JavaScript Teste Unitários
+# Requisitos Obrigatórios do Projeto JavaScript Testes Unitários
 
 ⚠️ Lembre-se de que o seu projeto só será avaliado se estiver passando por **todos os _checks_** do **Linter**. Utilize o comando `npm run lint` no seu terminal para verificar os _checks_ do **Linter** 😉 ⚠️
 
