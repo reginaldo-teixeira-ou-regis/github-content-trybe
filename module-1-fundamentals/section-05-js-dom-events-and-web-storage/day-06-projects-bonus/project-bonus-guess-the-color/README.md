@@ -1,9 +1,5 @@
 # Requisitos Obrigatórios do Projeto Bonus Guess The Color
 
->⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
 ## 1 - Adicione no seu site um título com o nome do seu jogo
 
 <details>
