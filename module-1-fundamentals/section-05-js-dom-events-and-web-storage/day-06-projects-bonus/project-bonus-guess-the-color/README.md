@@ -1,4 +1,4 @@
-# Requisitos Obrigatórios do Projeto Bonus Guess The Color
+# Requisitos Obrigatórios do Projeto Bonus Adivinhe a Cor
 
 ## 1 - Adicione no seu site um título com o nome do seu jogo
 
