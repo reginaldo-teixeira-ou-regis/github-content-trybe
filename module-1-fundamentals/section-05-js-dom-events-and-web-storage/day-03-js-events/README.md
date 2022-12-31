@@ -1,12 +1,13 @@
-Day 3 - Contents: 
-[x]What is an event listener?; 
-[x]What are events in JS; 
-[x]Meet addEventListener; 
-[x]JS Events - addEventListener; 
-[x]JS Events - onload; 
-[x]JS Events - onclick; 
-[x]JS Events - click; 
-[x]JS Events - change; 
-[x]JS Events - mouseover; 
-[x]JS Events - keyup; 
-[x]JS Events - event.target; 
+# Day 3 - Contents: 
+
+* What is an event listener?; 
+* What are events in JS; 
+* Meet addEventListener; 
+* JS Events - addEventListener; 
+* JS Events - onload; 
+* JS Events - onclick; 
+* JS Events - click; 
+* JS Events - change; 
+* JS Events - mouseover; 
+* JS Events - keyup; 
+* JS Events - event.target; 
