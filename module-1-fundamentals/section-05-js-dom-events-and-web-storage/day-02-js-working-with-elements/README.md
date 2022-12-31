@@ -1,16 +1,17 @@
-Day 2 - Contents: 
-[x]HTML DOM - parentNode; 
-[x]HTML DOM - parentElement; 
-[x]HTML DOM - childNodes; 
-[x]HTML DOM - children; 
-[x]HTML DOM - firstChild; 
-[x]HTML DOM - firstElementChild; 
-[x]HTML DOM - lastChild; 
-[x]HTML DOM - lastElementChild; 
-[x]HTML DOM - nextSibling; 
-[x]HTML DOM - nextElementSibling; 
-[x]HTML DOM - previousSibling; 
-[x]HTML DOM - previousElementSibling; 
-[x]HTML DOM - createElement; 
-[x]HTML DOM - appendChild; 
-[x]HTML DOM - removeChild; 
+# Day 2 - Contents: 
+
+* HTML DOM - parentNode; 
+* HTML DOM - parentElement; 
+* HTML DOM - childNodes; 
+* HTML DOM - children; 
+* HTML DOM - firstChild; 
+* HTML DOM - firstElementChild; 
+* HTML DOM - lastChild; 
+* HTML DOM - lastElementChild; 
+* HTML DOM - nextSibling; 
+* HTML DOM - nextElementSibling; 
+* HTML DOM - previousSibling; 
+* HTML DOM - previousElementSibling; 
+* HTML DOM - createElement; 
+* HTML DOM - appendChild; 
+* HTML DOM - removeChild; 
