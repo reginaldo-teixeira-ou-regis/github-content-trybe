@@ -1,5 +1,6 @@
-Day 2 - Contents: 
-[x]JS - Working with Arrays; 
-[x]JS - Repetition Structures - For; 
-[x]JS - Repetition Structures - For/of; 
-[x]JS - Repetition Structures - While; 
+# Day 2 - Contents: 
+
+* JS - Working with Arrays; 
+* JS - Repetition Structures - For; 
+* JS - Repetition Structures - For/of; 
+* JS - Repetition Structures - While; 
