@@ -1,4 +1,5 @@
-Day 2 - Contents: 
-[x]Introduction to CSS; 
-[x]Properties of text at the CSS; 
-[x]Inline and external css; 
+# Day 2 - Contents: 
+
+* Introduction to CSS; 
+* Properties of text at the CSS; 
+* Inline and external css; 
