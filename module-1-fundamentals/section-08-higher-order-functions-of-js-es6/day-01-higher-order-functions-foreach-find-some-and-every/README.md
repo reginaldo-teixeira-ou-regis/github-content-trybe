@@ -1,9 +1,10 @@
-Day 1 - Contents: 
-[x]Introduction to Higher Order Functions; 
-[x]The addEventListerner function is a HOF; 
-[x]First-Class Functions (or HOFs); 
-[x]Structure of the HOFs in Arrays; 
-[x]HOF - Array.forEach; 
-[x]HOF - Array.find; 
-[x]HOF - Array.some; 
-[x]HOF - Array.every; 
+# Day 1 - Contents: 
+
+* Introduction to Higher Order Functions; 
+* The addEventListerner function is a HOF; 
+* First-Class Functions (or HOFs); 
+* Structure of the HOFs in Arrays; 
+* HOF - Array.forEach; 
+* HOF - Array.find; 
+* HOF - Array.some; 
+* HOF - Array.every; 
