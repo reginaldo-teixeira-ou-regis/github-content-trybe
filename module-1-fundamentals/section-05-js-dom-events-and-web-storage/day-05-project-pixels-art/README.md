@@ -1,3 +1,51 @@
+<details>
+  <summary><strong>🛠 Testes e Cypress</strong></summary><br />
+
+O Cypress é uma ferramenta de teste de front-end desenvolvida para a web. Antes de utilizá-lo, certifique-se de ter executado o comando `npm install` dentro do projeto.
+
+Você pode rodar o Cypress localmente para verificar se seus requisitos estão passando, para isso execute um dos seguintes comandos:
+
+1. Para executar os testes apenas no terminal:
+
+```bash
+npm test
+```
+
+2. Para executar os testes e vê-los rodando em uma janela de navegador:
+
+```bash
+npm run cypress:open
+```
+
+***ou***
+
+```bash
+npx cypress open
+```
+
+Após executar um dos comandos acima, uma janela de navegador será aberta e, então, você poderá escolher o teste a ser executado (project.spec.js) ou escolher `Run all specs` para executar todos os testes
+
+Veja [este vídeo](https://vimeo.com/539240375/a116a166b9)  para ver como rodar o Cypress localmente 😉🎙
+
+
+* Siga este passo a passo para verificar os **detalhes da execução do avaliador**:
+
+  * Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
+
+  * Na página que se abrirá, clique na linha _**"Cypress evaluator step"**_ ;
+
+  * Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
+
+  * Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou poste a sua dúvida no _Slack_.
+
+⚠️ **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
+
+* Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
+
+O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
+
+</details>
+
 # Requisitos Obrigatórios do Projeto Arte com Pixels
 
 ## 1 - Adicione à página o título "Paleta de Cores".
