@@ -1,18 +1,19 @@
-Day 1 - Contents: 
-[x]Introduction to Module of FrontEnd; 
-[x]Setting up the Development Environment; 
-[x]Starting a project with NPM; 
-[x]Configuring Folders and Git; 
-[x]Creating and configuring the Project; 
-[x]Implementing the Application; 
-[x]Installing External Libraries in the Application; 
-[x]Using the Nanoid Library and Vite; 
-[x]Installing a Bundler in the Application; 
-[x]Implementing the functionalities; 
-[x]NPM, NPX and NPM Scripts; 
-[x]Configuring a Linter(ESLint); 
-[x]Implementing the CSS; 
-[x]Define the strategy we will use to implement our CSS, such as - Pure CSS, CSS Modules, SCSS (preprocessor), Frameworks (like Bootstrap or TailwindCSS); 
-[x]The Final Application; 
-[x]Publishing your application with Netlify, Firebase, Vercel, Surge and GitHub Pages; 
-[x]Publishing an Application with Surge; 
+# Day 1 - Contents: 
+
+* Introduction to Module of FrontEnd; 
+* Setting up the Development Environment; 
+* Starting a project with NPM; 
+* Configuring Folders and Git; 
+* Creating and configuring the Project; 
+* Implementing the Application; 
+* Installing External Libraries in the Application; 
+* Using the Nanoid Library and Vite; 
+* Installing a Bundler in the Application; 
+* Implementing the functionalities; 
+* NPM, NPX and NPM Scripts; 
+* Configuring a Linter(ESLint); 
+* Implementing the CSS; 
+* Define the strategy we will use to implement our CSS, such as - Pure CSS, CSS Modules, SCSS (preprocessor), Frameworks (like Bootstrap or TailwindCSS); 
+* The Final Application; 
+* Publishing your application with Netlify, Firebase, Vercel, Surge and GitHub Pages; 
+* Publishing an Application with Surge; 
