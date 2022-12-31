@@ -1,12 +1,13 @@
-Day 1 - Contents: 
-[x]How does Git work in practice?; 
-[x]Branching (branch); 
-[x]Change capture (commit); 
-[x]Merge (merge); 
-[x]The basics of branches and merging; 
-[x]Installing Git; 
-[x]Creating a repository: from git init to git merge; 
-[x]Creating a local repository; 
-[x]Adding and committing files; 
-[x]git init; 
-[x]From git init to conflict; 
+# Day 1 - Contents: 
+
+* How does Git work in practice?; 
+* Branching (branch); 
+* Change capture (commit); 
+* Merge (merge); 
+* The basics of branches and merging; 
+* Installing Git; 
+* Creating a repository: from git init to git merge; 
+* Creating a local repository; 
+* Adding and committing files; 
+* git init; 
+* From git init to conflict; 
