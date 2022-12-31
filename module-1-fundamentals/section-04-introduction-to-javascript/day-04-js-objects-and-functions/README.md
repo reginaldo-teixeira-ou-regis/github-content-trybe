@@ -1,5 +1,6 @@
-Day 4 - Contents: 
-[x]JS - Objects; 
-[x]JS - For/in; 
-[x]JS - For/of; 
-[x]JS - Functions; 
+# Day 4 - Contents: 
+
+* JS - Objects; 
+* JS - For/in; 
+* JS - For/of; 
+* JS - Functions; 
