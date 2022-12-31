@@ -1,6 +1,6 @@
 # Day 3 - Contents: 
 
-- [x]Introduction - Practice - Exchange House; 
+- [x] Introduction - Practice - Exchange House; 
 
 ## Checklist - Starting a project with Vite
 
