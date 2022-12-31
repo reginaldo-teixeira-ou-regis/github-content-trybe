@@ -1,3 +1,55 @@
+<details>
+  <summary><strong>🛠 Testes</strong></summary><br />
+
+  [Cypress](https://www.cypress.io/) é uma ferramenta de teste de front-end desenvolvida para a web.
+  Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute o um dos seguintes comandos:
+
+  Para executar os testes apenas no terminal:
+
+  ```bash
+  npm test
+  ```
+
+  Para executar os testes e vê-los rodando em uma janela de navegador:
+
+  ```bash
+  npm run cypress:open
+  ```
+
+  **_ou_**
+
+  ```bash
+  npx cypress open
+  ```
+
+  Após executar um dos dois comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js).
+
+  Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) vídeo 😉🎙
+
+  **Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.**
+
+- Caso a avaliação falhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensiona-las para um tamanho menor.
+
+- Após criar o seu _Pull Request_ e fazer um _push_ da sua _branch_ para o repositório remoto, o avaliador automático será executado.
+
+- Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**:
+
+  - Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
+
+  - Na página que se abrirá, procure pela linha _**"Cypress evaluator step"**_ e clique nela;
+
+  - Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
+
+  - Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou procure a monitoria.
+
+:warning: **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
+
+- Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**. Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos.
+
+- Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
+
+</details>
+
 # Requisitos Obrigatórios do Projeto Lista de Tarefas
 
 ## 1 - Adicione à sua lista o título "Minha Lista de Tarefas" em uma tag `<header>`
