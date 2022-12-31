@@ -1,14 +1,15 @@
-Day 4 - Contents: 
-[x]What is semantic HTML?; 
-[x]Applying HTML elements according to sense; 
-[x]Semantic HTML in practice; 
-[x]Block elements and inline elements; 
-[x]Understanding the difference between block and inline; 
-[x]Understanding display: inline-block; 
-[x]Most used semantic elements: header, nav, aside, article, section, footer; 
-[x]Node installation; 
-[x]Installing the curl command; 
-[x]Installing nvm; 
-[x](Optional) Switching between Node versions; 
-[x]Validating with CodeSniffer; 
-[x]Validating with Lighthouse; 
+# Day 4 - Contents: 
+
+* What is semantic HTML?; 
+* Applying HTML elements according to sense; 
+* Semantic HTML in practice; 
+* Block elements and inline elements; 
+* Understanding the difference between block and inline; 
+* Understanding display: inline-block; 
+* Most used semantic elements: header, nav, aside, article, section, footer; 
+* Node installation; 
+* Installing the curl command; 
+* Installing nvm; 
+* Switching between Node versions (Optional); 
+* Validating with CodeSniffer; 
+* Validating with Lighthouse; 
