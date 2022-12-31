@@ -1,5 +1,6 @@
-Day 3 - Contents: 
-[x]HOF - Array.filter; 
-[x]Understanding the .filter(); 
-[x]HOF - Array.reduce; 
-[x]Exercise resolution with .reduce(); 
+# Day 3 - Contents: 
+
+* HOF - Array.filter; 
+* Understanding the .filter(); 
+* HOF - Array.reduce; 
+* Exercise resolution with .reduce(); 
