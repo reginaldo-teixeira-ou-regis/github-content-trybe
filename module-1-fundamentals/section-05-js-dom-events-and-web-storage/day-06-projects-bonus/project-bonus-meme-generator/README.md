@@ -1,3 +1,39 @@
+<details>
+  <summary><strong>🛠 Testes</strong></summary>
+
+  #### Cypress
+
+  Cypress é uma ferramenta de teste de front-end desenvolvida para a web.
+
+  Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute um dos seguintes comandos:
+
+  Para executar os testes apenas no terminal:
+
+  ```bash
+  npm test
+  ```
+
+  Para executar os testes e vê-los rodando em uma janela de navegador:
+
+  ```bash
+  npm run cypress:open
+  ```
+
+  ***ou***
+
+  ```bash
+  npx cypress open
+  ```
+
+  Após executar um dos dois comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (`project.spec.js`), ou para executar todos os testes clique em _"Run all specs"_.
+
+  Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) vídeo 😉🎙
+
+  **Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.**
+
+  O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
+</details>
+
 # Requisitos Obrigatórios do Projeto Meme Generator
 
 ## 1. Crie um input de texto
