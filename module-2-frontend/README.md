@@ -1,11 +1,12 @@
-Module 2 Contents: 
-[S1]Introduction to FrontEnd and Asynchronous JavaScript; 
-[S2]Introduction to React; 
-[S3]Components with State, Events and Forms with React; 
-[S4]Lifecycle of Components and React Router; 
-[S5]Agile Methodologies; 
-[S6]Automated tests with React Testing Library; 
-[S7]State management with Redux; 
-[S8]Project - Trivia Game; 
-[S9]Context API and React Hooks; 
-[S10]Project - Recipe App; 
+# Module 2 - Contents: 
+
+* [S01] Introduction to FrontEnd and Asynchronous JavaScript; 
+* [S02] Introduction to React; 
+* [S03] Components with State, Events and Forms with React; 
+* [S04] Lifecycle of Components and React Router; 
+* [S05] Agile Methodologies; 
+* [S06] Automated tests with React Testing Library; 
+* [S07] State management with Redux; 
+* [S08] Project - Trivia Game; 
+* [S09] Context API and React Hooks; 
+* [S10] Project - Recipe App; 
