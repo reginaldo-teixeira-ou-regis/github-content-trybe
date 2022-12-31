@@ -1,7 +1,8 @@
-Day 4 - Contents: 
-[x]JS ES6 - Spread Operator; 
-[x]Using Spread in Arrays; 
-[x]Using Spread on Objects; 
-[x]How it works the Spread Operator; 
-[x]JS ES6 - Rest Parameter; 
-[x]JS ES6 - Object Destructuring; 
+# Day 4 - Contents: 
+
+* JS ES6 - Spread Operator; 
+* Using Spread in Arrays; 
+* Using Spread on Objects; 
+* How it works the Spread Operator; 
+* JS ES6 - Rest Parameter; 
+* JS ES6 - Object Destructuring; 
