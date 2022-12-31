@@ -1,7 +1,8 @@
-Day 3 - Contents: 
-[x]Introduction - Practice - Exchange House; 
+# Day 3 - Contents: 
 
-# Checklist - Starting a project with Vite
+- [x]Introduction - Practice - Exchange House; 
+
+## Checklist - Starting a project with Vite
 
 A step-by-step guide to creating a FrontEnd Project (It's not a rule, do as you like).
 
