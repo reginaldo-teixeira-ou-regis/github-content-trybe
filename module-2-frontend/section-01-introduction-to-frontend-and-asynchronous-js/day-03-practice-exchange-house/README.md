@@ -7,7 +7,7 @@
 A step-by-step guide to creating a FrontEnd Project (It's not a rule, do as you like).
 
 *Start the project with NPM*
-* - [ ] Create the project directory; 
+*- [ ] Create the project directory; 
 - [ ] Create the src/ directory inside the project directory; 
 - [ ] Create the main.js file in the src/ directory; 
 - [ ] Create the index.html file in the root of the project; 
