@@ -1,3 +1,39 @@
+<details>
+  <summary><strong>🛠 Testes</strong></summary><br />
+   Todos os requisitos do projeto serão testados automaticamente por meio do Jest.
+
+  Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
+
+  Para executar todos os testes utilize:
+  ```bash
+  npm test
+  ```
+
+  ***ou***
+
+  Para executar um arquivo de teste específico, utilize `npm test nomeDoArquivoDeTeste`:
+
+  ```bash
+  npm test compareTrue
+  ```
+  
+  * Os requisitos do seu projeto são avaliados automaticamente
+
+  Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**:
+
+  * Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
+
+  * Na página que se abrirá, procure pela linha _**"Evaluator step"**_ e clique nela;
+
+  * Caso tenha dúvidas, poste no _Slack_.
+
+  :warning: **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
+
+
+  O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
+
+</details>
+
 # Requisitos Obrigatórios do Projeto Playground Functions
 :warning: **Leia todos os requisitos atentamente e siga à risca o que for pedido. Não altere o nome de nenhuma função** :warning:
 
