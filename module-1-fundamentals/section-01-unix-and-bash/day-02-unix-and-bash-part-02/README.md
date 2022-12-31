@@ -1,5 +1,6 @@
-Day 2 - Contents: 
-[x]Inputs and Outputs in Terminal; 
-[x]Access Levels on UNIX; 
-[x]Processes on UNIX; 
-[x]Terminal Comands (ls, mkdir, cd, pwd, cp, mv, rm, rmdir, clear, cat, less, head, tail, grep, wc, >, >>, |, sort, who, man, whatis, apropos, *, ?, chmod, ps, bg, kill, find, history); 
+# Day 2 - Contents: 
+
+* Inputs and Outputs in Terminal; 
+* Access Levels on UNIX; 
+* Processes on UNIX; 
+* Terminal Comands (ls, mkdir, cd, pwd, cp, mv, rm, rmdir, clear, cat, less, head, tail, grep, wc, >, >>, |, sort, who, man, whatis, apropos, *, ?, chmod, ps, bg, kill, find, history); 
