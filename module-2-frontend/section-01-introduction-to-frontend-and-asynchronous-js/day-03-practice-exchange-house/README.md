@@ -4,7 +4,7 @@
 
 ## Checklist - Starting a project with Vite
 
-**A step-by-step guide to creating a FrontEnd Project (It's not a rule, do as you like)**
+****A step-by-step guide to creating a FrontEnd Project (It's not a rule, do as you like)****
 
 #### *Start the project with NPM*
 * - [ ] Create the project directory; 
