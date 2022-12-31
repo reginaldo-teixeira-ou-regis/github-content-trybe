@@ -1,5 +1,6 @@
-Day 2 - Contents: 
-[x]Introduction - Asynchronous JavaScript; 
+# Day 2 - Contents: 
+
+* Introduction - Asynchronous JavaScript; 
 [x]JS Asynchronous - Promises; 
 [x]States of the Promise - Pending, Fulfilled and Rejected; 
 [x]Constructing a Promise; 
