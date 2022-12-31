@@ -8,7 +8,7 @@
 
 #### *Start the project with NPM*
 * - [ ] Create the project directory; 
-* - [ ] Create the src/ directory inside the project directory; 
+* - [ ] Create the `src/` directory inside the project directory; 
 * - [ ] Create the main.js file in the src/ directory; 
 * - [ ] Create the index.html file in the root of the project; 
 * - [ ] Run the comand npm init -y or npm init to create the package.json; 
