@@ -1,10 +1,11 @@
-Day 1 - Contents: 
-[x]Introduction to Exception Flow and Objects; 
-[x]Throw and Try/Catch; 
-[x]throw new Error; 
-[x]Adding New Keys; 
-[x]Object.keys; 
-[x]Object.values; 
-[x]Object.entries; 
-[x]Objects: keys, values and entries; 
-[x]Object.assign; 
+# Day 1 - Contents: 
+
+* Introduction to Exception Flow and Objects; 
+* Throw and Try/Catch; 
+* throw new Error; 
+* Adding New Keys; 
+* Object.keys; 
+* Object.values; 
+* Object.entries; 
+* Objects: keys, values and entries; 
+* Object.assign; 
