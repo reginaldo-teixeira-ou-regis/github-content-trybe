@@ -1,3 +1,37 @@
+<details>
+  <summary><strong>🛠 Testes</strong></summary><br />
+
+## Cypress
+
+Cypress é uma ferramenta de teste de front-end desenvolvida para a web.
+Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute o um dos seguintes comandos:
+
+Para executar os testes apenas no terminal:
+
+```bash
+npm test
+```
+
+Para executar os testes e vê-los rodando em uma janela de navegador:
+
+```bash
+npm run cypress:open
+```
+
+***ou***
+
+```bash
+npx cypress open
+```
+
+Após executar um dos dois comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js), ou para executar todos os testes clique em Run all specs
+
+Você também pode assistir a [este vídeo](https://vimeo.com/539240375/a116a166b9) 😉🎙
+
+**Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.**
+
+</details>
+
 # Requisitos Obrigatórios do Projeto Bonus Adivinhe a Cor
 
 ## 1 - Adicione no seu site um título com o nome do seu jogo
