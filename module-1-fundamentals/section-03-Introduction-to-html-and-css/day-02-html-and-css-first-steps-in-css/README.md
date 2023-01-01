@@ -2,4 +2,4 @@
 
 * Introduction to CSS; 
 * Properties of text at the CSS; 
-* Inline and external css; 
+* `Internal` and `External` css; 
