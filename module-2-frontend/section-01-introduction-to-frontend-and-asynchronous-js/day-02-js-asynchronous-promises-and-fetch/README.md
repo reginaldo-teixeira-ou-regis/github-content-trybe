@@ -3,9 +3,9 @@
 * Introduction - Asynchronous JavaScript; 
 * JS Asynchronous - `Promises`; 
 * States of the Promise - `Pending`, `Fulfilled` and `Rejected`; 
-* Constructing a `Promise`; 
+* Constructing a Promise; 
 * Returning `values` when promise `resolves`; 
-* Receiving Return of the Promise; 
+* Receiving `Return` of the `Promise`; 
 * Executing a Code regardless of the Return of the Promise; 
 * The Method `fetch()`; 
 * Making a `request` using `fetch`; 
