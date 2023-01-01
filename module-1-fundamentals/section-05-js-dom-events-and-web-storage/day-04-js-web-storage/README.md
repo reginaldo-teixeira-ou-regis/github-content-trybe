@@ -5,6 +5,6 @@
 * Cookies; 
 * `localStorage`; 
 * `sessionStorage`; 
-* JSON; 
+* `JSON`; 
 * `JSON.stringify()`; 
 * `JSON.parse()`; 
