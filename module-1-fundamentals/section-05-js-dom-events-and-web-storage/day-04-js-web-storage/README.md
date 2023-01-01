@@ -3,8 +3,8 @@
 * Manipulate the localStorage object;
 * Manipulate the sessionStorage object;
 * Cookies; 
-* localStorage; 
-* sessionStorage; 
+* `localStorage`; 
+* `sessionStorage`; 
 * JSON; 
-* JSON.stringify(); 
-* JSON.parse(); 
+* `JSON.stringify()`; 
+* `JSON.parse()`; 
