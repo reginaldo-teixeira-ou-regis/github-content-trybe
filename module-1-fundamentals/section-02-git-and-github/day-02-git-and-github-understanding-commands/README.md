@@ -8,7 +8,7 @@
 * Add `SSH Key` and `Two Factor Authentication`; 
 * Creating a repository on `GitHub`; 
 * Downloading repositories with `git clone`; 
-* What is and how to create a repository on GitHub; 
+* What is and how to create a `repository` on GitHub; 
 * Sending changes with the `git push`; 
 * From `git clone` to `pull request`; 
 * The importance of `git pull`; 
