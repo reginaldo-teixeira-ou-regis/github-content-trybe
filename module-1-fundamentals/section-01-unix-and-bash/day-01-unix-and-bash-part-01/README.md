@@ -1,8 +1,8 @@
 # Day 1 - Contents: 
 
-* Unix; 
-* Kernel; 
-* Shell; 
+* `Unix`; 
+* `Kernel`; 
+* `Shell`; 
 * Terminal; 
 * Directories; 
 * Files; 
