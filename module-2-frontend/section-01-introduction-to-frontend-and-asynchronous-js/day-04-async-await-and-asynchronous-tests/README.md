@@ -1,7 +1,7 @@
 # Day 4 - Contents: 
 
 * `Async` and `Await`; 
-* Fetching data with a `API` `CEP` with `.fetch()`, `.then()` and `json()`; 
+* Fetching data with a `API` CEP with `.fetch()`, `.then()` and `json()`; 
 * How the Await Operator works; 
 * Asynchronous Functions - `async`; 
 * Dealing with Errors - blocks `try/catch`; 
