@@ -27,7 +27,7 @@
 
 ### *Criar dentro do arquivo `redux/index.js`:*
 * - [ ] importar o createStore
-* - [ ] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
+* - [ ] configurar o [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 * - [ ] importar o rootReducer
 * - [ ] criar e exportar a store
 
