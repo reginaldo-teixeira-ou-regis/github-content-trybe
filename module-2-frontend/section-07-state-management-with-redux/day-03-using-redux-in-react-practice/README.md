@@ -3,29 +3,29 @@
 ###### 💡 É importante ressaltar que a estrutura das pastas apresentada abaixo é apenas uma sugestão. Você tem liberdade para estruturar da maneira que preferir!
 
 ### *Antes de começar*
-- [ ] pensar como será o *formato* do seu estado global
+* - [ ] pensar como será o *formato* do seu estado global
 - [ ] pensar quais actions serão necessárias na sua aplicação
 
-*Instalação*
-- [ ] npx create-react-app my-app-redux;
+### *Instalação*
+* - [ ] npx create-react-app my-app-redux;
 - [ ] npm install –save redux react-redux;
 - [ ] npm install –save @redux-devtools/extension
 
-*Criar dentro do diretório `src`:*
+### *Criar dentro do diretório `src`:*
 - [ ] diretório `redux`
 
-*Criar dentro do diretório `redux`*
+### *Criar dentro do diretório `redux`*
 - [ ] diretório `actions`
 - [ ] diretório `reducers`
 - [ ] arquivo index.js
 
-*Criar dentro do diretório `actions`:*
+### *Criar dentro do diretório `actions`:*
 - [ ] arquivo `index.js`.
 
-*Criar dentro do diretório `reducers`:*
+### *Criar dentro do diretório `reducers`:*
 - [ ] arquivo `index.js`.
 
-*Criar dentro do arquivo `redux/index.js`:*
+### *Criar dentro do arquivo `redux/index.js`:*
 - [ ] importar o createStore
 - [ ] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
 - [ ] importar o rootReducer
@@ -42,7 +42,7 @@ const store = createStore(rootReducer, composeWithDevTools());
 export default store;
 ```
 
-*Criar dentro do arquivo `redux/reducers/index.js`:*
+### *Criar dentro do arquivo `redux/reducers/index.js`:*
 - [ ] estado inicial
 - [ ] criar função reducer com `switch` retornando apenas a opção `default`
 - [ ] criar `rootReducer` usando o `combineReducers`
@@ -66,7 +66,7 @@ const rootReducer = combineReducers({ exampleReducer })
 export default rootReducer;
 ```
 
-*No arquivo `./src/index.js:*
+### *No arquivo `./src/index.js:*
 - [ ] importar a `store`
 - [ ] importar o `Provider`, para fornecer os estados a todos os componentes encapsulados pelo `<App />`
 
@@ -84,7 +84,7 @@ import store from './redux'
  </Provider>
 ```
 
-*No arquivo `redux/actions/index.js`:*
+### *No arquivo `redux/actions/index.js`:*
 - [ ] criar e exportar os actionTypes
 
 Exemplo:
@@ -104,7 +104,7 @@ export const addEmail = (email) => ({
 })
 ```
 
-*Nos reducers:*
+### *Nos reducers:*
 - [ ] criar os casos para cada action criada, retornando o devido estado atualizado
 
 *Nos componentes que irão ler o estado:*
