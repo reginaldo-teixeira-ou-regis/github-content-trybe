@@ -1,24 +1,23 @@
-# Checklist do Redux
+# Checklist do Redux com React
 
-*Antes de começar*
+###### 💡 É importante ressaltar que a estrutura das pastas apresentada abaixo é apenas uma sugestão. Você tem liberdade para estruturar da maneira que preferir!
+
+### *Antes de começar*
 - [ ] pensar como será o *formato* do seu estado global
 - [ ] pensar quais actions serão necessárias na sua aplicação
 
 *Instalação*
 - [ ] npx create-react-app my-app-redux;
-- [ ] npm install --save redux react-redux;
-- [ ] npm install --save redux-devtools-extension
+- [ ] npm install –save redux react-redux;
+- [ ] npm install –save @redux-devtools/extension
 
 *Criar dentro do diretório `src`:*
 - [ ] diretório `redux`
 
 *Criar dentro do diretório `redux`*
-- [ ] diretório `store`
 - [ ] diretório `actions`
 - [ ] diretório `reducers`
-
-*Criar dentro do diretório `store`:*
-- [ ] arquivo `index.js`.
+- [ ] arquivo index.js
 
 *Criar dentro do diretório `actions`:*
 - [ ] arquivo `index.js`.
@@ -26,18 +25,17 @@
 *Criar dentro do diretório `reducers`:*
 - [ ] arquivo `index.js`.
 
-*Criar dentro do arquivo `redux/store/index.js`:*
+*Criar dentro do arquivo `redux/index.js`:*
 - [ ] importar o createStore
 - [ ] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
 - [ ] importar o rootReducer
 - [ ] criar e exportar a store
 
 Exemplo:
-
 ```js
 import { legacy_createStore as createStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
-import rootReducer from '../reducers';
+import { composeWithDevTools } from '@redux-devtools/extension';
+import rootReducer from './reducers';
 
 const store = createStore(rootReducer, composeWithDevTools());
 
@@ -51,7 +49,6 @@ export default store;
 - [ ] exportar `rootReducer`
 
 Exemplo:
-
 ```js
 import { combineReducers } from 'redux';
 
@@ -69,16 +66,15 @@ const rootReducer = combineReducers({ exampleReducer })
 export default rootReducer;
 ```
 
-*No arquivo `App.js`:*
+*No arquivo `./src/index.js:*
 - [ ] importar a `store`
 - [ ] importar o `Provider`, para fornecer os estados a todos os componentes encapsulados pelo `<App />`
 
 Exemplo:
-
 ```js
 // Na importação
 import { Provider } from 'react-redux';
-import store from './redux/store'
+import store from './redux'
 ```
 
 ```js
@@ -88,11 +84,10 @@ import store from './redux/store'
  </Provider>
 ```
 
-*Na pasta `actions/index.js`:*
+*No arquivo `redux/actions/index.js`:*
 - [ ] criar e exportar os actionTypes
 
 Exemplo:
-
 ```js
 // ACTIONS TYPES
 export const ADD_EMAIL = 'ADD_EMAIL';
@@ -101,7 +96,6 @@ export const ADD_EMAIL = 'ADD_EMAIL';
 - [ ] criar e export os actions creators necessários
 
 Exemplo:
-
 ```js
 // ACTIONS CREATORS
 export const addEmail = (email) => ({
@@ -118,11 +112,10 @@ export const addEmail = (email) => ({
 - [ ] exportar usando o `connect`
 
 *Nos componentes que irão modificar o estado:*
-- [ ] criar a função `mapDispatchToProps`
+- [ ] acessar a função `dispatch` diretamente das props do componente
 - [ ] exportar usando o `connect`
 
 Exemplo:
-
 ```js
 // No import
 import { connect } from 'react-redux';
