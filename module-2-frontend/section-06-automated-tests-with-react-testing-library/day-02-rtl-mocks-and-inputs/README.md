@@ -14,4 +14,4 @@
 * `mock.mockReset()`; 
 * `mock.mockRestore()`; 
 * Testing `APIs` and `inputs`; 
-* RTL Mocks and inputs - Simulating a fetch in API; 
+* RTL Mocks and inputs - Simulating a `fetch` in `API`; 
