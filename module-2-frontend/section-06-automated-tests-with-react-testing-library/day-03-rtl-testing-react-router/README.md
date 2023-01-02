@@ -4,7 +4,7 @@
 * Tests on the Router; 
 * The Library `history`; 
 * The methods `push` and `location.pathname` allow us to change the `Route` within the `Test Environment`; 
-* Inside the `history´ library, is also `imported` the `createMemoryHistory`; 
+* Inside the `history` library, is also `imported` the `createMemoryHistory`; 
 * The `renderWithRouter` function is a custom function for doing `Tests with Routes`; 
 * Testing React Router; 
 * Writing the Application tests; 
