@@ -1,4 +1,8 @@
-# Checklist do Redux com React
+# Day 3 - Contents: 
+
+* React and Redux in Practice - Introduction; 
+
+## Checklist do Redux com React
 
 ###### 💡 É importante ressaltar que a estrutura das pastas apresentada abaixo é apenas uma sugestão. Você tem liberdade para estruturar da maneira que preferir!
 
