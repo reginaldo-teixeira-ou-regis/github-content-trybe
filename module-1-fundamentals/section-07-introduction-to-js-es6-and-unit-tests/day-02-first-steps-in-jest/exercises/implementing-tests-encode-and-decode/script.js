@@ -1,11 +1,11 @@
-const vogais = ["a", "e", "i", "o", "u"];
+const vowels = ["a", "e", "i", "o", "u"];
 const code = [1, 2, 3, 4, 5];
 
 function encode(text) {
   const caracters = text.split("");
-  caracters.forEach((letra, i) => {
-    vogais.forEach((vogal, k) => {
-      caracters[i] = letra === vogal ? code[k] : caracters[i];
+  caracters.forEach((letter, i) => {
+    vowels.forEach((vowel, k) => {
+      caracters[i] = letter === vowel ? code[k] : caracters[i];
     });
   });
 
@@ -17,8 +17,8 @@ console.log(" ");
 function decode(text) {
   const caracters = text.split("");
   caracters.forEach((caracter, i) => {
-    code.forEach((num, k) => {
-      caracters[i] = caracter === num.toString() ? vogais[k] : caracters[i];
+    code.forEach((number, k) => {
+      caracters[i] = caracter === number.toString() ? vowels[k] : caracters[i];
     });
   });
 

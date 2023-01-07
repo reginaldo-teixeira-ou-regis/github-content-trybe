@@ -13,5 +13,8 @@ const techList = (arrayTechnologies, name) => {
 
   return technologyList;
 };
+console.log(techList(["React", "Jest", "HTML", "CSS", "JavaScript"], "Lucas"));
+console.log(' ');
+console.log(techList([], "Lucas"));
 
 module.exports = techList;

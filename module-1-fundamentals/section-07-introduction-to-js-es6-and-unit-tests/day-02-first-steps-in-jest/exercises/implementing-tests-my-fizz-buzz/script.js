@@ -5,10 +5,10 @@ function myFizzBuzz(num) {
   if (num % 5 === 0) return "buzz";
   return num;
 }
-/* console.log(myFizzBuzz(2));
-  console.log(myFizzBuzz(9));
-  console.log(myFizzBuzz(23));
-  console.log(myFizzBuzz(50));
-  console.log(myFizzBuzz(15)); */
+console.log(myFizzBuzz(2));
+console.log(myFizzBuzz(9));
+console.log(myFizzBuzz(23));
+console.log(myFizzBuzz(50));
+console.log(myFizzBuzz(15));
 
 module.exports = myFizzBuzz;

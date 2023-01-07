@@ -18,5 +18,8 @@ const hydrate = (string) => {
 
   return `${glassesOfWater} ${glass} de água`;
 };
+console.log(hydrate('1'));
+console.log(' ');
+console.log(hydrate('5'));
 
 module.exports = hydrate;
