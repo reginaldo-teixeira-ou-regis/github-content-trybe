@@ -15,4 +15,8 @@ const createItem = (name, unit, price, quantity) => {
     price: price,
   };
 };
+console.log(createItem('banana', 'kg', 1.99, 20));
+console.log(' ');
+console.log(createItem('Coca-Cola', '600ml', 15.89, 3));
+
 module.exports = createItem;
