@@ -37,7 +37,7 @@ const professionalBoard = [
   },
 ];
 
-const searchEmployee = (id, detail) => {
+const searchEmployee = (id, objOption) => {
   let employee = "";
 
   for (let index = 0; index < professionalBoard.length; index += 1) {
@@ -52,11 +52,22 @@ const searchEmployee = (id, detail) => {
     throw new Error("ID não identificada");
   }
 
-  if (!employee[detail]) {
+  if (!employee[objOption]) {
     throw new Error("Informação indisponível");
   }
 
-  return employee[detail];
+  return employee[objOption];
 };
+console.log(searchEmployee('8579-6', 'specialities'));
+console.log(' ');
+console.log(searchEmployee('5569-4', 'firstName'));
+console.log(' ');
+console.log(searchEmployee('4456-4', 'lastName'));
+console.log(' ');
+console.log(searchEmployee('1256-4', 'specialities'));
+console.log(' ');
+console.log(searchEmployee('9852-2-2', 'firstName'));
+console.log(' ');
+console.log(searchEmployee('4678-2', 'lastName'));
 
 module.exports = searchEmployee;

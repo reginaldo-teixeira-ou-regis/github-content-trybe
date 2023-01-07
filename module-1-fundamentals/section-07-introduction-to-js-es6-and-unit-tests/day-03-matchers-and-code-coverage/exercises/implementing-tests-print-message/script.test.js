@@ -1,21 +1,16 @@
 const { info, printMessage } = require("./script.js");
 
-describe('Exercício de teste seção 7.3', () => {
-  it('teste objeto info', () => {
-    expect(info).toHaveProperty('personagem');
+describe('Test the function printMessage', () => {
+  it('Test object info', () => {
+    expect(info).toHaveProperty('character');
   });
 
-  it('teste função printMessage', () => {
+  it('Test the function printMessage', () => {
     expect(printMessage(info)).toMatch('Boas vindas,');
-    expect(printMessage(info)).toMatch(info.personagem);
+    expect(printMessage(info)).toMatch(info.character);
   });
 
-  it('teste função printMessage', () => {
-    expect(printMessage(info)).toMatch('Boas vindas,');
-    expect(printMessage(info)).toMatch(info.personagem);
-  });
-
-  it('teste fluxo de exceção função printMessage', () => {
+  it('Test the exception flow of the printMessage function', () => {
     expect(printMessage('Margarida')).toThrow('objeto inválido');
   });
 });
