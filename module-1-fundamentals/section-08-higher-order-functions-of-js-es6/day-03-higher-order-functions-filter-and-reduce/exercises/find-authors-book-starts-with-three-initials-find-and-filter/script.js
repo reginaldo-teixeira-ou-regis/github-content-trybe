@@ -81,5 +81,3 @@ const books = [
     )).name;
   }
   console.log(authorWith3DotsOnName(books));
-  
-  module.exports = authorWith3DotsOnName;
