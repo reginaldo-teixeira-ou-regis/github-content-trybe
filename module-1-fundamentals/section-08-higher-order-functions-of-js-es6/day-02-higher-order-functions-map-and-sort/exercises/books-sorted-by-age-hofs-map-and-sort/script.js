@@ -82,5 +82,3 @@ function nameAndAge(books) {
   ).sort((a, b) => a.age - b.age);
 }
 console.log(nameAndAge(books));
-
-module.exports = nameAndAge;

@@ -95,5 +95,3 @@ const books = [
     )).sort((a, b) => a.releaseYear - b.releaseYear);
   }
   console.log(oldBooksOrdered(books));
-  
-  module.exports = oldBooksOrdered;
