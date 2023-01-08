@@ -75,5 +75,3 @@ const books = [
     )).map((book) => book.name);
   }
   console.log(oldBooks(books));
-  
-  module.exports = oldBooks;
