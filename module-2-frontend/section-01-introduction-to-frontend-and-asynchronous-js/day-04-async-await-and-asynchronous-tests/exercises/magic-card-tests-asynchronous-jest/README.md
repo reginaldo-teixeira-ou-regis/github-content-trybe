@@ -42,7 +42,7 @@
   ⚠️ **O avaliador automático não necessariamente avalia seu exercício na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
 </details>
 
-# Requisitos dos Exercícios Magic Card
+# Requisitos do Exercício Magic Card
 
 **⚠️ Atenção**
 
