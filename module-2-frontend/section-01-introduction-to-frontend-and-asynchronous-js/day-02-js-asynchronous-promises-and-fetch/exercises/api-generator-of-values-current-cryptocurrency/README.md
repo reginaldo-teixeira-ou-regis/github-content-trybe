@@ -1,4 +1,4 @@
-# Requisitos do Exercício Gerador de Valores Atuais das Criptomoedas
+# Requisitos do Exercício Gerador de Criptomoedas
 
 **⚠️ Atenção**: A documentação para a `API` que vamos utilizar esta disponível nesse [link](https://docs.coincap.io/).
 
