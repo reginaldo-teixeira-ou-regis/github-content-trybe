@@ -65,3 +65,4 @@ const handleBaseCurrency = (base) => {
   const baseTitle = document.querySelector("#base");
   baseTitle.innerText = `Valores referentes a 1 ${base}:`;
 };
+//////////////////////////////////////////////////////////
