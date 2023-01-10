@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéAgenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <article id="data">
+            <img id="pokemonPic" src="https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/7.svg" alt=""><br>
+            <h2 id="pokemonNumber">7</h2> - <h1 id="pokemonName">Squirtle</h1>
+            <section id="pokemonDescription">
+                Squirtle (Japonês: ゼニガメ Zenigame) é um Pokémon do tipo Água, categorizado como Pokémon Tartaruguinha e introduzido na Primeira Geração.
+                É um dos três Pokémon iniciais da região de Kanto.
+            </section>
+        </article>
+        <nav>
+            <button data-pokemon="squirtle" class="pokeBtn">Squirtle</button>
+            <button data-pokemon="charmander" class="pokeBtn">Charmander</button>
+            <button data-pokemon="bulbassauro" class="pokeBtn">Bulbassauro</button>
+        </nav>
+    </section>
+    <audio id="musica" loop>
+        <source src="flower-garden.mp3"></source>
+        <source src="flower-garden.ogg"></source>
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
