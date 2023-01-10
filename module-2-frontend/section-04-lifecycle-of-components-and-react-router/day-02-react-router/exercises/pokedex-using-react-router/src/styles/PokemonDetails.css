@@ -1,0 +1,33 @@
+.pokemon-details {
+  margin: auto;
+  width: 85%;
+}
+
+.summaryP {
+  text-align: center;
+}
+
+.pokemon-habitat {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+}
+
+.pokemon-habitat > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+  text-align: center;
+  width: 39%;
+}
+
+.favorite-input {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

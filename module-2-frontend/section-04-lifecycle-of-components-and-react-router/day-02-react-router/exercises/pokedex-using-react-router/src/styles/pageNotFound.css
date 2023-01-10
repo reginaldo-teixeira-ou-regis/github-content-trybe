@@ -1,0 +1,40 @@
+.btnComeBack {
+  background-color: white;
+  border-color: black;
+  color: black;
+  display: flex;
+  font-weight: 598;
+  margin: 8px;
+  margin-left: 315px;
+  max-height: 30px;
+  padding: 0 1px;
+}
+
+.btnComeBack:hover {
+  background-color: orange;
+}
+
+h3 {
+  align-self: center;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.not-found {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+}
+
+h2 {
+  font-size: 41px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.not-found-image {
+  max-width: 70%;
+  width: 100%;
+}
