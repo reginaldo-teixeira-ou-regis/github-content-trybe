@@ -1,4 +1,4 @@
-# Exercício 1
+# Exercício
 
 Esse projeto possui a implementação do Redux (store, action e reducer) em uma aplicação React. Ele consiste em um semáforo com três botões que, ao serem clicados, deverão renderizar a imagem correspondente da sua cor. Se apertar no botão `red`, a imagem com a luz **vermelha** deverá ser renderizada. O mesmo para as cores **amarela** e **verde**.
 
