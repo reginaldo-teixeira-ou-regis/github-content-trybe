@@ -1,4 +1,4 @@
-# Exercício 2
+# Exercício
 
 Ao executar essa aplicação, você irá se deparar com três carros com as cores _Red_, _Blue_ e _Yellow_. Cada um deles apresenta um botão que, ao ser clicado, deve alterar o valor do estado global. O estado inicial da aplicação é o seguinte:
 
