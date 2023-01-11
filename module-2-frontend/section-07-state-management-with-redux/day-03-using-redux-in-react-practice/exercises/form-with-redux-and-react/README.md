@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Boas vindas ao exercício Formulário com Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Vamos criar formulários utilizando `Redux`! 🚀
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Começando o exercício
 
-### `npm start`
+Neste exercício, será necessário implementar o Redux para dois formulários: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- um para dados pessoais
+- outro para dados profissionais;  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Os formulários já estão criados, com isso não é necessário criar novos arquivos, além dos propostos para a execução do exercício.
 
-### `npm test`
+![forms-redux](form-redux.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para começar, é preciso salvar as informações de cada formulário no gerenciador de estados. Depois, em uma outra página, acessar esses dados para que sejam renderizados.
 
-### `npm run build`
+Vocês precisarão de:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Gerenciador de estados (Redux), para salvar as informações na `store` e também para acessá-las.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Mãos ao código! 💪
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Parte 01 - Implementando o Redux
 
-### `npm run eject`
+Crie a estrutura de pastas necessária para a implementação do Redux. A estrutura é opcional e você pode implementar da forma que desejar, mas abaixo deixamos uma sugestão.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>
+    Sugestão de estrutura de pastas:
+  </summary>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Crie a pasta `src/redux` para agrupar todos os arquivos relacionados ao Redux;
+- Crie a pasta `src/redux/actions/` para armazenar as `actions` do projeto;
+- Crie a pasta `src/redux/reducers` para armazenar os `reducers` do projeto;
+- Crie o arquivo `src/redux/index.js`, que será o arquivo responsável por criar e exportar a `store` da aplicação.
+- Implemente o `reducer`.
+- Implemente a `store`.
+- Implemente as `actions`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👀 **De olho nas dicas:**
 
-## Learn More
+- De início, você pode implementar seu reducer apenas com o valor `default`;
+- O `composeWithDevTools` pode te ajudar a visualizar as etapas do **_Redux_**;
+- Lembre-se que, ao montar a estrutura do Redux, é preciso importar o `Provider`, que recebe a `store`, no `index.js`;
+- Caso tenha dificuldade para montar a estrutura do Redux, você pode consultar o **Checklist do Redux com React**, na seção 7 dia 3;
+- Faça as importações corretas para o bom funcionamento da sua aplicação.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Parte 02 - Salvando as informações
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Salve as informações das páginas `PersonalForm` e `ProfessionalForm` na `store`
 
-### Code Splitting
+👀 **De olho na dica:**  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Lembre-se que o `mapStateToProps` lê as informações da `store` e a função `dispatch` envia as informações para a `store`;
+- Lembre-se que para acessar o `dispatch` e as _props_ criadas pela função `mapDispatchToProps` você precisa _conectar_ sua aplicação ao _Redux_.
 
-### Analyzing the Bundle Size
+## Parte 03 - Renderizando as informações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Renderize as informações que estão salvas na `store` em `FormDataDisplay`
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
