@@ -1,1 +1,0 @@
-const studentAverage = require('./04-student-average');
