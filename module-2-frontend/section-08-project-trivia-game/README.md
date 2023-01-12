@@ -1,6 +1,7 @@
 # Section 8 - Content: 
 
 * [D1] Project - Trivia Game(in Group); 
+
 # 
 
 <details>
@@ -33,6 +34,8 @@
   Você também pode executar `npm run test-coverage -- --collectCoverageFrom=caminho/da/Pagina` para verificar o percentual de cobertura de testes de cada 'Pagina'. Por exemplo, para verificar a cobertura de testes da página de `Login`, execute o comando `npm run test-coverage -- --collectCoverageFrom=src/pages/Login.js`.
   </details><br />
 </details>
+
+#
 
 # Requisitos Obrigatórios do Projeto Jogo de Trivia
 
