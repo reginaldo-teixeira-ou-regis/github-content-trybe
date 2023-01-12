@@ -1,1 +1,0 @@
-const flatten = require('./01-flatten');
