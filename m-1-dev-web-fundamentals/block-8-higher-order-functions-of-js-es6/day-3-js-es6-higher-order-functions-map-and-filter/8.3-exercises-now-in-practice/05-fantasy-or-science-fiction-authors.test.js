@@ -1,1 +1,0 @@
-const fantasyOrScienceFictionAuthors = require('./05-fantasy-or-science-fiction-authors');

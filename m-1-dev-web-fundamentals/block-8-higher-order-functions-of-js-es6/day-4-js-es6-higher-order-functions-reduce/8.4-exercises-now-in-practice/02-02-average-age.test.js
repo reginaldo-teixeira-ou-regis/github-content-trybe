@@ -1,1 +1,0 @@
-const averageAge = require('./02-02-average-age');

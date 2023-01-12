@@ -1,1 +1,0 @@
-const authorWith3DotsOnName = require('./07-author-with-3-dots-on-name');
