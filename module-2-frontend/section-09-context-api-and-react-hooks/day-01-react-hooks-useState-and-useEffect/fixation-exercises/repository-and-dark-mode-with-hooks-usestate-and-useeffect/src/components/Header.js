@@ -20,4 +20,3 @@ function Header({ state }) {
 }
 
 export default Header;
-//
