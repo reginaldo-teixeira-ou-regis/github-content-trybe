@@ -1,16 +1,20 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
-export default function Header() {
+function Header() {
   const { pathname } = useLocation();
   return (
     <header>
       <nav>
-        {pathname === '/favorites' ? (
+        {pathname === "/favorites" ? (
           <Link to="/">Films</Link>
         ) : (
-          <Link to="/favorites">Favorites</Link>
+          <Link to="/favorites">
+            <div>Favorites</div>
+          </Link>
         )}
       </nav>
     </header>
   );
 }
+
+export default Header;
