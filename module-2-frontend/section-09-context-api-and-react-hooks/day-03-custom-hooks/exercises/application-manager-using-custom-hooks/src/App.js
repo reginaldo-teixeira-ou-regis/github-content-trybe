@@ -8,11 +8,13 @@ function App() {
   const [approvals, setApprovals, clearApprovals] = useLocalStorage('approvals', []);
   const [rejections, setRejections, clearRejections] = useLocalStorage('rejections', []);
 
-  if (error) return (
-    <main>
-      <h1>Um erro inesperado aconteceu</h1>
-    </main>
-  );
+  if (error) {
+    return (
+      <main>
+        <h1>Um erro inesperado aconteceu</h1>
+      </main>
+    );
+  }
 
   return (
     <main>
@@ -22,31 +24,37 @@ function App() {
           <section>
             <h1>Pessoas Aleatórias</h1>
             <PersonCard person={ data[0] } />
-            <button type='button' onClick={ refresh }>
+            <button type="button" onClick={ refresh }>
               ⏩ Próxima pessoa candidata
             </button>
-            <button type='button' onClick={ () => setApprovals([...approvals, data[0]]) }>
+            <button
+              type="button"
+              onClick={ () => { setApprovals([...approvals, data[0]]); refresh(); } }
+            >
               ✅ Aprovar
             </button>
-            <button type='button' onClick={ () => setRejections([...rejections, data[0]]) }>
+            <button
+              type="button"
+              onClick={ () => { setRejections([...rejections, data[0]]); refresh(); } }
+            >
               ❌ Reprovadas
             </button>
           </section>
           <section>
             <h1>✅ Aprovadas</h1>
-            <button type='button' onClick={ clearApprovals }>
+            <button type="button" onClick={ clearApprovals }>
               Limpar
             </button>
-            { approvals.map((person) => (
+            { [...new Set(approvals)].map((person) => (
               <PersonCard key={ person.id.name } person={ person } />
             )) }
           </section>
           <section>
             <h1>❌ Reprovadas</h1>
-            <button type='button' onClick={ clearRejections }>
+            <button type="button" onClick={ clearRejections }>
               Limpar
             </button>
-            { rejections.map((person) => (
+            { [...new Set(rejections)].map((person) => (
               <PersonCard key={ person.id.name } person={ person } />
             )) }
           </section>
