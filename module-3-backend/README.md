@@ -1,4 +1,4 @@
-# Module 3 Content: 
+# Module 3 Contents: 
 
 * [S01] Docker: Using Containers; 
 * [S02] Introduction to SQL; 
