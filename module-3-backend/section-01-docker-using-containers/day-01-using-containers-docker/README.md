@@ -20,3 +20,7 @@
 * The flag `-d` or `--detach` runs the container in `second plan`, example: `docker container run --rm -d alpine:3.14 sleep 300`; 
 * To force the container to stop running, use the `docker stop <container-name>` command, example: `docker stop -t 0 amazing_thompson`; 
 * The `sleep` ignores the `docker stop` command, so we use the `-t 0` flag to force a stop, and this is internally called `SIGKILL`;
+* Accessing the terminal of container with the `sh` command, example: `docker exec -it my-container sh`; 
+* We use the `exit` command to exit the `terminal of container`; 
+* View the `logs` of a running container with the command `docker logs <flags> <container-name>`; example: `docker logs my-container`; 
+* `Cleaning containers` unused with the `docker container prune` command; 
