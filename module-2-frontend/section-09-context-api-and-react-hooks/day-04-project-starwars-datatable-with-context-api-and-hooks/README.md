@@ -39,7 +39,7 @@
 
 #
 
-# Requisitos
+# Requisitos Obrigatórios do Projeto StarWars Planets Search em Context API e Hooks
 
  ⚠️ **IMPORTANTE! PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.** :warning:
 
