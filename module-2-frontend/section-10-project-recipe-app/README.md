@@ -41,32 +41,6 @@
   </details>
 </details>
 
-<details>
-  <summary><strong>:convenience_store: Desenvolvimento </strong></summary><br />
-
-  * <details><summary><b> Como desenvolver :technologist:</b></summary>
-
-    Este repositório **já conta com uma `main-group` para cada grupo**, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2, e assim por diante. Para desenvolver, você sempre deve:
-
-      * **Criar sua branch de desenvolvimento a partir da sua branch main**. Para isso, clone este repositório, faça o `git checkout main-group-XX && git pull` e em seguida o `git checkout -b main-group-XX-minha-feature`.
-      * Para criar uma Pull Request para fazer **Code Review**, intitule-a `[GRUPO XX] Meu título` e **sempre aponte a Pull Request da sua branch para a branch `main-group-XX` do seu grupo, como no exemplo abaixo:**
-
-    <details><summary> Exemplo de como apontar um PR para a branch main do grupo</summary>
-
-      ![Exemplo de como apontar uma Pull Request para a branch main do grupo](pull-request-para-branch-do-grupo.png)
-    </details>
-
-      * Quando várias pessoas desenvolvem para um mesmo projeto podem ocorrer **conflitos de merge** que precisarão ser resolvidos. Prestem atenção a isso!
-
-      ⚠ **ATENÇÃO! É POSSÍVEL COMMITAR, POR ENGANO, NA BRANCH DE OUTRO GRUPO, ENTÃO TOME MUITO CUIDADO** ⚠
-
-      Você verá que os requisitos do projeto possuem, além das observações técnicas e do que será validado, descrições tais quais se veriam em um projeto real. É muito importante ser capaz de ler descrições como essa e transformá-las em produtos ou, se houver dúvida, saber tirá-las! Seguimos à disposição no Slack para isso.
-
-      Este repositório já contem um _template_ com um App React criado, configurado e com os testes automatizados que fazem parte da correção. Ele também conta com uma branch **main-group** para cada grupo, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2 e assim por diante.
-
-      **⚠️ Lembre-se de escrever testes unitários e sinta-se livre para alterar a UI do protótipo, só respeite os atributos `data-testid`, eles serão usados na correção do exercício.**
-    </details>
-
 #
 
 # Requisitos
