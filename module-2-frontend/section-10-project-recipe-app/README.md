@@ -43,7 +43,7 @@
 
 #
 
-# Requisitos
+# Requisitos Obrigatórios do Projeto App de Receitas
 
 :warning: **PULL REQUESTS COM ERROS DE LINTER NÃO SERÃO AVALIADAS.** :warning:
 
