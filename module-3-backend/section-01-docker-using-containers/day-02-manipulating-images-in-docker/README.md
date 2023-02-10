@@ -16,6 +16,11 @@
     │   └── 
     └── Dockerfile
 ```
+* Creating the `Dockerfile file` we can add the following content: 
+```js
+FROM alpine:3.14
+CMD ["echo", "Eu sou uma pessoa estudante da Trybe!"]
+```
 * To `remove all containers and images Docker` locally use the command `docker system prune -af`; 
 * With the `COPY` command, we copy a file locally and place it inside the image, in the path specified ahead, example: `COPY index.html /usr/local/apache2/htdocs/` or `ADD index.html /usr/local/apache2/htdocs`; 
 * We run the command `docker build -t my-web-server` in the `same folder` where the files `Dockerfile` and `index.html` are present!; 
