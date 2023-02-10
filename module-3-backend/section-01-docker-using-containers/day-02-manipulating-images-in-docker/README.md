@@ -44,6 +44,7 @@ EXPOSE 80
 CMD ["httpd-foreground"]
 ```
 * With the `COPY` command, we copy a file locally and place it inside the image, in the path specified ahead, example: `COPY index.html /usr/local/apache2/htdocs/` or `ADD index.html /usr/local/apache2/htdocs`; 
+* The line containing the `reserved word EXPOSE` indicates that the image will be able to `receive connections` through the port number that is informed, in the above case `port 80`; 
 * We run the command `docker build -t my-web-server` in the `same folder` where the files `Dockerfile` and `index.html` are present!; 
 * With the use of the flag `-p 1234:80`, we are `asking Docker` to open an `exception` in this isolation, mapping port `1234` of computer to port `80`, within the container's network; 
 * The word reserved `WORKDIR` indicates Docker what the `current working folder` is inside the image; 
