@@ -8,9 +8,7 @@
 * Using the `-f` flag we delete the `container` even if it is `active`; 
 * The `Dockerfile` is a `configuration file` with its `own language`; 
 * `Cleaning up all` with the command `docker system prune -af`; 
-* The `Dockerfile file` must be `created` in the `root` of your `project`, example of how it will look on your `VSCode`: 
-└── my-project/
-    ├── src/
-    │   └── 
-    └── Dockerfile
+* The `Dockerfile file` must be `created` in the `root` of your `project`; 
+* To `remove all containers and images Docker` locally use the command `docker system prune -af`; 
+* With the `COPY` command, we copy a file locally and place it inside the image, in the path specified ahead, example: `COPY index.html /usr/local/apache2/htdocs/` or `ADD index.html /usr/local/apache2/htdocs`; 
 * 
