@@ -22,6 +22,27 @@ FROM alpine:3.14
 CMD ["echo", "Eu sou uma pessoa estudante da Trybe!"]
 ```
 * To `remove all containers and images Docker` locally use the command `docker system prune -af`; 
+* Let's start building the image with a `file` called `index.html`, which will be the `homepage` of our `web server`: 
+```js
+<!DOCTYPE html>
+   <html>
+      <head>
+      <title>Docker é muito legal!</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   </head>
+   <body>
+      <h1>Minha primeira página rodando em Docker.</h1>
+      <p>Esta página estava dentro de uma imagem, que agora foi executada como um container.</p>
+   </body>
+</html>
+```
+* With the HTML file finished, we can write also the Dockerfile, example: 
+```js
+FROM httpd:2.4
+COPY index.html /usr/local/apache2/htdocs/
+EXPOSE 80
+CMD ["httpd-foreground"]
+```
 * With the `COPY` command, we copy a file locally and place it inside the image, in the path specified ahead, example: `COPY index.html /usr/local/apache2/htdocs/` or `ADD index.html /usr/local/apache2/htdocs`; 
 * We run the command `docker build -t my-web-server` in the `same folder` where the files `Dockerfile` and `index.html` are present!; 
 * With the use of the flag `-p 1234:80`, we are `asking Docker` to open an `exception` in this isolation, mapping port `1234` of computer to port `80`, within the container's network; 
