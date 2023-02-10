@@ -46,4 +46,8 @@ services:
     image: betrybe/docker-compose-example-database:v1
     restart: on-failure
 ```
-* 
+* `image` specifies a `ready-made Docker image`, either `local` or to be `downloaded` from `Docker Hub`; 
+* `build` specifies the folder containing a `Dockerfile file` from which the `Compose` will run the `docker build` command automatically; 
+* If the `container presents a problem`, we can `configure` the key `restart` so that it is `solved automatically`; 
+* The `Compose` has four restart policies, being them: 
+* - `no` : define que o container não reiniciará automaticamente (Padrão);
