@@ -16,13 +16,13 @@
     │   └── 
     └── Dockerfile
 ```
-* Creating the `Dockerfile file` we can add the following content: 
+* Creating the `Dockerfile file` we can add the following content, example: 
 ```js
 FROM alpine:3.14
 CMD ["echo", "Eu sou uma pessoa estudante da Trybe!"]
 ```
 * To `remove all containers and images Docker` locally use the command `docker system prune -af`; 
-* Let's start building the image with a `file` called `index.html`, which will be the `homepage` of our `web server`: 
+* Let's start building the image with a `file` called `index.html`, which will be the `homepage` of our `web server`, example: 
 ```js
 <!DOCTYPE html>
    <html>
