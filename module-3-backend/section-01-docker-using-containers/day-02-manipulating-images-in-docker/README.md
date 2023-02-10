@@ -11,4 +11,13 @@
 * The `Dockerfile file` must be `created` in the `root` of your `project`; 
 * To `remove all containers and images Docker` locally use the command `docker system prune -af`; 
 * With the `COPY` command, we copy a file locally and place it inside the image, in the path specified ahead, example: `COPY index.html /usr/local/apache2/htdocs/` or `ADD index.html /usr/local/apache2/htdocs`; 
-* 
+* We run the command `docker build -t my-web-server` in the `same folder` where the files `Dockerfile` and `index.html` are present!; 
+* With the use of the flag `-p 1234:80`, we are `asking Docker` to open an `exception` in this isolation, mapping port `1234` of computer to port `80`, within the container's network; 
+* The word reserved `WORKDIR` indicates Docker what the `current working folder` is inside the image; 
+* The prefix `AS` during `build` helps to name different stages; 
+* The reserved word `ENTRYPOINT` indicates to `Docker` which command should be executed when starting the container, example: `ENTRYPOINT ["nginx", "-g", "daemon off;"]`; 
+* Building a new image, example: `docker build -t site-hugo . `; 
+* `RUN` vs. `ENTRYPOINT` vs. `CMD`; 
+* `RUN` is immediate execution during the `build`; 
+* `ENTRYPOINT` is the `mandatory execution` when starting the container; 
+* `CMD` is a `parameter suggestion` when starting the container; 
