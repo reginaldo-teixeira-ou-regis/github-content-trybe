@@ -8,7 +8,7 @@
 * Using the `-f` flag we delete the `container` even if it is `active`; 
 * The `Dockerfile` is a `configuration file` with its `own language`; 
 * `Cleaning up all` with the command `docker system prune -af`; 
-* The `Dockerfile file` must be `created` in the `root` of your `project`; 
+* The `Dockerfile file` must be `created` in the `root` of your `project`, example: 
 ```js
 .
 └── my-project/
