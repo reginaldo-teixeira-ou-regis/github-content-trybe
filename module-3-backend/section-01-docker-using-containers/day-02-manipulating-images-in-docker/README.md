@@ -9,6 +9,13 @@
 * The `Dockerfile` is a `configuration file` with its `own language`; 
 * `Cleaning up all` with the command `docker system prune -af`; 
 * The `Dockerfile file` must be `created` in the `root` of your `project`; 
+```js
+.
+└── my-project/
+    ├── src/
+    │   └── 
+    └── Dockerfile
+```
 * To `remove all containers and images Docker` locally use the command `docker system prune -af`; 
 * With the `COPY` command, we copy a file locally and place it inside the image, in the path specified ahead, example: `COPY index.html /usr/local/apache2/htdocs/` or `ADD index.html /usr/local/apache2/htdocs`; 
 * We run the command `docker build -t my-web-server` in the `same folder` where the files `Dockerfile` and `index.html` are present!; 
