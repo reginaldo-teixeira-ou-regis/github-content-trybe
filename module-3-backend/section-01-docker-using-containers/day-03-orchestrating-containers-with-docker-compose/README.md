@@ -50,4 +50,6 @@ services:
 * `build` specifies the folder containing a `Dockerfile file` from which the `Compose` will run the `docker build` command automatically; 
 * If the `container presents a problem`, we can `configure` the key `restart` so that it is `solved automatically`; 
 * The `Compose` has four restart policies, being them: 
-* - `no` : define que o container não reiniciará automaticamente (Padrão);
+* - `no` : defines that the container will `not restart` automatically (`Default`); 
+* - `no`: defines that the container will `not restart` automatically (`Default`); 
+* - 
