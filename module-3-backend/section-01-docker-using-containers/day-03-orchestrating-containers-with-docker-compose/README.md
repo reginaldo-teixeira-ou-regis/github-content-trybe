@@ -81,4 +81,6 @@ networks:
 * Viewing the `logs` of the `services` using the `docker-compose logs <service-name>` command; 
 * We can use the `--tail` flag specifying `how many lines` we want the command to `return`, example: `docker-compose logs --tail 5 database`; 
 * We can use the flag `-f` or `--follow` to `follow the output` of the containers in `real time`; 
-
+* The `volumes` are `folders` inside a `service` that are `persistent`, that is, even after going `down the service`, this folder still `keeps its files` the next time the `services go up`; 
+* The `Virtual networks` is where `some services` can only communicate on `virtual network #1`, while `other services` can only communicate on `virtual network #2`; 
+* Service `vs.` Container; 
