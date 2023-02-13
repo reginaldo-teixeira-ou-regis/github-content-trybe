@@ -1,0 +1,6 @@
+version: '3'
+services:
+  frontend:
+    build: /home/reginaldoteixeira/github-directory/github-content-trybe/module-3-backend/section-01-docker-using-containers/day-03-orchestrating-containers-with-docker-compose/exercises/practicing-images-and-volumes-in-react-js
+    ports:
+      - 3000:3000
