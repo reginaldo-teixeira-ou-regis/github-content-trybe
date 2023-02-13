@@ -19,8 +19,6 @@ Não utilize a função `.only` ou `.skip` após o describe. Os testes precisam 
 
 </details>
 
-#
-
 # Requisitos Obrigatórios do Projeto Docker Todo-List
 
 ## Comandos docker
