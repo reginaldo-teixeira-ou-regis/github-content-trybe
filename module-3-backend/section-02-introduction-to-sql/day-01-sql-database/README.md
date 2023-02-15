@@ -52,10 +52,10 @@ Table 1 -> Book      <------->      Table 2 -> Category
     `Name`                                 `Name`
  `CategoryId`
 ```
-* - `(N:N)` , example: 
+* - `(N:N)` `A row in table 1` can have `many corresponding rows in table 2` and vice versa, example: 
 ```js
-Table 1 -> Book      <------->      Table 2 -> Category
-     `Id`                               `CategoryId`
-    `Name`                                 `Name`
- `CategoryId`
+Table 1 -> Actor      <------->      Table 2 -> Film_Actor      <------->      Table 3 -> Film
+   `ActorId`                               `ActorId`                              `FilmId`
+  `First_Name`                              `FilmId`                               `Title`
+     `...`                                   `...`                                  `...`
 ```
