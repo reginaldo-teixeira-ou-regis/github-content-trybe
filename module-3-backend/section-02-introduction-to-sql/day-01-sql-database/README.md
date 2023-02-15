@@ -39,5 +39,9 @@ Properties: Height, Weight, Age.
 * Types of relationships: `One to One`(1:1), `One to Many`(1:N), `Many to One`(N:1) and `Many to Many`(N:N); 
 * - `A row in Table A` must only have `a corresponding row in Table B` or vice versa, example: 
 ```js
-Employee <-------> Payment
+Employee      <------->      Payment
+EmployeeId
+Name
+Surname
+PaymentId
 ```
