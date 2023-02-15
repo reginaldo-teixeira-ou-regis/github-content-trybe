@@ -40,8 +40,8 @@ Properties: Height, Weight, Age.
 * - `A row in Table A` must only have `a corresponding row in Table B` or vice versa, example: 
 ```js
 Employee      <------->      Payment
-EmployeeId
-Name
-Surname
-PaymentId
+`EmployeeId`                 `PaymentId`
+`Name`                       `MonthlySalary`
+`Lastname`
+`PaymentId`
 ```
