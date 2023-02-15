@@ -8,12 +8,12 @@
 * `MySQL` on the `Command Line`; 
 * - The `USE` command is used to define the `database reference` that will be `used` in the `query`, for example: 
 ```js
-USE nome_do_banco_de_dados_que_quero_conectar;
+USE name_of_database_that_want_connect;
 -- EX: USE trybe;
 ```
 * - `Another way` to do reference to the database, without having to run the `USE` is in the `database_database.table` format, example: 
 ```js
-SELECT * FROM banco_de_dados.tabela;
+SELECT * FROM database.table;
 -- EX: SELECT * FROM trybe.students;
 ```
 * - To return `all` initialized `tables` on your server `SHOW TABLES`; 
@@ -22,4 +22,22 @@ SELECT * FROM banco_de_dados.tabela;
 * Installing a `graphic interface` (`MySQL Workbench`); 
 * Restoring the `sakila` practice database; 
 * Using the `main features` of the `workbench` (`Crash course of the workbench`); 
-* 
+* Constraints, `primary keys` and `foreign keys`; 
+* As the `constraints are applied` to `columns` of tables, it is possible to `ensure` that the `data` inserted in them will be `consistent` according to the `defined rules`; 
+* Some `types` of constraints: 
+* - `NOT NULL` - If there is no default value (DEFAULT) defined, it will always be necessary to pass a `value` to that `field` when `inserting or changing` data;  
+* - `UNIQUE`(VALUE) - There cannot be `another equal value` for this `column` registered in this `table`; 
+* - `PRIMARY KEY` - The `column` that has this `constraint` is a `unique identifier` and by definition it is also `NOT NULL` and `UNIQUE`; 
+* - `FOREIGN KEY`(VALUE) - He does reference to the primary key (PRIMARY KEY) of `another table`, allowing a `relationship between tables`; 
+* - `DEFAULT` - If `no value` is inserted in the column (or if the `user` enters a `null value`), the `constraint` will place the `default value` passed to it; 
+* - Database `entities` refers to a `table` that represents some `real-world concept` you want to `describe` (person, events, what will happen) and its `properties` (time, event time, event name), example: 
+```js
+Entity: Person.
+Properties: Height, Weight, Age.
+```
+* The `entity` is our table inside a database and the `properties` are part of that table; 
+* Types of relationships: `One to One`(1:1), `One to Many`(1:N), `Many to One`(N:1) and `Many to Many`(N:N); 
+* - `A row in Table A` must only have `a corresponding row in Table B` or vice versa, example: 
+```js
+Employee <-------> Payment
+```
