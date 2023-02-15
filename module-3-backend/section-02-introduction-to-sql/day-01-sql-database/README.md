@@ -37,11 +37,25 @@ Properties: Height, Weight, Age.
 ```
 * The `entity` is our table inside a database and the `properties` are part of that table; 
 * Types of relationships: `One to One`(1:1), `One to Many`(1:N), `Many to One`(N:1) and `Many to Many`(N:N); 
-* - `A row in Table 1` must only have `a corresponding row in Table 2` or vice versa, example: 
+* - `(1:1)` `A row in Table 1` must only have `a corresponding row in Table 2` or vice versa, example: 
 ```js
 Table 1 -> Employee      <------->      Table 2 -> Payment
    `EmployeeId`                             `PaymentId`
       `Name`                              `MonthlySalary`
     `Lastname`
     `PaymentId`
+```
+* - `(1:N)` and `(N:1)` `A row in table 1` can have `several matching rows in table 2`, but `a row in table 2` can only have `one matching row in table 1`, example: 
+```js
+Table 1 -> Book      <------->      Table 2 -> Category
+     `Id`                               `CategoryId`
+    `Name`                                 `Name`
+ `CategoryId`
+```
+* - `(N:N)` , example: 
+```js
+Table 1 -> Book      <------->      Table 2 -> Category
+     `Id`                               `CategoryId`
+    `Name`                                 `Name`
+ `CategoryId`
 ```
