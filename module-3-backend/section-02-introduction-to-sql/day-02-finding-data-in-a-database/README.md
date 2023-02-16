@@ -47,11 +47,17 @@ Ex: Reginaldo Teixeira and names this new column to Full Name
 ```js
 # Query + LIMIT amount_of_results
 SELECT * FROM sakila.rental LIMIT 10;
-Ex: With the above commands, the first 10 results of `rental` will be displayed.
+Ex: With the `LIMIT 10` command, the first 10 results of `rental` will be displayed.
 ```
 * With the `LIMIT OFFSET` command we skip unnecessary lines, example: 
 ```js
 # Query + LIMIT quantity_of_lines OFFSET quantity_of_lines
 SELECT * FROM sakila.rental LIMIT 10 OFFSET 3;
-Ex: 10 results will be presented, from the 4th to the 13th line of the table, that is, the command `OFFSET 3` skips the first 3 results and the `LIMIT` command presents the next 10 starting from the 4th result.
+Ex: 10 results will be presented, from the 4th to the 13th line of the table, that is, the command `OFFSET 3` skips the first 3 results and the `LIMIT 10` command presents the next 10 starting from the 4th result.
+```
+* The `ORDER BY` command orders the results, example: 
+```js
+SELECT * FROM sakila.address
+ORDER BY district ASC, address DESC;
+Ex: The above commands order the `districts in a way ascending` and the `addresses in a way descending`.
 ```
