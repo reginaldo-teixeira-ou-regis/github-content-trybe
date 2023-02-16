@@ -40,7 +40,18 @@ Ex: Reginaldo Teixeira (names separated by spaces)
 SELECT CONCAT(first_name, " ", last_name) AS "Full Name" FROM sakila.actor; 
 Ex: Reginaldo Teixeira and names this new column to Full Name
 ```
-*
-```table
-djdedj jdeijiejd deijdijdi
+* The `DISTINCT` command avoids repeated data; 
+* With the `COUNT` command we count the results, `how many` of a certain `type` of data exists in the table, `how many people` we have `registered` in the system, `how many states` we have clients; 
+* ⚠️ Attention: The `COUNT` command `does not return null data` (NULL in SQL), however `empty values` (empty string -> "") are considered characters and therefore `will be counted`; 
+* The `sakila` database has `16044 results` for `rental`, using the `LIMIT` command we can control the amount of result we want to display, example: 
+```js
+# Query + LIMIT amount_of_results
+SELECT * FROM sakila.rental LIMIT 10;
+Ex: With the above commands, the first 10 results of `rental` will be displayed.
+```
+* With the `LIMIT OFFSET` command we skip unnecessary lines, example: 
+```js
+# Query + LIMIT quantity_of_lines OFFSET quantity_of_lines
+SELECT * FROM sakila.rental LIMIT 10 OFFSET 3;
+Ex: 10 results will be presented, from the 4th to the 13th line of the table, that is, the command `OFFSET 3` skips the first 3 results and the `LIMIT` command presents the next 10 starting from the 4th result.
 ```
