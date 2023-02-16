@@ -21,14 +21,26 @@
 * - With the `TRANSACTION` command we define where, how and in what scope your `transactions are executed`; 
 * We use the `SELECT` command to `generate values` and use the `AS` command to `name your columns`, example: 
 ```js
-SELECT 'Olá, bem-vindo ao SQL!'; 
+SELECT 'Hello, welcome to SQL!'; 
 SELECT 10; 
 SELECT now(); 
 SELECT 20 * 2; 
 SELECT 50 / 2; 
-SELECT 18 AS idade; 
-SELECT 2019 AS ano; 
-SELECT 'Rafael', 'Martins', 25, 'Desenvolvedor Web'; 
-SELECT 'Rafael' AS nome, 'Martins' AS sobrenome, 25 AS idade, 'Desenvolvedor Web' AS 'Área de atuação'; 
+SELECT 18 AS age; 
+SELECT 2019 AS year; 
+SELECT 'Rafael', 'Martins', 25, 'Web Developer'; 
+SELECT 'Rafael' AS name, 'Martins' AS 'last name', 25 AS age, 'Web Developer' AS 'Occupation area'; 
 ```
-* 
+* We use the `CONCAT` command to `join` two or more columns, example: 
+```js
+SELECT CONCAT(first_name, last_name) FROM sakila.actor;
+Ex: ReginaldoTeixeira (names all together, no spaces)
+SELECT CONCAT(first_name, " ", last_name) FROM sakila.actor;
+Ex: Reginaldo Teixeira (names separated by spaces)
+SELECT CONCAT(first_name, " ", last_name) AS "Full Name" FROM sakila.actor; 
+Ex: Reginaldo Teixeira and names this new column to Full Name
+```
+*
+```table
+djdedj jdeijiejd deijdijdi
+```
