@@ -34,11 +34,11 @@ SELECT 'Rafael' AS name, 'Martins' AS 'last name', 25 AS age, 'Web Developer' AS
 * We use the `CONCAT` command to `join` two or more columns, example: 
 ```js
 SELECT CONCAT(first_name, last_name) FROM sakila.actor;
-Ex: ReginaldoTeixeira (names all together, no spaces)
+-- EX: ReginaldoTeixeira (names all together, no spaces)
 SELECT CONCAT(first_name, " ", last_name) FROM sakila.actor;
-Ex: Reginaldo Teixeira (names separated by spaces)
+-- EX: Reginaldo Teixeira (names separated by spaces)
 SELECT CONCAT(first_name, " ", last_name) AS "Full Name" FROM sakila.actor; 
-Ex: Reginaldo Teixeira and names this new column to Full Name
+-- EX: Reginaldo Teixeira and names this new column to Full Name
 ```
 * The `DISTINCT` command avoids repeated data; 
 * With the `COUNT` command we count the results, `how many` of a certain `type` of data exists in the table, `how many people` we have `registered` in the system, `how many states` we have clients; 
@@ -47,17 +47,17 @@ Ex: Reginaldo Teixeira and names this new column to Full Name
 ```js
 # Query + LIMIT amount_of_results
 SELECT * FROM sakila.rental LIMIT 10;
-Ex: With the `LIMIT 10` command, the first 10 results of `rental` will be displayed.
+-- EX: With the `LIMIT 10` command, the first 10 results of `rental` will be displayed.
 ```
 * With the `LIMIT OFFSET` command we skip unnecessary lines, example: 
 ```js
 # Query + LIMIT quantity_of_lines OFFSET quantity_of_lines
 SELECT * FROM sakila.rental LIMIT 10 OFFSET 3;
-Ex: 10 results will be presented, from the 4th to the 13th line of the table, that is, the command `OFFSET 3` skips the first 3 results and the `LIMIT 10` command presents the next 10 starting from the 4th result.
+-- EX: 10 results will be presented, from the 4th to the 13th line of the table, that is, the command `OFFSET 3` skips the first 3 results and the `LIMIT 10` command presents the next 10 starting from the 4th result.
 ```
 * The `ORDER BY` command orders the results, example: 
 ```js
 SELECT * FROM sakila.address
 ORDER BY district ASC, address DESC;
-Ex: The above commands order the `districts in a way ascending` and the `addresses in a way descending`.
+-- EX: The above commands order the `districts in a way ascending` and the `addresses in a way descending`.
 ```
