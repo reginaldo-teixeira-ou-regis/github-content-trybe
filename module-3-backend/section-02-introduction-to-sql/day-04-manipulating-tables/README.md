@@ -17,7 +17,7 @@ INSERT INTO table_name (column1, column2) VALUES
 ('value_3','value_4'),
 ('value_5','value_6'); 
 ```
-* We can `ignore the errors` during insertion using the `INSERT IGNORE`, example: 
+* We can `Ignoring rows/errors existing` during insertion using the `INSERT IGNORE`, example: 
 ```js
 id name
 1  Nissim
@@ -33,4 +33,18 @@ INSERT IGNORE INTO people(id, name) VALUES
 -- Searching now, you will see that the duplicate information was not entered.
 -- However, the correct data was successfully entered.
 SELECT * FROM people;
+```
+* Inserting `values` into columns with `auto_increment`, example: 
+```js
+INSERT INTO sakila.actor (first_name, last_name)
+VALUES('Marcelo','Santos'); 
+-- EX: The `next value` that will be generated for `actor_id` will be the value of the `last registered id more 1`; 
+```
+* With `INSERT INTO SELECT` we can insert data from `another table`, example: 
+```js
+INSERT INTO tableA (column1, column2)
+    SELECT tableB.column1, tableB.column2
+    FROM tableB
+    WHERE tableB.column_name <> 'someValue'
+    ORDER BY tableB.order_column;
 ```
