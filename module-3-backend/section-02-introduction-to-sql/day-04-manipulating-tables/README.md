@@ -69,5 +69,60 @@ staff_id first_name last_name                   201      Marcelo    Santos    20
           Table Staff
 staff_id first_name last_name             
    4       Ravein     Bezos
--- Attention: The table `sakila.staff` it is with the `first_name` spelled wrong;;
+-- Attention: The `first_name Ravein` of the `sakila.staff` table was registered with the wrong value; 
+```
+* We use the below command to correct the miswriting of `first_name` in the `sakila.staff` table: 
+```js
+UPDATE sakila.staff
+SET first_name = 'Rannveig'
+WHERE first_name = 'Ravein';
+
+          Table Staff
+staff_id first_name last_name             
+   4      Rannveig    Bezos
+```
+* The `general syntax` for doing an `update` is: 
+```js                                     
+UPDATE table_name
+SET property_to_be_changed = 'new value for column'
+WHERE some_condition; -- very important to apply the WHERE to not change the entire table!
+```
+* A curiosity about `UPDATE` and `DELETE` in `MySQL Server` is that, by `default`, there is a setting called `safe updates mode` that will only allow you to run them if they include which `IDs` must be `modified`. So, if you try to make the `query below`, it wouldn't work because it `doesn't include the ID`; 
+```js                                     
+UPDATE sakila.staff
+SET first_name = 'Rannveig'
+WHERE first_name = 'Ravein';
+
+-- Attention: To `avoid` this restriction, run the command below in a `query window` within `MySQL Workbench` whenever you open it to `disable` this functionality, before executing the `UPDATE` or `DELETE` commands: 
+
+SET SQL_SAFE_UPDATES = 0;
+```
+* Changing `more than one column` at the same time, example: 
+```js
+UPDATE sakila.staff
+SET first_name = 'Rannveig', last_name = 'Jordan'
+WHERE staff_id = 4;
+```
+* For `performance` reasons we can do a mass `UPDATE` with only `one update`, example: 
+```js
+-- Option 1 - Including the list of fixed conditions
+UPDATE sakila.actor
+SET first_name = 'JOE'
+WHERE actor_id IN (1,2,3);
+
+-- Option 2 - Specifying how each entry will be changed individually
+UPDATE sakila.actor
+SET first_name = (
+CASE actor_id WHEN 1 THEN 'JOE' -- if actor_id = 1, change first_name to 'JOE'
+              WHEN 2 THEN 'DAVIS' -- if actor_id = 2, change first_name to 'DAVIS'
+              WHEN 3 THEN 'CAROLINE' -- if actor_id = 3, change first_name to 'CAROLINE'
+	      ELSE first_name -- in all other cases, keep the first_name
+END);
+```
+* Doing an `UPDATE sequentially`; 
+* If the `ORDER BY` command is `used together` with the `UPDATE` command, the results will be `changed` in the `order` in which they are `found`; 
+* If the `LIMIT` command is `used in conjunction` with the `UPDATE` command, a `limit` is imposed on the `number of results` that can be changed; 
+* See the syntax of `UPDATE` below (values in square brackets ([]) are optional): 
+```js
+
 ```
