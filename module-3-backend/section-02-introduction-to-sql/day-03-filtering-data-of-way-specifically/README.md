@@ -12,3 +12,17 @@ SELECT * FROM sakila.payment
 WHERE (amount = 0.99 OR amount = 2.99) AND staff_id = 2; 
 -- EX: Firstly, the `expression inside the parentheses` is evaluated, then the `expression on the right` side, and finally the `AND` compares the results on `both sides` and causes only the results that `satisfy both conditions` to be returned; 
 ```
+* Operators Boolean and Relational: 
+```js
+-- OPERATOR - (DESCRIPTION)
+= (EQUAL)
+> (GREATER THAN)
+< (SMALLER THAN)
+>= (GREATER THAN OR EQUAL)
+<= (SMALLER THAN OR EQUAL)
+<> (DIFFERENT FROM)
+AND (LOGICAL OPERATOR `AND`)
+OR (LOGICAL OPERATOR `OR`)
+NOT (DENIAL)
+IS (COMPARE WITH BOOLEAN VALUES (TRUE, FALSE, NULL))
+```
