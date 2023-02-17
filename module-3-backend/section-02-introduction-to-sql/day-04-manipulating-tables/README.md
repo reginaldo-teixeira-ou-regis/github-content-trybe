@@ -53,12 +53,12 @@ INSERT INTO tableA (column1, column2)
 * With this functionality, it's easy to `create temporary tables` for testing or out of necessity, we can `bring`the data from table `sakila.staff` to table `sakila.actor`, for example: 
 ```js
 INSERT INTO sakila.actor (first_name, last_name)
-    SELECT first_name, last_name FROM sakila.staff;
+    SELECT first_name, last_name FROM sakila.staff; 
     
-                                                                    Table Actor                                   
-                                               staff_id  first_name  last_name       last_update
-          Table Staff                             200       THORA      TEMPLE    2006-02-15 04:34:33
-staff_id  first_name  last_name                   201      Marcelo     Santos    2020-01-17 11:06:14
-   1         Mike      Hillyer     <-------->     202        Mike      Hillyer   2020-01-17 11:30:32
-   2         Jon       Stephens    <-------->     203        Jon      Stephens   2020-01-17 11:30:32
+                                                                    Table Actor    
+                                              staff_id first_name last_name      last_update
+          Table Staff                           200       THORA     TEMPLE    2006-02-15 04:34:33
+staff_id first_name last_name                   201      Marcelo    Santos    2020-01-17 11:06:14
+   1        Mike     Hillyer     <-------->     202        Mike     Hillyer   2020-01-17 11:30:32
+   2        Jon      Stephens    <-------->     203        Jon     Stephens   2020-01-17 11:30:32
 ```
