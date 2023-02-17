@@ -61,4 +61,13 @@ INSERT INTO sakila.actor (first_name, last_name)
 staff_id first_name last_name                   201      Marcelo    Santos    2020-01-17 11:06:14
    1        Mike     Hillyer     <-------->     202        Mike     Hillyer   2020-01-17 11:30:32
    2        Jon      Stephens    <-------->     203        Jon     Stephens   2020-01-17 11:30:32
+   
+-- EX: Result of the `INSERT` into `sakila.actor` from `sakila.staff`;
+```
+* With the `UPDATE` command we can change data, for example: 
+```js                                     
+          Table Staff
+staff_id first_name last_name             
+   4       Ravein     Bezos
+-- Attention: The table `sakila.staff` it is with the `first_name` spelled wrong;;
 ```
