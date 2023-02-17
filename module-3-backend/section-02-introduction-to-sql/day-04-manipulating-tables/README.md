@@ -55,7 +55,7 @@ INSERT INTO tableA (column1, column2)
 INSERT INTO sakila.actor (first_name, last_name)
     SELECT first_name, last_name FROM sakila.staff; 
     
-                                                                    Table Actor    
+                                                                  Table Actor
                                               staff_id first_name last_name      last_update
           Table Staff                           200       THORA     TEMPLE    2006-02-15 04:34:33
 staff_id first_name last_name                   201      Marcelo    Santos    2020-01-17 11:06:14
