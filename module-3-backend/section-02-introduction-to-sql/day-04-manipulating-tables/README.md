@@ -12,13 +12,6 @@ VALUES('column_value1', 'column_value2');
 ```
 * Inserting `multiple rows` at once into a table with a `single query`, example: 
 ```js
-id name
-1  Nissim
-2  Garrison
-3  Benjamin
-4  Gloria
-Table `people`
-
 INSERT INTO table_name (column1, column2) VALUES
 ('value_1','value_2'),
 ('value_3','value_4'),
@@ -26,6 +19,13 @@ INSERT INTO table_name (column1, column2) VALUES
 ```
 * We can `ignore the errors` during insertion using the `INSERT IGNORE`, example: 
 ```js
+id name
+1  Nissim
+2  Garrison
+3  Benjamin
+4  Gloria
+Table `people`
+
 INSERT IGNORE INTO people(id, name) VALUES
 (4,'Gloria'), -- Without IGNORE, this line would throw an error and the INSERT would not continue.
 (5,'Amanda');
