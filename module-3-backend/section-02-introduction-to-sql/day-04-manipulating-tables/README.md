@@ -194,6 +194,10 @@ WHERE actor_id = 7; -- actor_id = 7 is the id of GRACE
 DELETE FROM sakila.actor
 WHERE first_name = 'GRACE';
 ```
-* DELETE `VS` TRUNCATE; 
+* DELETE `VS` TRUNCATE: 
 * - For `testing` purposes or `necessity`, `TRUNCATE` is faster than `DELETE`; 
-* - The only function of the `TRUNCATE` is to `delete all records` from a table, not being possible to specify the `WHERE`; 
+* - The only function of the `TRUNCATE` is to `delete all records` from a table, not being possible to specify the `WHERE`, Therefore, `TRUNCATE` can only be used in this scenario: 
+```js
+TRUNCATE database.table; 
+```
+* - If you need to `delete conditionally`, using `rules` and `specifications`, always use the `DELETE` command together with the `WHERE`; 
