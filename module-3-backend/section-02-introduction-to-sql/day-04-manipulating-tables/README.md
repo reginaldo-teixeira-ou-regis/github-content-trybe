@@ -48,3 +48,10 @@ INSERT INTO tableA (column1, column2)
     WHERE tableB.column_name <> 'someValue'
     ORDER BY tableB.order_column;
 ```
+* Thus, we would be `extracting` column1 and column2 from tableB and `inserting` them into tableA, according to the `condition` passed in the `WHERE`; 
+* It is also possible to use `SELECT * FROM` and `copy` all data from all columns of one `table to another`, but in this situation `tableA and tableB` must have the `same number of columns`, and the types of data of the columns corresponding must be the equal; 
+* With this functionality, it's easy to `create temporary tables` for testing or out of necessity, we can `bring`the data from table `sakila.staff` to table `sakila.actor`, for example: 
+```js
+INSERT INTO sakila.actor (first_name, last_name)
+    SELECT first_name, last_name FROM sakila.staff;
+```
