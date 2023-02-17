@@ -105,12 +105,12 @@ WHERE staff_id = 4;
 ```
 * For `performance` reasons we can do a mass `UPDATE` with only `one update`, example: 
 ```js
--- Option 1 - Including the list of fixed conditions
+-- Option 1 - Including the list of fixed conditions.
 UPDATE sakila.actor
 SET first_name = 'JOE'
 WHERE actor_id IN (1,2,3);
 
--- Option 2 - Specifying how each entry will be changed individually
+-- Option 2 - Specifying how each entry will be changed individually.
 UPDATE sakila.actor
 SET first_name = (
 CASE actor_id WHEN 1 THEN 'JOE' -- if actor_id = 1, change first_name to 'JOE'
@@ -162,3 +162,38 @@ WHERE column = 'value';
 DELETE FROM sakila.film_text
 WHERE title = 'ACADEMY DINOSAUR'; 
 ```
+* If there are `relationships between the tables` (`primary key` and `foreign keys`) and there are `restrictions` applied to them, when executing `DELETE` there will be an `action according to the restriction` that was imposed in the creation of ` foreignkey`. These `restrictions` can be the following: 
+```js
+-- Reject the DELETE command.
+ON DELETE NO ACTION;
+
+-- Reject the DELETE command.
+ON DELETE RESTRICT;
+
+-- Allows deletion of the parent table records, and sets child table records to NULL.
+ON DELETE SET NULL;
+
+-- Delete parent table information and related records.
+ON DELETE CASCADE;
+```
+* - Let's look at a practical example: 
+```js
+DELETE FROM sakila.actor
+WHERE first_name = 'GRACE';
+
+-- EX: The database will `not allow` you to `delete` the actor named “GRACE”; 
+-- EX: This happens because the `actor_id` column of the `film_actor` table is a `foreign key` that points to the `actor_id` column in the actor table, and this `foreign key` has the constraint `ON DELETE RESTRICT`; 
+```
+* - In order to be able to `delete` this actor in actors, we need to `first delete all references` to it in the `sakila.film_actor` table: 
+```js
+DELETE FROM sakila.film_actor
+WHERE actor_id = 7; -- actor_id = 7 is the id of GRACE
+
+-- EX: After `deleting the references`, we can `delete` the actor named “GRACE”: 
+
+DELETE FROM sakila.actor
+WHERE first_name = 'GRACE';
+```
+* DELETE `VS` TRUNCATE; 
+* - For `testing` purposes or `necessity`, `TRUNCATE` is faster than `DELETE`; 
+* - The only function of the `TRUNCATE` is to `delete all records` from a table, not being possible to specify the `WHERE`; 
