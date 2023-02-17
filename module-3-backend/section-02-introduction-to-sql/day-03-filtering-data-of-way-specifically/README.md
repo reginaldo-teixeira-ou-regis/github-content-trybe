@@ -65,3 +65,16 @@ SELECT * FROM sakila.film
 WHERE title LIKE 'E__%'; 
 -- EX: Search result -> We found all movies with at least 3 characters and starting with the character "E"; 
 ```
+* We can use the `IN` and `BETWEEN` operators to encompass a range of results; 
+```js
+SELECT * FROM sakila.actor
+WHERE first_name = 'PENELOPE'
+OR first_name = 'NICK'
+OR first_name = 'ED'
+OR first_name = 'JENNIFER';
+```
+* - There is a `better way` to do the `same search` as above using the `IN` operator: 
+```js
+SELECT * FROM sakila.actor
+WHERE first_name IN ('PENELOPE','NICK','ED','JENNIFER'); 
+```
