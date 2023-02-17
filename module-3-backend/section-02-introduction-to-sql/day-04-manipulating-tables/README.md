@@ -122,7 +122,7 @@ END);
 * Doing an `UPDATE sequentially`; 
 * If the `ORDER BY` command is `used together` with the `UPDATE` command, the results will be `changed` in the `order` in which they are `found`; 
 * If the `LIMIT` command is `used in conjunction` with the `UPDATE` command, a `limit` is imposed on the `number of results` that can be changed; 
-* See the syntax of `UPDATE` below (values in square brackets ([]) are optional): 
+* See the `syntax` of `UPDATE` below (values in square `brackets` ([]) are `optional`): 
 ```js
 UPDATE table_name
 SET column1 = value1, column2 = value2
@@ -136,4 +136,29 @@ SET password = 'PleaseResetYourPassword123'
 WHERE active = 1
 ORDER BY last_update
 LIMIT 2;
+```
+* The `--safe-updates` option requires that `mysql` execute the following statement when `connecting to the server`:
+```js
+SET sql_safe_updates=1, sql_select_limit=1000, max_join_size=1000000; 
+```
+* - `sql_select_limit`=1000: limits the `SELECT` result set to 1000 rows, unless the statement includes `LIMIT`; 
+* - `max_join_size`=1,000,000: causes `SELECT` statements from `multiple tables` to produce an `error` if the server estimates that it must `examine more than 1,000,000 combinations` of rows; 
+* You can disable `--safe-updates` using the `SET` command: 
+```js
+SET SQL_SAFE_UPDATES = 0; 
+
+`Or set` it to a `more convenient mode` for you by `changing` the variable values:
+
+SET sql_safe_updates=1, sql_select_limit=500, max_join_size=10000; 
+```
+`Deleting data` from a `table` in a basic way, we have the following `syntax`: 
+```js
+DELETE FROM database.table
+WHERE column = 'value'; 
+-- The WHERE is optional. However, without it, all rows in the table would be deleted.
+
+* - Example below using the `sakila` database: 
+
+DELETE FROM sakila.film_text
+WHERE title = 'ACADEMY DINOSAUR'; 
 ```
