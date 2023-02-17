@@ -124,5 +124,16 @@ END);
 * If the `LIMIT` command is `used in conjunction` with the `UPDATE` command, a `limit` is imposed on the `number of results` that can be changed; 
 * See the syntax of `UPDATE` below (values in square brackets ([]) are optional): 
 ```js
+UPDATE table_name
+SET column1 = value1, column2 = value2
+[WHERE conditions]
+[ORDER BY expression [ ASC | DESC]]
+[LIMIT amount_results];
 
+-- Example:
+UPDATE sakila.staff
+SET password = 'PleaseResetYourPassword123'
+WHERE active = 1
+ORDER BY last_update
+LIMIT 2;
 ```
