@@ -4,7 +4,22 @@
 * `SQL` (Structured Query Language) is the `most used` language to `create`, `search`, `extract` and also `manipulate` data within a `relational database`; 
 * How is the `information` (tables) `stored`; 
 * `All searches` carried out within a `database` are done in `tables`, where `lines` represent an example, or instance, of what you want to represent, while `columns` describe some aspect of the represented entity; 
-* Installing `MySQL Server` with `Docker`; 
+* Installing `MySQL Server` with `Docker🐋`: 
+```js
+docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7
+```
+* Stopping the container with the command: 
+```js
+docker container stop container-mysql
+```
+* Starting the container with the command: 
+```js
+docker container start container-mysql
+```
+* Removing the container with the command: 
+```js
+docker container rm container-mysql
+```
 * `MySQL` on the `Command Line`; 
 * - The `USE` command is used to define the `database reference` that will be `used` in the `query`, for example: 
 ```js
