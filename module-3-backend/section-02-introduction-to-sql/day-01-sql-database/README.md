@@ -20,7 +20,19 @@ docker container start container-mysql
 ```js
 docker container rm container-mysql
 ```
-* `MySQL` on the `Command Line`; 
+* `MySQL` on the `Command Line`: 
+* - After following the `previous steps`, you will now be able to `access your server` from the command line. To view which `databases` are `available`, through `docker's interactive` mode, you must access the `container-mysql` terminal with the command: 
+```js
+docker exec -it container-mysql bash
+```
+* - Then access `mysql inside the container`. Remember to `use the same password` used when creating the container: 
+```js
+mysql -u root -p
+```
+* - You can `see all databases` that are `currently installed` by typing the following command. `Don't forget the semicolon :)`: 
+```js
+SHOW DATABASES;
+```
 * - The `USE` command is used to define the `database reference` that will be `used` in the `query`, for example: 
 ```js
 USE name_of_database_that_want_connect;
