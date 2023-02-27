@@ -9,7 +9,7 @@
 ```js
 INSERT INTO `sakila`.`staff`
     (first_name, last_name, address_id, email, store_id, active, username, password)
- VALUES
+  VALUES
     ('Geralt', 'of Rivia', 2, 'tossacoin@gmail.com', 1, 1, 'geralt', 'theWhiteWolf');
 ```
 
@@ -17,7 +17,7 @@ INSERT INTO `sakila`.`staff`
 ```js
 INSERT INTO `sakila`.`staff`
     (first_name, last_name, address_id, email, store_id, active, username, password)
- VALUES
+  VALUES
     ('Jeff', 'Bezos', 2, 'jeffbezos@gmail.com', 1, 1, 'jeffb', 'ImTheChamp'),
     ('Sekiro', 'Okami', 2, 'sekirowolf@gmail.com', 1, 1, 'okami', 'SekiroTheSamurai');
 ```
@@ -34,7 +34,7 @@ INSERT INTO sakila.actor(first_name, last_name)
 -- 4. Cadastre três categorias de uma vez só na tabela sakila.category;
 ```js
 INSERT INTO sakila.category (name)
- VALUES
+  VALUES
     ('Sci-Fi'),
     ('Fantasy'),
     ('Biography');
@@ -43,5 +43,5 @@ INSERT INTO sakila.category (name)
 -- 5. Cadastre uma nova loja na tabela sakila.store;
 ```js
 INSERT INTO sakila.store (manager_staff_id, address_id)
- VALUES (3, 3);
+  VALUES (3, 3);
 ```
