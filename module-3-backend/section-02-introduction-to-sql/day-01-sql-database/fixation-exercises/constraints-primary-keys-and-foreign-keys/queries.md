@@ -34,8 +34,6 @@ Resposta: A coluna city_id possui o tipo Primary Key.
 Resposta: Isso acontece porque a coluna country_id é apenas uma referência para a sua tabela original, e o número que é exibido nessa tabela representa uma Foreign Key. Caso você queira ver o nome do país, você deve ir até a tabela na qual o country_id é uma Primary Key.
 ```
 
-
-
 -- Responda utilizando como exemplo essa outra tabela:
 ```js
 SELECT film_id, category_id, last_update FROM sakila.film;
