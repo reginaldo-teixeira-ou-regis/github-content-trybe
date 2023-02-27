@@ -1,4 +1,4 @@
--- Para realizar os exercícios 1 a 7, restaure o banco de dados pixar abaixo:
+-- Para realizar os exercícios 1 a 10, restaure o banco de dados pixar abaixo:
 ```js
 DROP SCHEMA IF EXISTS pixar;
 CREATE SCHEMA pixar;
@@ -91,9 +91,28 @@ WHERE title = 'ratatui';
 -- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
 -- DELETE FROM movies WHERE title = 'WALL-E';
 
+
 -- 7. Exclua da tabela movies todos os filmes dirigidos por “Andrew Stanton”;
 
 -- SELECT id FROM movies WHERE director = 'Andrew Stanton';
 -- * primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos (2, 9 e 16)
 -- DELETE FROM box_office WHERE movie_id IN (2, 9, 16);
 -- DELETE FROM movies WHERE director = 'Andrew Stanton';
+
+
+-- 8. Altere a classificação da tabela box_office para 9.0 de todos os filmes que lucraram mais de 400 milhões no mercado interno;
+
+-- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
+-- DELETE FROM movies WHERE title = 'WALL-E';
+
+
+-- 9. Altere a classificação da tabela box_office para 6.0 de todos os filmes que lucraram menos de 300 milhões no mercado internacional e mais de 200 milhões no mercado interno;
+
+-- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
+-- DELETE FROM movies WHERE title = 'WALL-E';
+
+
+-- 10. Exclua da tabela movies todos os filmes com menos de 100 minutos de duração;
+
+-- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
+-- DELETE FROM movies WHERE title = 'WALL-E';
