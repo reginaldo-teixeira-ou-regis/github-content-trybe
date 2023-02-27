@@ -158,7 +158,7 @@ SELECT Name FROM Scientists.Projects
 
 -- 14. Escreva uma query para exibir todas as informações dos cinco projetos com a menor quantidade de horas;
 ```js
--- SELECT * FROM Scientists.Projects 
+SELECT * FROM Scientists.Projects 
   ORDER BY Hours 
   LIMIT 5;
 ```
