@@ -32,5 +32,6 @@ WHERE rental_id = 10330;
 ```js
 USE sakila;
 SELECT * FROM sakila.payment 
-  WHERE DATE(payment_date) = '2005-07-28' AND HOUR(payment_date) >= 22;
+  WHERE DATE(payment_date) = '2005-07-28' 
+  AND HOUR(payment_date) >= 22;
 ```
