@@ -76,8 +76,11 @@ WHERE title = 'ratatui';
 
 
 -- 5. Insira as novas classificações abaixo na tabela box_office, lembre-se que a coluna movie_id é uma foreign key referente a coluna id da tabela movies:
+
 -- Monsters SA, classificado em 8.5, lucrou 300 milhões no mercado interno e 250 milhões no mercado internacional;
+
 -- Os Incríveis, classificado em 7.4, lucrou 460 milhões no mercado interno e 510 milhões no mercado internacional;
+
 -- WALL-E, classificado em 9.9, lucrou 290 milhões no mercado interno e 280 milhões no mercado internacional;
 
 -- INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
@@ -88,31 +91,49 @@ WHERE title = 'ratatui';
 
 -- 6. Exclua da tabela movies o filme “WALL-E”;
 
--- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
--- DELETE FROM movies WHERE title = 'WALL-E';
+-- DELETE FROM box_office 
+WHERE movie_id = 11; 
+-- * O id acima do filme WALL-E
+-- DELETE FROM movies 
+WHERE title = 'WALL-E';
 
 
 -- 7. Exclua da tabela movies todos os filmes dirigidos por “Andrew Stanton”;
 
--- SELECT id FROM movies WHERE director = 'Andrew Stanton';
+-- SELECT id FROM movies 
+WHERE director = 'Andrew Stanton';
 -- * primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos (2, 9 e 16)
--- DELETE FROM box_office WHERE movie_id IN (2, 9, 16);
--- DELETE FROM movies WHERE director = 'Andrew Stanton';
+-- DELETE FROM box_office 
+WHERE movie_id IN (2, 9, 16);
+-- DELETE FROM movies 
+WHERE director = 'Andrew Stanton';
 
 
 -- 8. Altere a classificação da tabela box_office para 9.0 de todos os filmes que lucraram mais de 400 milhões no mercado interno;
 
--- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
--- DELETE FROM movies WHERE title = 'WALL-E';
+-- UPDATE box_office
+SET rating = 9.0
+WHERE domestic_sales > 400000000;
 
 
 -- 9. Altere a classificação da tabela box_office para 6.0 de todos os filmes que lucraram menos de 300 milhões no mercado internacional e mais de 200 milhões no mercado interno;
 
--- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
--- DELETE FROM movies WHERE title = 'WALL-E';
+-- UPDATE box_office
+SET rating = 6.0
+WHERE domestic_sales > 200000000 AND international_sales < 300000000;
 
 
 -- 10. Exclua da tabela movies todos os filmes com menos de 100 minutos de duração;
 
--- DELETE FROM box_office WHERE movie_id = 11; -- este é o id do filme WALL-E
--- DELETE FROM movies WHERE title = 'WALL-E';
+-- SELECT id, length_minutes FROM movies
+WHERE length_minutes < 100;
+
+-- * primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos
+
+-- DELETE FROM box_office
+WHERE movie_id IN (1, 6, 7, 8);
+
+-- DELETE FROM movies
+WHERE length_minutes < 100;
+
+hrhrhrh
