@@ -1,0 +1,60 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 1",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 2",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 3",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 4",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 5",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 6",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "Testa o exercício número: 7",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": []
+    }
+  ]
+}
