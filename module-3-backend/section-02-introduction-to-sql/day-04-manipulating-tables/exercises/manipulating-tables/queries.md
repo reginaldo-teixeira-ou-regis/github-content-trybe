@@ -70,15 +70,15 @@ INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
 SET SQL_SAFE_UPDATES = 0;
 
 UPDATE movies
-SET director = 'Andrew Stanton'
-WHERE title = 'Procurando Nemo';
+  SET director = 'Andrew Stanton'
+  WHERE title = 'Procurando Nemo';
 ```
 
 -- 4. O título do filme “Ratatouille” está incorreto na tabela movies. Além disso, o filme foi lançado em 2007 e não em 2010. Corrija esses dados utilizando o comando UPDATE;
 ```js
 UPDATE movies
-SET title = 'Ratatouille', year = 2007
-WHERE title = 'ratatui';
+  SET title = 'Ratatouille', year = 2007
+  WHERE title = 'ratatui';
 ```
 
 -- 5. Insira as novas classificações abaixo na tabela box_office, lembre-se que a coluna movie_id é uma foreign key referente a coluna id da tabela movies:
@@ -98,53 +98,54 @@ INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
 -- 6. Exclua da tabela movies o filme “WALL-E”;
 ```js
 DELETE FROM box_office 
-WHERE movie_id = 11; 
+  WHERE movie_id = 11; 
 
 -- O id acima é do filme WALL-E
 
 DELETE FROM movies 
-WHERE title = 'WALL-E';
+  WHERE title = 'WALL-E';
 ```
 
 -- 7. Exclua da tabela movies todos os filmes dirigidos por “Andrew Stanton”;
 ```js
 SELECT id FROM movies 
-WHERE director = 'Andrew Stanton';
+  WHERE director = 'Andrew Stanton';
 
 -- primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos (2, 9 e 16);
 
 DELETE FROM box_office 
-WHERE movie_id IN (2, 9, 16);
+  WHERE movie_id IN (2, 9, 16);
 
 DELETE FROM movies 
-WHERE director = 'Andrew Stanton';
+  WHERE director = 'Andrew Stanton';
 ```
 
 -- 8. Altere a classificação da tabela box_office para 9.0 de todos os filmes que lucraram mais de 400 milhões no mercado interno;
 ```js
 UPDATE box_office
-SET rating = 9.0
-WHERE domestic_sales > 400000000;
+  SET rating = 9.0
+  WHERE domestic_sales > 400000000;
 ```
 
 -- 9. Altere a classificação da tabela box_office para 6.0 de todos os filmes que lucraram menos de 300 milhões no mercado internacional e mais de 200 milhões no mercado interno;
 ```js
 UPDATE box_office
-SET rating = 6.0
-WHERE domestic_sales > 200000000 AND international_sales < 300000000;
+  SET rating = 6.0
+  WHERE domestic_sales > 200000000 
+  AND international_sales < 300000000;
 
 ```
 
 -- 10. Exclua da tabela movies todos os filmes com menos de 100 minutos de duração;
 ```js
 SELECT id, length_minutes FROM movies
-WHERE length_minutes < 100;
+  WHERE length_minutes < 100;
 
 -- primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos
 
 DELETE FROM box_office
-WHERE movie_id IN (1, 6, 7, 8);
+  WHERE movie_id IN (1, 6, 7, 8);
 
 DELETE FROM movies
-WHERE length_minutes < 100;
+  WHERE length_minutes < 100;
 ```
