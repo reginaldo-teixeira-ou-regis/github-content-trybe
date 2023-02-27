@@ -41,12 +41,17 @@ INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
 -- Exercicios:
 
 -- 1. Insira as produções da Pixar na tabela movies:
+
 -- * Monstros SA, de Pete Docter, lançado em 2001, com 92 minutos de duração;
+
 -- * Procurando Nemo, de John Lasseter, lançado em 2003, com 107 minutos de duração;
+
 -- * Os Incríveis, de Brad Bird, lançado em 2004, com 116 minutos de duração;
+
 -- * WALL-E, de Pete Docter, lançada em 2008, com 104 minutos de duração;
 
 -- USE pixar;
+
 -- INSERT INTO movies(title, director, year, length_minutes)
   VALUES ('Monstros SA', 'Pete Docter', 2001, 92),
          ('Procurando Nemo', 'Jon Lasseter', 2003, 107),
@@ -63,6 +68,7 @@ INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
 -- 3. O nome do diretor do filme “Procurando Nemo” está incorreto, ele foi dirigido por Andrew Stanton. Corrija esse dado utilizando o comando UPDATE;
 
 -- SET SQL_SAFE_UPDATES = 0;
+
 -- UPDATE movies
 SET director = 'Andrew Stanton'
 WHERE title = 'Procurando Nemo';
@@ -93,7 +99,9 @@ WHERE title = 'ratatui';
 
 -- DELETE FROM box_office 
 WHERE movie_id = 11; 
+
 -- * O id acima do filme WALL-E
+
 -- DELETE FROM movies 
 WHERE title = 'WALL-E';
 
@@ -102,9 +110,12 @@ WHERE title = 'WALL-E';
 
 -- SELECT id FROM movies 
 WHERE director = 'Andrew Stanton';
--- * primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos (2, 9 e 16)
+
+-- * primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos (2, 9 e 16);
+
 -- DELETE FROM box_office 
 WHERE movie_id IN (2, 9, 16);
+
 -- DELETE FROM movies 
 WHERE director = 'Andrew Stanton';
 
@@ -135,5 +146,3 @@ WHERE movie_id IN (1, 6, 7, 8);
 
 -- DELETE FROM movies
 WHERE length_minutes < 100;
-
-hrhrhrh
