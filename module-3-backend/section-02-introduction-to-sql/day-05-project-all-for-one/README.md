@@ -114,7 +114,9 @@ MYSQL_USER=root MYSQL_PASSWORD=1234 HOSTNAME=localhost npm test
 - **:warning: Atenção:** O avaliador espera que a versão do  MySQL seja a 5.7. Em caso de erro nos testes, verifique se essa é a versão que está sendo usada por você.
 
 </details>
+  
 #
+  
 # Requisitos Obrigatórios do Projeto All For One
 
 Monte queries para encontrar as informações esperadas pelos desafios.
