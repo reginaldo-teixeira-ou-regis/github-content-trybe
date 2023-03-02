@@ -13,4 +13,3 @@
 * [S11] Introduction to MongoDB; 
 * [S12] APIs OO and NoSQL; 
 * [S13] Project - Delivery App; 
-* 
