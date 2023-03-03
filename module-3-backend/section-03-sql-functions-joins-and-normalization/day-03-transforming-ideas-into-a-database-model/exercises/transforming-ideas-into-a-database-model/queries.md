@@ -61,7 +61,7 @@ CREATE TABLE animal_cuidador(
 -- 2. 🚀 Converta a tabela desnormalizada abaixo para a 1ª Forma Normal;
 ![Tabela_desnormalizada_exercício_2](./images/tabela_desnormalizada/exercício_2.png)
 
-# Solução:
+#### Solução:
 ![Tabela residência](./images/solution/tabela_residencia.png)
 ![Tabela inquilino](./images/solution/tabela_inquilino.png)
 
