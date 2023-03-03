@@ -59,12 +59,27 @@ CREATE TABLE animal_cuidador(
 -- Não é necessário montar queries para resolver os exercícios. Crie novas planilhas com suas respostas;
 
 -- 2. 🚀 Converta a tabela desnormalizada abaixo para a 1ª Forma Normal;
-![Tabela_exercício_2_desnormalizada](./images/tabela_exercício_2_desnormalizada.png)
+![Tabela_desnormalizada_exercício_2](./images/tabela_desnormalizada/exercício_2.png)
+
+-- Solução:
+![Tabela residência](./images/solution/tabela_residencia.png)
+![Tabela inquilino](./images/solution/tabela_inquilino.png)
 
 
 -- 3. 🚀 Converta a tabela desnormalizada abaixo (que já está nos padrões da 1ª Forma Normal) para a 2ª Forma Normal;
-![Tabela_exercício_3_desnormalizada](./images/tabela_exercício_3_desnormalizada.png)
+![Tabela_desnormalizada_exercício_3](./images/tabela_desnormalizada/exercício_3.png)
+
+-- Solução:
+![Tabela heroi](./images/solution/tabela_heroi.png)
+![Tabela criador](./images/solution/tabela_criador.png)
+![Tabela liga](./images/solution/tabela_liga.png)
+![Tabela universo](./images/solution/tabela_universo.png)
 
 
 -- 4. 🚀 Agora, converta essa outra tabela (que já está nos moldes das duas primeiras formas) para a 3ª Forma Normal;
-![Tabela_exercício_4_desnormalizada](./images/tabela_exercício_4_desnormalizada.png)
+![Tabela_desnormalizada_exercício_4](./images/tabela_desnormalizada/exercício_4.png)
+
+-- Solução:
+![Tabela vendas](./images/solution/tabela_vendas.png)
+
+-- * Na 3FN temos que eliminar aquelas colunas que podem ser obtidas por alguma fórmula de outras colunas da mesma tabela. Os valores da coluna valor_total podiam ser obtidos pela multiplicação dos valores das colunas valor_unitario e quantidade.
