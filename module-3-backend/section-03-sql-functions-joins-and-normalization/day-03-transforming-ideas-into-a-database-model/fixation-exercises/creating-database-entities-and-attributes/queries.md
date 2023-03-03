@@ -1,3 +1,4 @@
+```js
 DROP DATABASE IF EXISTS biblioteca;
 
 CREATE DATABASE IF NOT EXISTS biblioteca;
@@ -55,5 +56,6 @@ CREATE TABLE historico (
     FOREIGN KEY (livro_id) REFERENCES livros(livro_id),
     CONSTRAINT PRIMARY KEY (pessoa_id, livro_id)
 );
+```
 
 ![Tabelas](./images/der.png)
