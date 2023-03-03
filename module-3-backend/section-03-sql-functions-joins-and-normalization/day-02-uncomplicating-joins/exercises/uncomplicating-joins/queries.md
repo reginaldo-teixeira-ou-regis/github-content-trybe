@@ -63,8 +63,7 @@ INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
 ```js
 USE pixar;
 
-SELECT m.title, b.domestic_sales, b.international_sales
-  FROM movies m
+SELECT m.title, b.domestic_sales, b.international_sales FROM movies m
   INNER JOIN box_office b ON b.movie_id = m.id;
 ```
 
@@ -72,8 +71,7 @@ SELECT m.title, b.domestic_sales, b.international_sales
 ```js
 USE pixar;
 
-SELECT m.title, (b.domestic_sales + b.international_sales) AS "Vendas"
-  FROM movies m
+SELECT m.title, (b.domestic_sales + b.international_sales) AS "Vendas" FROM movies m
   INNER JOIN box_office b ON b.movie_id = m.id
   WHERE b.international_sales > b.domestic_sales;
 ```
@@ -83,8 +81,8 @@ SELECT m.title, (b.domestic_sales + b.international_sales) AS "Vendas"
 USE pixar;
 
 SELECT m.title, b.rating FROM movies m
-INNER JOIN box_office b ON b.movie_id = m.id
-ORDER BY b.rating DESC;
+  INNER JOIN box_office b ON b.movie_id = m.id
+  ORDER BY b.rating DESC;
 ```
 
 -- 4. Utilizando o LEFT JOIN, faça uma busca que retorne todos os dados dos cinemas, mesmo os que não possuem filmes em cartaz e, adicionalmente, os dados dos filmes que estão em cartaz nestes cinemas. Retorne os nomes dos cinemas em ordem alfabética;
