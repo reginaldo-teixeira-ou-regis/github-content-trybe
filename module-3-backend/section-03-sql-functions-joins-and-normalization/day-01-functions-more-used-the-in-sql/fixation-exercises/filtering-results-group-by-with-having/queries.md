@@ -30,9 +30,8 @@ SELECT district, COUNT(*) FROM sakila.address
 
 -- 5. Usando a query a seguir, modifique-a de forma que exiba apenas as durações médias que estão entre 115.0 a 121.50. Além disso, dê um alias (apelido) à coluna gerada por AVG(length), de forma que deixe a query mais legível. Finalize ordenando os resultados de forma decrescente;
 ```js
-SELECT rating, AVG(length)
-FROM sakila.film
-GROUP BY rating;
+SELECT rating, AVG(length) FROM sakila.film
+  GROUP BY rating;
 ```
 ```js
 SELECT rating, AVG(length) duracao_media FROM sakila.film
@@ -43,9 +42,8 @@ SELECT rating, AVG(length) duracao_media FROM sakila.film
 
 -- 6. Usando a query a seguir, exiba apenas os valores de total do custo de substituição que estão acima de $3950.50. Dê um alias que faça sentido para SUM(replacement_cost), de forma que deixe a query mais legível. Finalize ordenando os resultados de forma crescente;
 ```js
-SELECT rating, SUM(replacement_cost)
-FROM sakila.film
-GROUP by rating;
+SELECT rating, SUM(replacement_cost) FROM sakila.film
+  GROUP by rating;
 ```
 ```js
 SELECT rating, SUM(replacement_cost) as custo_de_substituicao FROM sakila.film
