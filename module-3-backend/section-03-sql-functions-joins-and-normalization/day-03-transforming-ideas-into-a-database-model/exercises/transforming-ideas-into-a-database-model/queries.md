@@ -61,7 +61,7 @@ CREATE TABLE animal_cuidador(
 -- 2. 🚀 Converta a tabela desnormalizada abaixo para a 1ª Forma Normal;
 ![Tabela_desnormalizada_exercício_2](./images/tabela_desnormalizada/exercício_2.png)
 
-### Solução do Exercício 2 🚀: 
+##### Solução do Exercício 2 🚀: 
 ![Tabela residência](./images/solution/tabela_residencia.png)
 ![Tabela inquilino](./images/solution/tabela_inquilino.png)
 
@@ -69,7 +69,7 @@ CREATE TABLE animal_cuidador(
 -- 3. 🚀 Converta a tabela desnormalizada abaixo (que já está nos padrões da 1ª Forma Normal) para a 2ª Forma Normal;
 ![Tabela_desnormalizada_exercício_3](./images/tabela_desnormalizada/exercício_3.png)
 
-#### Solução do Exercício 3 🚀: 
+##### Solução do Exercício 3 🚀: 
 ![Tabela heroi](./images/solution/tabela_heroi.png)
 ![Tabela criador](./images/solution/tabela_criador.png)
 ![Tabela liga](./images/solution/tabela_liga.png)
