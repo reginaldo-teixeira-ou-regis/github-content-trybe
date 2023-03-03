@@ -67,9 +67,8 @@ SELECT department_id, AVG(salary) 'average_salary' , COUNT(*) 'number_of_employe
 
 -- 11. 🚀 Escreva uma query que atualize a coluna phone_number, de modo que todos os telefones iniciados por 515 agora devem iniciar com 777;
 ```js
--- Se o modo "safe mode" do MySQL estiver habilitado,
--- o MySQL não executa UPDATE ou DELETE sem uma
--- instrução WHERE que não inclua uma PRIMARY KEY.
+
+-- Se o modo "safe mode" do MySQL estiver habilitado, o MySQL não executa UPDATE ou DELETE sem uma instrução WHERE que não inclua uma PRIMARY KEY.
 -- Podemos desabilitar o "safe mode" com:
 -- SET SQL_SAFE_UPDATES = 0;
 -- e depois das modificações o habilitarmos novamente com:
