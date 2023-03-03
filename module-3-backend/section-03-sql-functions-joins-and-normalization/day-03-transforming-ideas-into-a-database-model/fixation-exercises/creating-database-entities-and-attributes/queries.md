@@ -8,7 +8,7 @@ USE biblioteca;
 -- tabela pessoas autoras com pessoa_id, nome
 
 CREATE TABLE pessoas_autoras (
-	pessoa_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    pessoa_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	nome VARCHAR(50) NOT NULL
 );
 
