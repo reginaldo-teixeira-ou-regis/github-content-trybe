@@ -33,12 +33,27 @@ pessoa@trybe:~/course$ docker ps -a
 CONTAINER ID    IMAGE    COMMAND    CREATED    STATUS    PORTS    NAMES
 ```
 
--- 2. 🚀 Uma vez que encontrar a imagem oficial, acesse-a (clicando em seu card) e verifique na página de detalhes. Confira se existe algum comando para baixar a imagem localmente sem ter que criar um `container` para isso;
+-- 2. View the logs of a running container with the command `docker logs <flags> <container-name>`;
 ```js
 Solução: 
-Ao acessar a página de detalhes, logo de cara, a página já indica o comando
-docker pull <imagem>, esse comando faz apenas o download da imagem, 
-sem o processo de criação e execução do container.
+pessoa@trybe:~/course$ docker container run -d --name meu-container alpine:3.14 date
+
+b89b81f17d0cb19edfcfae94d13f3b6dc0953d7cd9b1aaf0dbf4680d1d9b75ee
+
+pessoa@trybe:~$ docker ps -a
+
+CONTAINER ID      IMAGE      COMMAND      CREATED              STATUS             PORTS        NAMES
+b89b81f17d0c   alpine:3.14   "date"    2 seconds ago   Exited (0) 1 second ago             meu-container
+
+pessoa@trybe:~$ docker logs meu-container
+
+Tue Apr 26 13:29:32 UTC 2022
+
+pessoa@trybe:~$ docker rm meu-container
+
+meu-container
+
+pessoa@trybe:~$
 ```
 
 -- 3. 🚀 Baixe a imagem utilizando a `tag`: `stable-slim`, que é uma versão reduzida da distribuição;
