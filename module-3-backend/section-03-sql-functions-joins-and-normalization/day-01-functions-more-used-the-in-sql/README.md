@@ -9,7 +9,7 @@
 * - Exponentiation with `POW`; 
 * - Square Root with `SQRT`; 
 * - Generating random values with `RAND`; 
-* Working with dates using: 
+* Working with `dates` using: 
 ```js
 SELECT CURRENT_DATE(); -- YYYY-MM-DD
 SELECT NOW(); -- YYYY-MM-DD HH:MM:SS
@@ -29,4 +29,26 @@ SELECT TIMEDIFF('2021-08-11 08:30:10', '2021-08-01 09:30:10');
 SELECT YEAR(CURRENT_DATE()); -- retorna o ano atual
 SELECT HOUR(NOW()); -- retorna a hora atual
 ```
-* 
+* Using the aggregation functions `AVG`, `MIN`, `MAX`, `SUM` and `COUNT`; 
+* Displaying and filtering data in a `grouped` way with `GROUP BY` and `HAVING`, examples: 
+```js
+-- Média de duração de filmes agrupados por classificação indicativa
+SELECT rating, AVG(length)
+FROM sakila.film
+GROUP BY rating;
+
+-- Usando o AS para dar nomes às colunas de agregação,
+-- melhorando a leitura do resultado
+SELECT first_name, COUNT(*) AS nomes_cadastrados
+FROM sakila.actor
+GROUP BY first_name
+HAVING nomes_cadastrados > 2;
+
+-- Observação: o alias não funciona com strings para o HAVING,
+-- então use o underline ("_") para separar palavras
+-- Ou seja, o exemplo abaixo não vai funcionar
+SELECT first_name, COUNT(*) AS 'nomes cadastrados'
+FROM sakila.actor
+GROUP BY first_name
+HAVING 'nomes cadastrados' > 2;
+```
