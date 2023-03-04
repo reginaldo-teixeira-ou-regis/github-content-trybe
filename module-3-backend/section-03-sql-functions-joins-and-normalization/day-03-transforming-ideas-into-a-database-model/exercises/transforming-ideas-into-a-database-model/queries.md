@@ -83,5 +83,3 @@ CREATE TABLE animal_cuidador(
 ![Tabela vendas](./images/solution/tabela_vendas.png)
 
 -- * Na 3FN temos que eliminar aquelas colunas que podem ser obtidas por alguma fórmula de outras colunas da mesma tabela. Os valores da coluna valor_total podiam ser obtidos pela multiplicação dos valores das colunas valor_unitario e quantidade.
-
-grgrgggggggggggggg
