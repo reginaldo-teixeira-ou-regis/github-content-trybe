@@ -98,15 +98,6 @@ Algumas coisas devem seguir um padrão pré-estabelecido para que os testes de c
 
 </details>
 
-### 💡 Dica: Qualquer dúvida, dê uma olhada na [FAQ](./FAQ.md) ou procure a monitoria. Bom projeto! 🚀
-
-### **🗣 Nos dê feedbacks sobre o projeto**
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH26-B&template=betrybe/sd-026-b-mysql-one-for-all)
-
 # Requisitos Obrigatórios do Projeto One For All
 
 ⚠️ **AVISO IMPORTANTE:** Você deve escrever sua query manualmente, com o gerador automático de queries do Workbench o avaliador não funcionará corretamente!
