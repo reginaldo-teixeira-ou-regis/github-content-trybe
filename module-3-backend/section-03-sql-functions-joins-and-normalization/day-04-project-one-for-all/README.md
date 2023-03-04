@@ -1,5 +1,3 @@
-## Orientações
-
 <details>
 
 <summary> 🐳 Início rápido com Docker Compose</summary><br>
