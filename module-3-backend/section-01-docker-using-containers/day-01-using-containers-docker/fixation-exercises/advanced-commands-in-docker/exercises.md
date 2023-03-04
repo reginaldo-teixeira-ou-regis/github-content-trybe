@@ -35,7 +35,6 @@ CONTAINER ID    IMAGE    COMMAND    CREATED    STATUS    PORTS    NAMES
 
 -- 2. View the logs of a running container with the command `docker logs <flags> <container-name>`;
 ```js
-Solução: 
 pessoa@trybe:~/course$ docker container run -d --name meu-container alpine:3.14 date
 
 b89b81f17d0cb19edfcfae94d13f3b6dc0953d7cd9b1aaf0dbf4680d1d9b75ee
@@ -56,12 +55,20 @@ meu-container
 pessoa@trybe:~$
 ```
 
--- 3. 🚀 Baixe a imagem utilizando a `tag`: `stable-slim`, que é uma versão reduzida da distribuição;
+-- 3. The following command is useful when running them in the second plan: 
 ```js
-Solução: 
-Para executar esta ação, digite o comando docker pull debian:stable-20230109-slim. 
-As tags também podem ser acessadas pela página de detalhes da imagem 
-(onde também é fornecido o comando para executar). 
+gabriel@trybe:~$ docker container run -d --rm --name meu-container alpine:3.14 sleep 300
+
+6942640dda0e7d5e3db3fb122ab2e6c77f0d4bcf75b8c1082143cedf8215a193
+
+gabriel@trybe:~$ docker top meu-container
+
+UID     PID     PPID     C     STIME     TTY      TIME       CMD
+root    5299    5278     0     09:35      ?     00:00:00   sleep 300
+
+gabriel@trybe:~$ docker stop -t 0 meu-container
+
+meu-container
 ```
 
 -- 4. 🚀 Após baixar a imagem para seu computador local, crie e execute um `container` no modo interativo utilizando essa imagem como referência — não esqueça referenciar a `tag`;
