@@ -71,98 +71,23 @@ gabriel@trybe:~$ docker stop -t 0 meu-container
 meu-container
 ```
 
--- 4. 🚀 Após baixar a imagem para seu computador local, crie e execute um `container` no modo interativo utilizando essa imagem como referência — não esqueça referenciar a `tag`;
+-- 4. `Cleaning containers` up unused with the  command `docker container prune`: 
 ```js
-Solução: 
-Para criar e executar nosso container, usamos o comando 
-docker container run -it debian:stable-20230109-slim, 
-lembrando que a imagem pode ser chamada no formato <imagem>:<tag>.
+pessoa@trybe:~/course$ docker container prune
 
-Outra solução também pode ser com o uso do comando create, 
-que cria o container, mas não o inicia imediatamente.
+WARNING! This will remove all stopped containers.
 
-Primeiro utilizamos o comando 
-docker container create -it debian:stable-20230109-slim, 
-para criar um container. Como esse comando gera um CONTAINER ID, 
-podemos utilizá-lo como referência para o segundo passo, 
-com o comando start, como em docker container start -i <CONTAINER ID>, 
-dessa forma, iniciamos o container no modo interativo.
-```
+Are you sure you want to continue? [y/N] y
 
--- 5. 🚀 No terminal, você deve conseguir rodar o comando `cat /etc/*-release`, que vai retornar os dados da distribuição `Debian` que está sendo rodada dentro do `container`;
-```js
-Solução: 
-Ao rodar o comando cat /etc/*-release 
-foram retornados os dados corretos da distribuição 
-estável do Debian (versão 11, codinome bullseye).
-```
+Deleted Containers:
 
--- 6. 🚀 Encerre o terminal;
-```js
-Solução: 
-Para encerrar o terminal interno do container, o comando exit foi utilizado.
-```
+ed2aa643a36af0d3805812a6114e6da1a339f8059e373246270f0446c20f2f7f
 
--- 7. 🚀 Verifique na sua lista de contêiners qual `contêiner` se refere ao exercício que acabou de praticar;
-```js
-Solução: 
-Para listar o container, podemos utilizar o comando abreviado docker ps -l, 
-assim como docker container ls -l, (para mostrar qual foi o último container criado);
-ou se quisermos mostrar todos, usamos o comando docker ps -a.
-```
+[várias linhas]
 
--- 8. 🚀 Inicie o mesmo `container` novamente, sem criar outro. Valide se ele está ativo na lista de containers;
-```js
-Solução: 
-Na ilustração acima, foi utilizado o comando abreviado 
-docker start <CONTAINER ID || NAMES> onde <CONTAINER ID || 
-NAMES> foi o início do identificador único 07c0a580d818 
-(mostrando que não é preciso passar o valor inteiro), 
-o container ficou ativo (campo STATUS) após isso.
-```
+108085a4660a7e69d1625503f0b078ecc94155edf4b2023796eadad35f1e65f6
 
--- 9. 🚀 Retome o `container` que foi criado anteriormente neste exercício;
-```js
-Solução: 
-Foi utilizado o comando abreviado docker attach <CONTAINER ID || NAMES>. 
-Já que o container foi inicializado anteriormente de modo interativo, 
-pudemos retomar seu terminal.
-```
+Total reclaimed space: 442B
 
--- 10. 🚀 Rode o comando `cat /etc/debian_version` que deve retornar a versão atual do sistema do `container`;
-```js
-Solução: 
-Foi utilizado o comando cat /etc/debian_version, 
-que retorna o número da atual versão estável do Debian (11.0).
-```
-
--- 11. 🚀 Encerre o terminal;
-```js
-Solução: 
-Para encerrar o terminal interno do container, o comando exit foi utilizado.
-```
-
--- 12. 🚀 Remova somente o `container` criado para esse exercício;
-```js
-Solução: 
-Foi utilizado o comando docker container rm <CONTAINER ID || NAMES>, 
-validado em seguida.
-```
-
--- 13. [BÔNUS] Crie e rode de modo interativo em modo ‘Cleanup’, a imagem `andrius/ascii-patrol`;
-```js
-Solução: 
-⚠️ Você descobriu o jogo ASCII-PATROL! 
-⚠️ Para rodar o container e removê-lo logo em seguida (cleanup), 
-foi utilizado o comando docker run -it --rm andrius/ascii-patrol, 
-onde o -it permite a interação com o jogo pelo terminal 
-e o --rm garante que o container será removido ao terminar o jogo.
-```
-
--- 14. [BÔNUS] Encerre o `container` utilizando os botões [`ctrl`] + [`c`];
-```js
-Solução
-Após fechar o jogo, utilize o comando clear para limpar a tela. 
-Você pode constatar que, rodando um docker container ls -a, 
-o container do jogo não estará presente.
+pessoa@trybe:~/course$
 ```
