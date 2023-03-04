@@ -121,4 +121,3 @@ e o --rm garante que o container será removido ao terminar o jogo.
 Você pode constatar que, rodando um docker container ls -a, 
 o container do jogo não estará presente.
 ```
-gregrgrgrg
