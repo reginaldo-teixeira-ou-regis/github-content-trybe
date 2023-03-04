@@ -55,3 +55,8 @@ CREATE TABLE film_actor(
 );
 ```
 * How to create a `table in MySQL`; 
+* What is the `Normalization`?; 
+* For the organization of a database we use: 
+* - `First Normal Form` or `1NF`; 
+* - `Second Normal Form` or `2NF`; 
+* - `Third Normal Form` or `3NF`; 
