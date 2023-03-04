@@ -4,7 +4,8 @@ Exercícios:
 
 -- 1. 🚀 No `Docker Hub`, utilizando a caixa de busca (`"Search for great content"`), busque pela imagem da Distribuição Linux `Debian`;
 ```js
--- Resposta: 
+-- Solução
+No campo de busca do `Docker Hub`, você pode procurar por diversas imagens (incluindo softwares populares como o `mysql`, ou servidores da web, como o `nginx`), nesse caso, procuramos pela palavra chave `debian`.
 ```
 
 -- 2. 🚀 Uma vez que encontrar a imagem oficial, acesse-a (clicando em seu card) e verifique na página de detalhes. Confira se existe algum comando para baixar a imagem localmente sem ter que criar um `container` para isso;
