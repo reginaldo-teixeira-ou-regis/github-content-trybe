@@ -2,7 +2,7 @@
 
 -- Exercicios De Fixação:
 
--- 1. Accessing the terminal of container with the command docker exec -it <container-name> <command-to-be-executed>; 
+-- 1. Accessing the terminal of container with the command `docker exec -it <container-name> <command-to-be-executed>`; 
 ```js
 pessoa@trybe:~/course$ docker container run --rm -d --name meu-container alpine:3.14 sleep 300
 
