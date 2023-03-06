@@ -7,7 +7,7 @@
 * There are two widespread module systems in the JavaScript community for importing and exporting modules:  
 * - `Modules ES6` - In this specification, modules are imported using the `import` keyword, having as counterpart export keyword as to `export` them; 
 * - `Modules CommonJS`- In CommonJS the `keywords used` for `importing and exporting` modules are, respectively, `require()` and `module.exports`; 
-* Exporting Modules: 
+* Examples of how to export modules:  
 ```js
 // brlValue.js
 const brl = 5.37;
@@ -31,6 +31,20 @@ const { brl, usdToBrl } = require('./brlValue');
 console.log(`Valor do dólar: ${brl}`); // Valor do dólar: 5.37
 console.log(`10 dólares em reais: ${usdToBrl(10)}`); // 10 dólares em reais: 53.7
 ```
+* Examples of as Importing Local Modules: 
 ```js
+// minha-aplicacao/index.js
+const meuModulo = require('./meuModulo');
 
+console.log(meuModulo); // { funcionalidade1: [Function: funcionalidade1], funcionalidade2: [Function: funcionalidade2] }
+
+meuModulo.funcionalidade1();
+```
+* Examples of as Importing Internal Modules: 
+```js
+// Passamos o nome do pacote como parâmetro para a função require(); 
+
+const fs = require('fs');
+
+fs.readFileSync('./meuArquivo.txt');
 ```
