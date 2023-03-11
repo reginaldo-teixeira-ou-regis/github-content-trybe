@@ -1,0 +1,16 @@
+{
+  "name": "creating-a-simple-script-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Reginaldo Teixeira",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "1.4.10"
+  }
+}
