@@ -16,9 +16,10 @@
 -- 2. Qual é a função do código de status `401`?
 ```js
 -- Solução: 
--- Ainda de acordo com o site do MDN e na faixa dos status com valores 400:
 
--- 401 Unauthorized: Embora o padrão HTTP especifique “unauthorized”, semanticamente, essa resposta significa “unauthenticated”. Ou seja, o cliente deve se autenticar para obter a resposta solicitada.
+-- Ainda de acordo com `o site do MDN` e na faixa dos `status` com valores `400`:
+
+-- `401 Unauthorized`: Embora o padrão HTTP especifique “unauthorized”, semanticamente, essa resposta significa “unauthenticated”. Ou seja, o cliente deve se autenticar para obter a resposta solicitada.
 ```
 
 -- 3. 🚀 Crie um servidor `Node.js` utilizando o framework `Express`;
