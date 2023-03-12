@@ -1,5 +1,5 @@
 {
-  "name": "asynchronous-runtime-my-scripts-imc",
+  "name": "calculate-imc-with-readline-sync",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
