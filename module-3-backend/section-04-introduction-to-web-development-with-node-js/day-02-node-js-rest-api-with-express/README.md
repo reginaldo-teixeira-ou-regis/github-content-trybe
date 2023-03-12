@@ -53,7 +53,7 @@ module.exports = app;
 ```js
 const app = require('./app');
 
-app.listen(3001, () => console.log('server running on port 3001'));
+app.listen(3001, () => console.log('Server running on port 3001'));
 ```
 * In the `package.json` file insert 3 scripts inside the "scripts" key: 
 ```js
