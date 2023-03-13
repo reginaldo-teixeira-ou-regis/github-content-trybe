@@ -29,6 +29,7 @@
 
 Atenção: Observe que os testes devem falhar por enquanto, como estamos desenvolvendo usando o conceito de TDD, mas não se preocupe que na sequência vamos fazer a implementação e os testes deverão passar. 👍
 
+#
 
 -- 2. Implemente o endpoint GET `/chocolates/total` na aplicação
 
@@ -36,6 +37,7 @@ Atenção: Observe que os testes devem falhar por enquanto, como estamos desenvo
 
 -- * Depois de implementar, verifique se os testes passam com sucesso;
 
+#
 
 Exercícios - bônus
 
@@ -89,6 +91,7 @@ Exercícios - bônus
 
 -- * Verifique se os testes falham com sucesso.
 
+#
 
 -- 4. Implemente o endpoint GET `/chocolates/search` na aplicação
 
@@ -154,6 +157,7 @@ Body da resposta (exemplo):
 
 -- * Verifique se os testes falham com sucesso.
 
+#
 
 -- 6. Implemente o endpoint PUT `/chocolates/:id` na aplicação
 
