@@ -1,1 +1,1 @@
-Fixation exercises from day 3(M3-S04)!
+Fixation exercises from day 3(M3-S04)
