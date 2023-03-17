@@ -44,10 +44,6 @@ npm test 01 # rodando apenas o teste do requisito 01
 
 </details>
 
-### 💡 Dica: Qualquer dúvida, dê uma olhada na [FAQ](./FAQ.md) ou procure a monitoria. Bom&nbsp;projeto!&nbsp;🚀
-
-## Requisitos
-
 ### Antes de iniciar o projeto
 
 <details>
