@@ -17,7 +17,7 @@ describe('Driver Model', function () {
         },
       ];
   
-      sinon.stub(connection, 'execute').resolves(execute);
+      sinon.stub(connection, 'execute').resolves([execute]);
     });
 
     after(async function () {
