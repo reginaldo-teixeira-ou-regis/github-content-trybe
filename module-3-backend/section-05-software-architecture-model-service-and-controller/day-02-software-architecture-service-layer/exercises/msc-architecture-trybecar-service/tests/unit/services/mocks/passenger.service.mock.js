@@ -1,4 +1,3 @@
-// tests/unit/services/mocks/passenger.service.mock.js
 const invalidValue = 'a';
 const validName = 'Bruce Lane';
 const validEmail = 'bruce.lane@acme.com';
@@ -25,6 +24,18 @@ const travelResponse = ({
   requestDate: '2022-08-24T03:04:04.374Z'
 });
 
+const WAITING_DRIVER_2 = 1;
+
+const listTravelsWithoutDriver = [{
+  id: 1,
+  passengerId: 1,
+  driverId: null,
+  travelStatusId: WAITING_DRIVER_2,
+  startingAddress: 'Start',
+  endingAddress: 'End',
+  requestDate: '2022-08-24T03:04:04.374Z',
+}];
+
 module.exports = {
   allPassengers,
   invalidValue,
@@ -32,4 +43,5 @@ module.exports = {
   validEmail,
   validPhone,
   travelResponse,
+  listTravelsWithoutDriver,
 };
