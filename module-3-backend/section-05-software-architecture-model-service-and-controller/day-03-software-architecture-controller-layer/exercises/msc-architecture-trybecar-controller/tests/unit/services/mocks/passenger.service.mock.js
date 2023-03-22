@@ -1,4 +1,3 @@
-// tests/unit/services/mocks/passenger.service.mock.js
 const invalidValue = 'a';
 const validName = 'Bruce Lane';
 const validEmail = 'bruce.lane@acme.com';

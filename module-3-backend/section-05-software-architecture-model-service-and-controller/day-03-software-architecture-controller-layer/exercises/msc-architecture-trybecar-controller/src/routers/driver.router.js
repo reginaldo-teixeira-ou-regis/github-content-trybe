@@ -1,11 +1,15 @@
-// src/routers/driver.router.js
 const express = require('express');
 const { driverService } = require('../services');
 const { driverController } = require('../controllers');
+const validateDriverNameField = require('../middlewares/validateDriverNameField');
 
 const router = express.Router();
 
+router.get('/', driverController.getDrivers);
+
 router.get('/open/travels', driverController.openTravel);
+
+router.post('/', validateDriverNameField, driverController.createDriver);
 
 router.put('/:driverId/travels/:travelId/assign', async (req, res) => {
   const { travelId, driverId } = req.params;

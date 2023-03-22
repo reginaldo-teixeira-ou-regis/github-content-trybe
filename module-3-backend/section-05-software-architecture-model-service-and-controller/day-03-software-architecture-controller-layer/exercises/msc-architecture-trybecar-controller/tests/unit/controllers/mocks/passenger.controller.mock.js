@@ -1,5 +1,3 @@
-// tests/unit/mocks/passenger.controller.mock
-
 // Vamos utilizar esse objeto como mock da função createPassenger que ainda vamos implementar.
 const passengerMock = {
   name: 'Bruce Lane',

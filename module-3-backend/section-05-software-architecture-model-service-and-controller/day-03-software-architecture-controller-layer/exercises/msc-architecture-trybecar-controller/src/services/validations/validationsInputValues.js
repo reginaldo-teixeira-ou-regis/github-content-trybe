@@ -1,5 +1,3 @@
-// src/services/validations/validationsInputValues.js
-
 const { addPassengerSchema, idSchema, addRequestTravelSchema } = require('./schemas');
 const { travelModel, driverModel } = require('../../models');
 

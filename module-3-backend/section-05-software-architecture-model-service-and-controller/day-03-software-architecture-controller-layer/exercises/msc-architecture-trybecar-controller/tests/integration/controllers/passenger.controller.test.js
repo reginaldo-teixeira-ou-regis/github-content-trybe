@@ -39,5 +39,6 @@ describe('Teste de integração de passengers', function () {
     expect(response.status).to.be.equal(201);
     expect(response.body).to.be.deep.equal(happyTravelResponse);
   });
+  
   afterEach(sinon.restore);
 });
