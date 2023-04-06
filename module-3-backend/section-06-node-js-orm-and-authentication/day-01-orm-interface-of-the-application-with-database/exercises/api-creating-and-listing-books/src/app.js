@@ -2,8 +2,6 @@ const express = require('express');
 
 const bookController = require('./controllers/book.controller');
 
-const bookService = require('./services/book.service');
-
 const app = express();
 
 app.use(express.json());
