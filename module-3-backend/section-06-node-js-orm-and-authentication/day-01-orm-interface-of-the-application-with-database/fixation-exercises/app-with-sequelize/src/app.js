@@ -8,8 +8,6 @@ app.use(express.json());
 
 app.get('/user', User.getAll);
 
-app.get();
-
 // Este endpoint usa o método findByPk do Sequelize para buscar um usuário pelo id.
 app.get('/user/:id', User.getById);
 
