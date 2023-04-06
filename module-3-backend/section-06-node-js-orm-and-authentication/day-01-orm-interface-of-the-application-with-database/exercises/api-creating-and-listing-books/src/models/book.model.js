@@ -3,6 +3,7 @@ module.exports = (sequelize, DataTypes) => {
     title: DataTypes.STRING,
     author: DataTypes.STRING,
     pageQuantity: DataTypes.INTEGER,
+    publisher: DataTypes.STRING,
     createdAt: DataTypes.DATE,
     updatedAt: DataTypes.DATE,
   });
@@ -12,7 +13,8 @@ module.exports = (sequelize, DataTypes) => {
     const jurassicPark = Book.build({
       title: 'Jurassic Park',
       author: "Michael Crichton",
-      pageQuantity: 700,
+      pageQuantity: 528,
+      publisher: "20 de novembro de 1990",
     });
     console.log(jurassicPark instanceof Book); // true
     console.log(jurassicPark.title); // "Jurassic Park"
@@ -22,7 +24,8 @@ module.exports = (sequelize, DataTypes) => {
     const senhorDosAneis = await Book.create({
       title: "O Senhor dos Anéis",
       author: "J. R. R. Tolkien",
-      pageQuantity: 1300,
+      pageQuantity: 1200,
+      publisher: "29 de julho de 1954",
     });
     console.log(senhorDosAneis instanceof Book); // true
     console.log(senhorDosAneis.title); // "O Senhor dos Anéis"
@@ -30,7 +33,8 @@ module.exports = (sequelize, DataTypes) => {
     const hobbit = await Book.create({
       title: "O Hobbit",
       author: "Tolkien",
-      pageQuantity: 1000,
+      pageQuantity: 304,
+      publisher: "21 de setembro de 1937",
       });
     hobbit.author = "J. R. R. Tolkien";
     await hobbit.update({ title: "O Hobbit" });
