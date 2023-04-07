@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "env $(cat .env) nodemon src/server.js",
     "test": "mocha tests/**/*$NAME*.test.js --exit",
-    "restore": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "restore": "env $(cat .env) npx sequelize-cli db:drop && env $(cat .env) npx sequelize-cli db:create && env $(cat .env) npx sequelize-cli db:migrate && env $(cat .env) npx sequelize-cli db:seed:all",
     "create": "env $(cat .env) npx sequelize-cli db:create",
     "drop": "env $(cat .env) npx sequelize-cli db:drop",
     "migrate": "env $(cat .env) npx sequelize db:migrate"
