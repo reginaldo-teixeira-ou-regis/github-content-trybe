@@ -10,5 +10,3 @@ module.exports = {
   readFile,
   writeFile
 }
-
-// huiwhdwudhuewdhe
