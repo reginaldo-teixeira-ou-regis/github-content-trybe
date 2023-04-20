@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc && node ./build/index.js"
+    "start:convert": "npx tsc && node ./build/index.js",
+    "start:datasPlayers": "npx tsc && node ./build/exercises/datasPlayersMMORPG.js",
+    "start:useTyping": "npx tsc && node ./build/exercises/useTyping.js"
   },
   "keywords": [],
   "author": "",

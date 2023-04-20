@@ -1,3 +1,4 @@
-<!-- To compile --> npx tsc
-<!-- To execute --> node ./dist/index.js
-<!--  -->
+<!-- For compile --> npx tsc
+<!-- For execute --> node ./build/index.js
+<!-- For execute --> node ./build/exercises/datasPlayersMMORPG.js"
+<!-- For execute --> node ./build/exercises/useTyping.js"

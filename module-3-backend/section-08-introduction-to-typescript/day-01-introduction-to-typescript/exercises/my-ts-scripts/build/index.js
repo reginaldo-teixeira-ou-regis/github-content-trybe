@@ -15,11 +15,11 @@ const readline_sync_1 = __importDefault(require("readline-sync")); // importamos
 // criamos um array de objetos com o nome do 
 // script e o caminho do script a ser executado
 const scripts = [
-    { name: 'Converter comprimento', script: './length' },
-    { name: 'Converter massa', script: './mass' },
-    { name: 'Converter capacidade', script: './capacity' },
-    { name: 'Converter área', script: './area' },
-    { name: 'Converter volume', script: './volume' },
+    { name: 'Converter comprimento', script: './exercises/convertXforY/length' },
+    { name: 'Converter massa', script: './exercises/convertXforY/mass' },
+    { name: 'Converter capacidade', script: './exercises/convertXforY/capacity' },
+    { name: 'Converter área', script: './exercises/convertXforY/area' },
+    { name: 'Converter volume', script: './exercises/convertXforY/volume' },
 ];
 // criamos um novo array somente com os nomes dos scripts
 const scriptNames = scripts.map((item) => item.name);
