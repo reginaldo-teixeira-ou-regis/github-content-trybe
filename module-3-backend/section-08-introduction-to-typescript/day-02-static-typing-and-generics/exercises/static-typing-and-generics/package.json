@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:car": "npx tsc && node ./build/cars/index.js",
-    "start:pizza": "npx tsc && node ./build/pizzas/index.js"
+    "start:pizza": "npx tsc && node ./build/pizzas/index.js",
+    "start:filter": "npx tsc && node ./build/filter/myFilter.js"
   },
   "keywords": [],
   "author": "",
