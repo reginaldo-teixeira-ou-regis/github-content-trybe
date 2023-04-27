@@ -1,35 +1,24 @@
-# Repositório de aulas ao vivo para estudantes da Turma 26 - Tribo B
+Exercicios de Fixação:
 
-Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.
+1 - Crie uma classe chamada Tv, com os atributos:
 
-## Começando
+brand: marca da TV;
+size: tamanho em polegadas;
+resolution: resolução da tela;
+connections: conexões disponíveis(HDMI, Ethernet, etc.);
+connectedTo: conexão atual 
+Este atributo não precisa ser inicializado no construtor.
 
-Basta clonar o repositório
+2 - Dentro da classe Tv, crie o método turnOn, 
+que imprimirá os atributos inicializados no construtor.
 
-git clone git@github.com:tryber/sd-026-b-live-lectures.git
+3 - Instancie um objeto a partir da classe Tv, 
+chame o método turnOn para imprimir seus atributos.
 
-### Estrutura
-
-Todos os conteúdos dados em aulas estarão no seu respectivo Pull Request!
-
-### Aula 9.1
-
-Vamos criar um novo software para um banco.
-
-- Deve ser possível clientes criarem contas com um valor depositado inicialmente; 
-- Deve ser possível realizar um débito na conta, contanto que a pessoa possua saldo suficiente.
-- Deve ser possível realizar um pagamento, debitando da conta origem e creditando na conta destino
-- O pagamento deve ter um vencimento, caso seja efetivado após o vencimento, deve-se cobrar uma multa de 20%.
-
-#### Entidades
-
-- Conta
-<!-- - Cliente -->
-- Pagamento
-  - origem, destino
-  - valor
-  - data de vencimento
-  - data de efetivação
-  - efetivar
-
-- Banco
+4 - Pense em três métodos que você utilizou com alguma frequência 
+ao longo do curso mesmo sem entender como eles funcionavam “nos bastidores”.
+Cronometre ⏲️ cinco minutos para pensar e siga adiante!
+console.log;
+fetch do JS;
+connection.execute da biblioteca mysql2;
+app.use do express.
