@@ -8,7 +8,7 @@
 * [S06] Node.js: ORM and Authentication; 
 * [S07] Masterclass: Deploying Applications in the Cloud; 
 * [S08] Introduction to TypeScript; 
-* [S09] Object Oriented Programming and SOLID; 
+* [S09] Object Oriented Programming and SOLID; //
 * [S10] Project - TFC - Trybe Football Club; 
 * [S11] Introduction to MongoDB; 
 * [S12] APIs OO and NoSQL; 
