@@ -6,7 +6,12 @@ class Tv {
   private _connections: string[];
   private _connectedTo?: string;
 
-  constructor(brand: string, size: number, resolution: string, connections: string[]) {
+  constructor(
+    brand: string,
+    size: number,
+    resolution: string,
+    connections: string[],
+  ) {
     this._brand = brand;
     this._size = size;
     this._resolution = resolution;
@@ -14,7 +19,10 @@ class Tv {
   }
 
   turnOn(): void {
-    console.log(`TV ${this._brand}, ${this._size}", resolution: ${this._resolution} \navailable connections: ${this._connections}`);
+    console.log(
+      `TV ${this._brand}, ${this._size}", resolution: ${this._resolution} 
+available connections: ${this._connections}`,
+    );
   }
 
   // 2 - Crie um método getter e um setter para o atributo _connectedTo, da classe Tv.
