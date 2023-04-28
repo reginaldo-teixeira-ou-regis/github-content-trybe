@@ -1,5 +1,4 @@
 // 1 - Crie uma classe chamada Tv, com os atributos:
-
 // brand: marca da TV;
 // size: tamanho em polegadas;
 // resolution: resolução da tela;
@@ -25,11 +24,12 @@ class Tv {
     this.connections = connections;
   }
 
-
   // 2 - Dentro da classe Tv, crie o método turnOn, 
   // que imprimirá os atributos inicializados no construtor.
   turnOn(): void {
-    console.log(`TV ${this.brand}, ${this.size}", resolution: ${this.resolution} \n\available connections: ${this.connections}`,
+    console.log(
+      `TV ${this.brand}, ${this.size}", resolution: ${this.resolution} 
+available connections: ${this.connections}`,
     );
   }
 }
