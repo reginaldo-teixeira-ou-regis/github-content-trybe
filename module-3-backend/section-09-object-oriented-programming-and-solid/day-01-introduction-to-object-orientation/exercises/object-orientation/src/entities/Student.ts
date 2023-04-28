@@ -1,4 +1,3 @@
-
 class Student {
   private _enrollment: string;
   private _name = String();
