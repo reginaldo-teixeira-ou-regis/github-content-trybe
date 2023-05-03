@@ -1,5 +1,5 @@
 import Cpf from '../Cpf';
-// - Conta precisa ter um CPF Válido
+
 export default class Account {
   private _balance: number;
   private _name: string;

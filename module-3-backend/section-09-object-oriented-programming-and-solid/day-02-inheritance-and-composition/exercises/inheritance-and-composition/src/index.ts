@@ -1,8 +1,8 @@
 import Account from './entities/Account/Account';
 import PremiumSavingsAccount from './entities/Account/PremiumSavingsAccount';
 import { Executable } from './entities/Executable';
-import PaymentBySlip from './entities/Pagamento/PaymentBySlip';
-import PaymentWithDebitCard from './entities/Pagamento/PaymentWithDebitCard';
+import PaymentBySlip from './entities/Payment/PaymentBySlip';
+import PaymentWithDebitCard from './entities/Payment/PaymentWithDebitCard';
 
 const accountIsaac = new PremiumSavingsAccount(
   0.5, 

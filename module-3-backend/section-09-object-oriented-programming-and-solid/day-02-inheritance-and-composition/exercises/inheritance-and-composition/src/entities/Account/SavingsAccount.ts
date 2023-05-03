@@ -1,7 +1,5 @@
 import Account from './Account';
 
-// Toda conta poupança é criada com 100 reais de brinde
-
 export default class SavingsAccount extends Account {
   private _annualInterestRate: number;
 

@@ -1,12 +1,6 @@
 import crypto from 'node:crypto';
 import Account from '../Account/Account';
 
-// - Há tipos diferentes de pagamento:
-//   - Pagamento por boleto:
-//     - Tem vencimento e aplica multa ao atrasar
-//   - Pagamento no cartão de débito:
-//     - Não tem vencimento, o valor pago é sempre o original
-
 export type PaymentParams = {
   origin: Account;
   destiny: Account;
@@ -53,7 +47,6 @@ export default class Payment {
   }
   
   protected generateTransactionCode(): string {
-    // const timestamp = Date.now();
     const timestamp = this.paymentDate.getTime();
     const uuid = crypto.randomUUID();
     
