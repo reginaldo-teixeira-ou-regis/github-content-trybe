@@ -1,15 +1,15 @@
 import 'mocha';
 import { expect } from "chai";
-import { approvedStudents } from "../src/Studentsapproved";
+import { approvedStudents } from "../src/Students";
 
 const disciplinesDict = {
   mathematics: 'matemática',
   history: 'história',
 };
 
-describe('Testando a função "approvedStudents"', function () {
-  describe('quando todas as notas são maiores que 0.7', function () {
-    it('retorna "true"', function () {
+describe('Testing the function "approvedStudents"', function () {
+  describe('When all grades are greater than 0.7', function () {
+    it('Returns "true"', function () {
       const disciplines = [
         { name: disciplinesDict.mathematics, grade: 0.8 },
         { name: disciplinesDict.history, grade: 0.9 },
@@ -24,8 +24,8 @@ describe('Testando a função "approvedStudents"', function () {
     });
   });
 
-  describe('quando todas as notas são menores que 0.7', function () {
-    it('retorna "false"', function () {
+  describe('When all grades are less than 0.7', function () {
+    it('Returns "false"', function () {
       const disciplines = [
         { name: disciplinesDict.mathematics, grade: 0.1 },
         { name: disciplinesDict.history, grade: 0.2 },
@@ -40,8 +40,8 @@ describe('Testando a função "approvedStudents"', function () {
     });
   });
 
-  describe('quando parte das notas são menores que 0.7', function () {
-    it('retorna "false"', function () {
+  describe('When part of the grades are less than 0.7', function () {
+    it('Returns "false"', function () {
       const disciplines = [
         { name: disciplinesDict.mathematics, grade: 0.5 },
         { name: disciplinesDict.history, grade: 0.9 },
