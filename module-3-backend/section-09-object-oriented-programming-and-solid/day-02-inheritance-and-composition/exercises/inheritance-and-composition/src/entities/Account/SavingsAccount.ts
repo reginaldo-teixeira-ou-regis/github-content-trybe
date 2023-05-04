@@ -15,7 +15,7 @@ export default class SavingsAccount extends Account {
     }
   }
 
-  preverRendimento(): number {
+  forecastYield(): number {
     return this.getBalance() * this._annualInterestRate;
   }
 }
