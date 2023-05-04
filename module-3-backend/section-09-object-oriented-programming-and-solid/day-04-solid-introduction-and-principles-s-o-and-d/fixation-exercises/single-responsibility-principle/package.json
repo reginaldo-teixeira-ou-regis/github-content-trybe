@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
    "scripts": {
-    "start": "ts-node src/Studentsapproved",
-    "start:fe": "ts-node src/ReadingTracker",
+    "start:students": "ts-node src/Students",
+    "start": "ts-node src/ReadingTracker",
     "test": "mocha -r ts-node/register ./tests/**/*.{test,spec}.[t,j]s",
     "lint": "eslint  -c .eslintrc.json src/**/*.[t,j]s"
   },

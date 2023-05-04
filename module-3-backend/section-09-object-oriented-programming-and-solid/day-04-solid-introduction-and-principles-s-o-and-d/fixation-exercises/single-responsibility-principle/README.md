@@ -2,7 +2,7 @@ Exercicios De Fixação:
 
 * Observe o código abaixo e faça as alterações necessárias para que ele passe a respeitar o Princípio da Responsabilidade Única (SRP).
 
-Para EXERCUTAR os Exercicios De Fixação: "npm run start:fe"
+Para EXERCUTAR os Exercicios De Fixação: "npm start"
 ```js
 // ReadingTracker.ts
 type Book = {
