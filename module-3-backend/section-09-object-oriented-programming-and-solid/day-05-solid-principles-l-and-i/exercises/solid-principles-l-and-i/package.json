@@ -1,0 +1,9 @@
+{
+  "name": "solid-principles-l-and-i",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/cep/index"
+  },
+  "license": "ISC"
+}
