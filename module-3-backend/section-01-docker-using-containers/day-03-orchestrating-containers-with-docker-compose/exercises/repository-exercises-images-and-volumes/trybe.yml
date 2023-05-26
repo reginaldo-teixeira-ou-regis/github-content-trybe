@@ -1,0 +1,4 @@
+ignore_files:
+  - jest.config.js
+  - package*.json
+  - __tests__/
