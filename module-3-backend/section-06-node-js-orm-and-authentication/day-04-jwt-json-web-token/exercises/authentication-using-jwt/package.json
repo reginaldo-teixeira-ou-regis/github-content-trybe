@@ -1,0 +1,38 @@
+{
+  "name": "authentication-using-jwt",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "env $(cat .env) node src/server.js",
+    "debug": "env $(cat .env) nodemon src/server.js",
+    "lint": "eslint **/*.js",
+    "restore": "env $(cat .env) npx sequelize-cli db:drop && env $(cat .env) npx sequelize-cli db:create && env $(cat .env) npx sequelize-cli db:migrate && env $(cat .env) npx sequelize-cli db:seed:all",
+    "create": "env $(cat .env) npx sequelize-cli db:create",
+    "drop": "env $(cat .env) npx sequelize-cli db:drop",
+    "migrate": "env $(cat .env) npx sequelize db:migrate"
+  },
+  "keywords": [],
+  "author": "Reginaldo Teixeira <reginaldoteixeiraouregis@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "4.3.4",
+    "chai-http": "4.3.0",
+    "eslint-config-trybe-backend": "1.0.3",
+    "jest": "26.6.3",
+    "mocha": "10.0.0",
+    "nodemon": "2.0.7",
+    "sequelize-cli": "6.2.0",
+    "sequelize-test-helpers": "1.4.3",
+    "sinon": "14.0.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "joi": "17.4.0",
+    "jsonwebtoken": "9.0.0",
+    "mysql2": "2.2.5",
+    "sequelize": "6.3.4"
+  }
+}
