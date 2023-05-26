@@ -1,0 +1,167 @@
+  body {
+    background-color: rgb(253, 251, 251);
+    font-family: Verdana, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font: bold;
+    font-size: 20px;
+    z-index: 3;
+  }
+  
+  #mantis_foto {
+    width: 30px;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    padding: 2%;
+  }
+  
+  main {
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    left: 0;
+    padding: 3% 6%;
+    list-style: none;
+    z-index: 1;
+  }
+
+  .home , .about , .contacts {
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 780px;
+    display: block;
+    padding: 1% 6%;
+  }
+  
+  table {
+    border: 2px solid black;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: orange;
+  }
+  
+  th {
+    border: 2px solid black;
+    width: 25%;
+    color: black;
+  }
+  
+  td {
+    border: 2px solid black;
+    width: 25%;
+    color: blue;
+  }
+  
+  .lado-esquerdo {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .lado-direito {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    left: 540px;
+    list-style: none;
+  }
+  
+  .contacts-link li {
+    display: inline-block;
+    width: 70px;
+  }
+
+  .menu {
+    display: inline-block;
+    position: fixed;
+    width: 275px;
+    top: 110px;
+    padding: 10px;
+    margin-top: 30px;
+    list-style: none;
+    z-index: 2;
+    background-color: orange;
+    color: black;
+  }
+
+  #about {
+    text-align: center;
+    color: orange;
+  }
+
+  .table {
+    height: 200px;
+    width: 500px;
+  }
+
+  .back-top {
+    text-decoration: none;
+    color: black;
+  }
+
+  .none-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .video {
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+  }
+
+
+/*h1 {
+    text-align: center;
+  }
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    list-style: none;
+  }
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+  body {
+    text-align: center;
+  }
+  .textBlockInline {
+    background: none;
+    text-align: center;
+    display: inline-block;
+  }*/
