@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "breed": "Bromélia",
+    "size": 102,
+    "needsSun": false,
+    "origin": "Argentina",
+    "waterFrequency": 67.83
+  },
+  {
+    "id": 2,
+    "breed": "Orquídea",
+    "size": 99,
+    "needsSun": true,
+    "origin": "Brazil",
+    "waterFrequency": 84.23
+  },
+  {
+    "id": 4,
+    "breed": "Flor Generica",
+    "size": 99,
+    "needsSun": true,
+    "origin": "Brasil",
+    "waterFrequency": 77
+  },
+  {
+    "id": 5,
+    "breed": "Santastica",
+    "size": 150,
+    "needsSun": true,
+    "origin": "Brasil",
+    "waterFrequency": 122.5
+  }
+]
