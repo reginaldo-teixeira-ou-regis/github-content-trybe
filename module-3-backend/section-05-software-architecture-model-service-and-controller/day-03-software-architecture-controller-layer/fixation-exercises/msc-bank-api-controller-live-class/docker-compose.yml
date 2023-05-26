@@ -1,0 +1,29 @@
+version: '3'
+services:
+  node:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    image: node:16-alpine
+    container_name: bank_api
+    restart: always
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
+    tty: true
+
+    depends_on:
+      - "database"
+  database:
+    container_name: bank_db
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bank
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./src/misc:/docker-entrypoint-initdb.d
