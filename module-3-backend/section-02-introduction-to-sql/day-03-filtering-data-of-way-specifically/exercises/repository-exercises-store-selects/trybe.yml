@@ -1,0 +1,4 @@
+ignore_files:
+- tests
+- store.sql
+- package.json
