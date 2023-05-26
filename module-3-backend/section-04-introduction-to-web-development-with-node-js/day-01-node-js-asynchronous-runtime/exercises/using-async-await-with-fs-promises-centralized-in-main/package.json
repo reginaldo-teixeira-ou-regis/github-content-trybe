@@ -1,0 +1,12 @@
+{
+  "name": "using-async-await-with-fs-promises-centralized-in-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simpsons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
