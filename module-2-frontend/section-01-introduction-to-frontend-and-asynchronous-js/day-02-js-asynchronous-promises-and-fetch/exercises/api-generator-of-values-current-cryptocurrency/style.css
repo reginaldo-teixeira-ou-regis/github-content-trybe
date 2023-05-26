@@ -1,0 +1,32 @@
+body {
+  background-image: url("img/criptomoedas-1024x544.jpg");
+  background-size: 100%;
+  color: black;
+  padding: 5% 13%;
+}
+
+#container {
+  border-radius: 1%;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+#title {
+  text-align: center;
+}
+
+#crypto-list {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+
+#coins-list-brl,
+#coins-list {
+  list-style: none;
+  margin-bottom: 25%;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "create-page-for-reading-posts-from-multiple-people",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.0.4"
+  }
+}
