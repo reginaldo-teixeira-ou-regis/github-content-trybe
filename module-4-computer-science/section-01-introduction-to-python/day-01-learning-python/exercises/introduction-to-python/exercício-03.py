@@ -5,7 +5,7 @@
 
 # 🦜 Uma dica: Utilize a função len() para verificar o tamanho do nome.
 
-arrayNames = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]
+array_names = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]
 
 
 def find_biggest_name_redefined(names):
@@ -18,5 +18,5 @@ def find_biggest_name_redefined(names):
 
 print(
     "\nO nome com a maior quantidade de caracteres é:",
-    f"{find_biggest_name_redefined(arrayNames)}\n",
+    f"{find_biggest_name_redefined(array_names)}\n",
 )

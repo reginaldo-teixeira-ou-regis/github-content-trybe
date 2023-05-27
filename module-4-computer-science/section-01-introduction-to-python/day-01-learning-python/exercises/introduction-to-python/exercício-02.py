@@ -1,8 +1,8 @@
 # Calcule a média aritmética dos valores contidos em uma lista
 
-arrayNumber = [1, 5, 12, 25, 39, 40, 55, 69, 71, 88, 91, 99, 111]
+array_number = [1, 5, 12, 25, 39, 40, 55, 69, 71, 88, 91, 99, 111]
 
-arrayNumber2 = [10, 8, 12]
+array_number2 = [10, 8, 12]
 
 
 def mean(numbers):
@@ -12,6 +12,6 @@ def mean(numbers):
     return total / len(numbers)
 
 
-print(f"\n{mean(arrayNumber)}\n")
+print(f"\n{mean(array_number)}\n")
 
-print(f"{mean(arrayNumber2)}\n")
+print(f"{mean(array_number2)}\n")
