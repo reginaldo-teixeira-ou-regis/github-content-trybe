@@ -1,0 +1,9 @@
+gato
+elefante
+cachorro
+macaco
+pato
+tigre
+urso
+alce
+galo
