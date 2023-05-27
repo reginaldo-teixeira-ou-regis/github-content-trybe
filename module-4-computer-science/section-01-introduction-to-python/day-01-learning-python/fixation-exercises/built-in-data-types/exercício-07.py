@@ -3,8 +3,8 @@
 # conjunto utilizando um dos métodos vistos acima. Depois, imprima a variável
 # e confira se o retorno é: {‘seu_nome’}.
 
-myName = set()
+my_name = set()
 
-myName.add("Reginaldo Teixeira")
+my_name.add("Reginaldo Teixeira")
 
-print(f"\nMeu nome é: {myName}\n")
+print(f"\nMeu nome é: {my_name}\n")
