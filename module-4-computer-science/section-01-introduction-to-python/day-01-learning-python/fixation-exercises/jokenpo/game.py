@@ -28,13 +28,13 @@ def game(user):
     if user not in range(0, 3):
         return "\nInforme um número entre 0 e 2.\n"
 
-    dicionario_escolhas = {0: stone(), 1: paper(), 2: scissors()}
+    dictionary_choices = {0: stone(), 1: paper(), 2: scissors()}
 
     computer = random.randint(0, 2)
 
-    print(f"\nVocê escolheu: {user} \n {dicionario_escolhas[user]}")
+    print(f"\nVocê escolheu: {user} \n {dictionary_choices[user]}")
     print(
-        f"\nAdversário escolheu: {computer} \n {dicionario_escolhas[computer]}"
+        f"\nAdversário escolheu: {computer} \n {dictionary_choices[computer]}"
         )
     return result(user, computer)
 
