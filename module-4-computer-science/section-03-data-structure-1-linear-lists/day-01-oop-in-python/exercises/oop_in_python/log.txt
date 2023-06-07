@@ -1,0 +1,33 @@
+[INFO - 07/06/2023 00:39:56]: Esta é uma mensagem de informação.
+[ALERTA - 07/06/2023 00:39:56]: Esta é uma mensagem de alerta.
+[ERRO - 07/06/2023 00:39:56]: Esta é uma mensagem de erro.
+[DEBUG - 07/06/2023 00:39:56]: Esta é uma mensagem de debug.
+[INFO - 07/06/2023 00:41:22]: 
+Esta é uma mensagem de informação.
+[ALERTA - 07/06/2023 00:41:22]: Esta é uma mensagem de alerta.
+[ERRO - 07/06/2023 00:41:22]: Esta é uma mensagem de erro.
+[DEBUG - 07/06/2023 00:41:22]: Esta é uma mensagem de debug.
+[INFO - 07/06/2023 00:42:43]: 
+[ALERTA - 07/06/2023 00:42:43]: 
+[ERRO - 07/06/2023 00:42:43]: 
+[DEBUG - 07/06/2023 00:42:43]: 
+[INFO - 07/06/2023 00:43:17]: Esta é uma mensagem de informação.
+[ALERTA - 07/06/2023 00:43:17]: Esta é uma mensagem de alerta.
+[ERRO - 07/06/2023 00:43:17]: Esta é uma mensagem de erro.
+[DEBUG - 07/06/2023 00:43:17]: Esta é uma mensagem de debug.
+[INFO - 07/06/2023 00:43:45]: Esta é uma mensagem de informação.
+
+[ALERTA - 07/06/2023 00:43:45]: Esta é uma mensagem de alerta.
+
+[ERRO - 07/06/2023 00:43:45]: Esta é uma mensagem de erro.
+
+[DEBUG - 07/06/2023 00:43:45]: Esta é uma mensagem de debug.
+
+[INFO - 07/06/2023 00:44:04]: Esta é uma mensagem de informação.
+
+[ALERTA - 07/06/2023 00:44:04]: Esta é uma mensagem de alerta.
+
+[ERRO - 07/06/2023 00:44:04]: Esta é uma mensagem de erro.
+
+[DEBUG - 07/06/2023 00:44:04]: Esta é uma mensagem de debug.
+
