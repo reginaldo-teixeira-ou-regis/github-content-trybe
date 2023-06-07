@@ -19,7 +19,7 @@ class Ventilator:
         self.__color = color
         self.__potency = potency
         self.__voltage = voltage
-        self.__ligado = False
+        self.__linked = False
 
     def color(self):
         return self.__color
