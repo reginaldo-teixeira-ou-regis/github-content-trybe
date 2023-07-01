@@ -63,4 +63,4 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-Descubra o valor de current_value na linha do while quando a soma de i e position for igual a 6 pela primeira vez.
+* Descubra o valor de current_value na linha do while quando a soma de i e position for igual a 6 pela primeira vez.
