@@ -158,12 +158,4 @@ Top 10 músicas mais instrumentais:
 
 </details>
 
-<details>
-<summary><strong> 🗣 Nos dê feedbacks sobre o exercício!</strong></summary><br />
-
-Ao finalizar e submeter o exercício, não se esqueça de avaliar sua experiência preenchendo o [formulário](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH26-PYTHON&template=betrybe/python-0x-exercicio-the-bug-hunting).
-**Leva menos de 3 minutos!**
-
-</details>
-
 ---
