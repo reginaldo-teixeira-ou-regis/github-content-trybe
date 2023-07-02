@@ -4,7 +4,7 @@
 * [M2] FrontEnd; 
 * [M3] BackEnd; 
 * [M4] Computer Science; 
-* [Elective] Python; 
+* Python Elective; 
 * Soft Skills; 
 * Career; 
 * Web Development - Real Life; 
