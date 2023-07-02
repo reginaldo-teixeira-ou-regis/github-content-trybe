@@ -28,8 +28,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-Sem alterar o código, descubra qual exceção é levantada se:
 ```
+Sem alterar o código, descubra qual exceção é levantada se:
 
 * Um dos elementos da input_list for um inteiro negativo.
 * Um dos elementos da input_list for uma string.
