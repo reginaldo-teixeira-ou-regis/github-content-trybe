@@ -1,20 +1,3 @@
-# The Bug Hunting
-  
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-  Para garantir a qualidade do código, vamos utilizar nesses exercícios o linter `Flake8`.
-  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-  e de fácil manutenção! Para rodá-lo localmente no projeto, execute o comandos abaixo:
-
-  ```bash
-  python3 -m flake8
-  ```
-
-  ⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.
-  ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-</details>
-
 <details>
   <summary><strong>🏕️ Ambiente Virtual</strong></summary>
   O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
