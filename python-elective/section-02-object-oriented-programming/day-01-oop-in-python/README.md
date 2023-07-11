@@ -89,3 +89,7 @@ ValueError: invalid default `port` for unrecognized `dialect`
 postgres://tryber:i_love_python@trybe:5432/computer_science
 """
 ```
+
+9. Crie as classes `Motocicleta` e `Caminhao` e inicialize as duas com o atributo `velocidade_maxima`.
+
+10. Utilize as classes criadas no exercício anterior para criar uma função `print_velocidade_maxima` que recebe um objeto e imprime a velocidade máxima dele. Retorne uma mensagem de erro com um `TypeError` caso o veículo passado como argumento não seja uma motocicleta.
