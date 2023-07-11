@@ -34,7 +34,7 @@ class Pessoa:
 
 O parâmetro `port` pode ser do tipo `str` ou `int`, devendo ser um valor numérico, levantando `ValueError` caso contrário. Os demais parâmetros devem ser do tipo `str`.
 
-`De olho na dica 👀:` utilize a seguinte docstring, salve seu código em um arquivo `app.py` e valide sua implementação por meio do comando `python -m doctest app.py`, que não vai gerar nenhuma saída em caso de sucesso. Se você incluir algum `print` verá o valor impresso na tela.
+`De olho na dica 👀`: utilize a seguinte docstring, salve seu código em um arquivo `app.py` e valide sua implementação por meio do comando `python -m doctest app.py`, que não vai gerar nenhuma saída em caso de sucesso. Se você incluir algum `print` verá o valor impresso na tela.
 ```js
 """Creates a Database instance
 
