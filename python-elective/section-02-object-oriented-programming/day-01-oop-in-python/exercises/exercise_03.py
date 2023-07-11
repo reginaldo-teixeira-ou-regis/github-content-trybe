@@ -1,14 +1,15 @@
-class Livro:
-    def __init__(self, titulo: str, autor: str, paginas: int) -> None:
-        self.titulo = titulo
-        self.autor = autor
-        self.paginas = paginas
+class Book:
+    def __init__(self, title: str, author: str, pages: int) -> None:
+        self.title = title
+        self.author = author
+        self.pages = pages
 
-    def descricao(self) -> str:
-        return f"{self.titulo}, de {self.autor}, tem {self.paginas} páginas."
+    def description(self) -> str:
+        return f"{self.title}, de {self.author}, tem {self.pages} paginas."
 
 
-livro = Livro("Os pequenos jangadeiros", "Aristides Fraga Lima", 96)
+book = Book("Os pequenos jangadeiros", "Aristides Fraga Lima", 96)
 
-print(livro.descricao())
+print(book.description())
+
 # Os pequenos jangadeiros, de Aristides Fraga Lima, tem 96 páginas.

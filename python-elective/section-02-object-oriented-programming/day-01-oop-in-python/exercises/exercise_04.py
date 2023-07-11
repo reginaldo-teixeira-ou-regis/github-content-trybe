@@ -1,24 +1,26 @@
-class Carro:
-    def __init__(self, modelo: str, ano: int) -> None:
-        self.modelo = modelo
-        self.ano = ano
-        self.velocidade = 0
+class Car:
+    def __init__(self, model: str, year: int) -> None:
+        self.model = model
+        self.year = year
+        self.speed = 0
 
-    def acelerar(self, quantidade: int) -> None:
-        self.velocidade += quantidade
+    def accelerate(self, quantity: int) -> None:
+        self.speed += quantity
         print(
-            f"O carro {self.modelo} do ano {self.ano} "
-            f"acelera a {self.velocidade} km/h"
+            f"O carro {self.model} do ano {self.year} "
+            f"acelera a {self.speed} km/h"
         )
 
-    def desacelerar(self, quantidade: int) -> None:
-        self.velocidade -= quantidade
+    def decelerate(self, quantity: int) -> None:
+        self.speed -= quantity
         print(
-            f"O carro {self.modelo} do ano {self.ano} "
-            f"desacelera a {self.velocidade} km/h"
+            f"O carro {self.model} do ano {self.year} "
+            f"desacelera a {self.speed} km/h"
         )
 
 
-carro = Carro("Fusca", 1980)
-carro.acelerar(20)
-carro.desacelerar(10)
+car = Car("Fusca", 1980)
+car.accelerate(20)
+car.decelerate(10)
+# O carro Fusca do ano 1980 acelera a 20 km/h
+# O carro Fusca do ano 1980 desacelera a 10 km/h
