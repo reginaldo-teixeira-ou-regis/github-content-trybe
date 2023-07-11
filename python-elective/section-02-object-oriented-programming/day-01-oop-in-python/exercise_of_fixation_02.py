@@ -1,5 +1,5 @@
-class Pessoa:
-    def __init__(self, nome: str, idade: int, altura: float) -> None:
-        self.nome = nome
-        self.idade = idade
-        self.altura = altura
+class Person:
+    def __init__(self, name: str, age: int, height: float) -> None:
+        self.name = name
+        self.age = age
+        self.height = height
