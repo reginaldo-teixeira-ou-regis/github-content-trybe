@@ -22,8 +22,8 @@ Métodos:
 
 Ela deve possuir um atributo `numbers` (uma lista de números) com três métodos: um que calcula a média, um que calcula a mediana mediana e outro que calcula a moda de uma lista de números.
 
-`🐦 Dica`: você pode utilizar `sorted` para te auxiliar no método `mediana`.
-`🐦 Dica`: você pode utilizar `collections.Counter` para te auxiliar no método da `moda``.
+* `🐦 Dica`: você pode utilizar `sorted` para te auxiliar no método `mediana`.
+* `🐦 Dica`: você pode utilizar `collections.Counter` para te auxiliar no método da `moda``.
 
 3. Implemente as classes das figuras geométricas
 
